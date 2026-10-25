@@ -139,3 +139,18 @@ They are currently separate systems, not a single fully integrated application. 
 ### The Vision
 
 **Build AI systems that do more than produce outputs: systems that help people investigate evidence, understand complex environments, and reason about decisions before acting.**
+
+---
+
+## 🚀 Try the Systems
+
+Want to explore the projects in action? Start here.
+
+| System | Guide |
+|---|---|
+| 🔎 **Probe** | [Explore the Probe platform]([PROBE_GUIDE_URL](https://www.youtube.com/watch?v=Kd4aaC-Hlsw)) |
+| 🌦️ **Drought Intelligence** | [Explore the Drought Prediction Website]([DROUGHT_GUIDE_URL](https://drive.google.com/file/d/1zgeFUIbkRm4Vrrsn9SgZ-OgYag9sP4tC/view?usp=sharing)) |
+
+*These guides introduce each system and explain how to get started.*
+
+
