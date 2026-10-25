@@ -127,7 +127,7 @@ They are currently separate systems, not a single fully integrated application. 
 
 - [x] Establish distinct project directions and problem domains.
 - [x] Begin research, data preparation, and core system development.
-- [ ] Validate Probe's core workflow for MVP use.
+- [x] Validate Probe's core workflow for MVP use.
 - [ ] Evaluate Drought Intelligence against suitable real-world observations.
 - [ ] Develop and test PNIS's avocado supply-chain simulation.
 - [ ] Explore evidence-based integration opportunities where they add real value.
