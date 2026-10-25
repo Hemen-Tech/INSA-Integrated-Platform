@@ -1,0 +1,24 @@
+============================================================================
+PHASE 2F.1 — CORRECTED CANDIDATE REGISTER V2 AUDIT
+============================================================================
+Original CSV rows: 497
+Rebuilt rows: 497
+Unresolved rows: 0
+Corrected CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f1_osm_facility_candidates_corrected_v2.csv
+Corrected register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f1_candidate_review_register_corrected_v2.csv
+
+UNRESOLVED ROWS (first 150)
+
+VALIDATION
+Duplicate source-layer + OSM ID + code + fclass: 0
+Rows missing coordinates: 0
+All unverified: True
+All routing-ineligible: True
+
+ROWS BY SOURCE LAYER
+gis_osm_buildings_a_free: 17
+gis_osm_landuse_a_free: 298
+gis_osm_places_a_free: 10
+gis_osm_places_free: 113
+gis_osm_pois_a_free: 16
+gis_osm_pois_free: 43

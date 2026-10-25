@@ -1,0 +1,40 @@
+PNIS PHASE 2F.6 - VERIFICATION PROTOCOL AUDIT
+====================================================================
+Generated UTC: 2026-10-23T16:49:57.385329+00:00
+Input: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f5_verification_evidence_register.csv
+Queue: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f6_manual_verification_queue.csv
+Nearby review register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f6_nearby_candidate_review.csv
+Protocol: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f6_verification_protocol.txt
+
+Input rows: 255
+Queue rows: 255
+Nearby pairs within 250 m: 53
+Candidates flagged for proximity review: 57
+
+REVIEW BATCH COUNTS
+review_batch
+BATCH_1_MARKETS_AND_RETAIL         24
+BATCH_2_INDUSTRIAL_SITES           93
+BATCH_3_AGRICULTURAL_CANDIDATES    54
+BATCH_4_OTHER_POIS                 20
+BATCH_5_BUILDINGS                   6
+BATCH_6_SETTLEMENT_REFERENCES      57
+BATCH_7_OTHER_LANDUSE               1
+
+VALIDATION CHECKS
+PASS - input_rows_255
+PASS - candidate_ids_unique
+PASS - coordinates_valid
+PASS - queue_rows_match_input
+PASS - queue_ids_match_input
+PASS - queue_ids_unique
+PASS - nearby_pairs_have_distances
+PASS - no_candidate_auto_verified
+PASS - all_decisions_still_pending
+
+LIMITATIONS
+- Proximity flags do not establish duplicate identity.
+- Candidate function, operation, and vehicle access remain unverified.
+- No routing eligibility is granted by this script.
+
+Overall status: PASS

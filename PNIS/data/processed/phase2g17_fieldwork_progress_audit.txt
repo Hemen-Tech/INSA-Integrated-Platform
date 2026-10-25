@@ -1,0 +1,45 @@
+PNIS PHASE 2G.17 - FIELDWORK EXECUTION MONITORING
+========================================================================
+Generated: 2026-10-24T16:39:32
+Status: COMPLETED - READ-ONLY PROGRESS REPORT
+
+INPUTS
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g15_fieldwork_validation.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g16_fieldwork_readiness.csv
+
+RESULTS
+Phase 2G.15 rows: 255
+Phase 2G.16 rows: 255
+Visited candidates: 0
+Awaiting fieldwork: 255
+Manual reviews recorded: 0
+Visited candidates with incomplete required evidence: 0
+Source routing-eligible YES: 0
+Routing approval granted by Phase 2G.17: NO
+
+READINESS COUNTS
+AWAITING_FIELDWORK: 255
+
+RISK GROUP COUNTS
+Risk category not available in these input CSV columns; no risk counts inferred.
+
+DATA ALIGNMENT
+Phase 2G.15 IDs missing from Phase 2G.16: 0
+Phase 2G.16 IDs missing from Phase 2G.15: 0
+Readiness column available: YES
+Risk column available: NO
+
+ISSUES / FOLLOW-UP
+No Phase 2G.17 data-alignment or evidence follow-up flags.
+
+GUARDRAILS
+- Read-only report: does not edit the fieldwork workbook or earlier outputs.
+- Does not edit Phase 2C road-network outputs or the Phase 2E graph.
+- Does not grant routing approval or change candidate eligibility.
+- A recorded visit or manual review alone does not establish vehicle access.
+- Risk counts are reported only when a risk column exists in the input data.
+
+OUTPUT FILES
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g17_fieldwork_progress.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g17_fieldwork_progress_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g17_fieldwork_progress_audit.txt

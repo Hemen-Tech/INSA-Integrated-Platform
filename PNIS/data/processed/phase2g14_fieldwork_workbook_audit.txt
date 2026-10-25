@@ -1,0 +1,31 @@
+PNIS PHASE 2G.14 - FIELDWORK WORKBOOK AUDIT
+========================================================================
+Generated UTC: 2026-10-24T12:14:08.919429+00:00
+Source tracker rows: 255
+High-risk candidates: 25
+Workbook all-candidate rows: 255
+Workbook high-risk rows: 25
+Workbook sheets: Read Me, All Candidates, High Risk 25
+
+CHECK RESULTS
+------------------------------------------------------------------------
+PASS: Workbook file exists
+PASS: All Candidates contains 255 records
+PASS: High Risk 25 contains 25 records
+PASS: Workbook contains instructions and both candidate sheets
+PASS: Source tracker remains routing-ineligible
+
+OUTPUT
+------------------------------------------------------------------------
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g14_fieldwork_visit_workbook.xlsx
+
+LIMITATIONS
+------------------------------------------------------------------------
+Workbook preparation is not field verification.
+No candidate is approved for routing by this script.
+Dropdown selections do not replace evidence review.
+All changes should be based on actual observations and documented review.
+
+Checks passed: 5/5
+Checks failed: 0/5
+Status: PASS

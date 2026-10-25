@@ -1,0 +1,110 @@
+==============================================================================
+PHASE 2F.1 — ORIGINAL OSM SOURCE SCHEMA AUDIT
+==============================================================================
+GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Discovery bbox (WGS84): (37.85, 6.09, 39.19, 7.22)
+Read-only inspection; no source data changed.
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_buildings_a_free
+Geometry type: MultiPolygon
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name' 'type']
+Full-layer feature count: 2559482
+Features in discovery bbox: 327859
+Actual columns: ['osm_id', 'code', 'fclass', 'name', 'type', 'geometry']
+{"osm_id": "331356287", "code": "1500", "fclass": "building", "name": "", "type": "", "geometry_type": "MultiPolygon", "representative_lon": 38.4836114, "representative_lat": 7.0755752}
+{"osm_id": "331356289", "code": "1500", "fclass": "building", "name": "", "type": "", "geometry_type": "MultiPolygon", "representative_lon": 38.4835121, "representative_lat": 7.0760764}
+{"osm_id": "331356292", "code": "1500", "fclass": "building", "name": "", "type": "", "geometry_type": "MultiPolygon", "representative_lon": 38.4835979, "representative_lat": 7.076232}
+{"osm_id": "331356298", "code": "1500", "fclass": "building", "name": "", "type": "", "geometry_type": "MultiPolygon", "representative_lon": 38.4838025, "representative_lat": 7.076072}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_landuse_a_free
+Geometry type: MultiPolygon
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name']
+Full-layer feature count: 111787
+Features in discovery bbox: 2491
+Actual columns: ['osm_id', 'code', 'fclass', 'name', 'geometry']
+{"osm_id": "22064936", "code": "7203", "fclass": "residential", "name": "Yirgalem", "geometry_type": "MultiPolygon", "representative_lon": 38.40767, "representative_lat": 6.7473747}
+{"osm_id": "27185888", "code": "7203", "fclass": "residential", "name": "Dilla", "geometry_type": "MultiPolygon", "representative_lon": 38.3071282, "representative_lat": 6.4118021}
+{"osm_id": "95193445", "code": "7203", "fclass": "residential", "name": "Wondo", "geometry_type": "MultiPolygon", "representative_lon": 38.4257382, "representative_lat": 6.604318}
+{"osm_id": "95195066", "code": "7203", "fclass": "residential", "name": "Chucko", "geometry_type": "MultiPolygon", "representative_lon": 38.3318087, "representative_lat": 6.5831225}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_places_a_free
+Geometry type: MultiPolygon
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'population' 'name']
+Full-layer feature count: 1853
+Features in discovery bbox: 16
+Actual columns: ['osm_id', 'code', 'fclass', 'population', 'name', 'geometry']
+{"osm_id": "23409250", "code": "1020", "fclass": "island", "population": "0", "name": "", "geometry_type": "MultiPolygon", "representative_lon": 37.9278365, "representative_lat": 6.3949957}
+{"osm_id": "386262148", "code": "1002", "fclass": "town", "population": "0", "name": "Gacheno", "geometry_type": "MultiPolygon", "representative_lon": 37.9193551, "representative_lat": 7.0342686}
+{"osm_id": "404110702", "code": "1002", "fclass": "town", "population": "0", "name": "Hobicha Bada", "geometry_type": "MultiPolygon", "representative_lon": 37.8758246, "representative_lat": 6.7630861}
+{"osm_id": "421351100", "code": "1004", "fclass": "hamlet", "population": "0", "name": "", "geometry_type": "MultiPolygon", "representative_lon": 38.4490972, "representative_lat": 6.5017356}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_places_free
+Geometry type: Point
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'population' 'name']
+Full-layer feature count: 24839
+Features in discovery bbox: 343
+Actual columns: ['osm_id', 'code', 'fclass', 'population', 'name', 'geometry']
+{"osm_id": "237524640", "code": "1002", "fclass": "town", "population": "0", "name": "ይርጋለም / Yirgalem", "geometry_type": "Point", "representative_lon": 38.405763, "representative_lat": 6.746936}
+{"osm_id": "298296169", "code": "1001", "fclass": "city", "population": "67036", "name": "ዲላ / Dilla", "geometry_type": "Point", "representative_lon": 38.3102763, "representative_lat": 6.4099614}
+{"osm_id": "319213876", "code": "1002", "fclass": "town", "population": "0", "name": "Hantate", "geometry_type": "Point", "representative_lon": 38.260221, "representative_lat": 6.6915415}
+{"osm_id": "319310736", "code": "1001", "fclass": "city", "population": "0", "name": "Boditi", "geometry_type": "Point", "representative_lon": 37.8575339, "representative_lat": 6.9549018}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_pois_a_free
+Geometry type: MultiPolygon
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name']
+Full-layer feature count: 8420
+Features in discovery bbox: 197
+Actual columns: ['osm_id', 'code', 'fclass', 'name', 'geometry']
+{"osm_id": "302690327", "code": "2016", "fclass": "marketplace", "name": "", "geometry_type": "MultiPolygon", "representative_lon": 39.0409154, "representative_lat": 7.0120509}
+{"osm_id": "314453062", "code": "2016", "fclass": "marketplace", "name": "", "geometry_type": "MultiPolygon", "representative_lon": 39.0245531, "representative_lat": 7.014476}
+{"osm_id": "328816296", "code": "2401", "fclass": "hotel", "name": "Haile Resort", "geometry_type": "MultiPolygon", "representative_lon": 38.4792279, "representative_lat": 7.0796319}
+{"osm_id": "328833278", "code": "2204", "fclass": "park", "name": "Amora Gedel Park", "geometry_type": "MultiPolygon", "representative_lon": 38.4589019, "representative_lat": 7.0458488}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_pois_free
+Geometry type: Point
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name']
+Full-layer feature count: 13998
+Features in discovery bbox: 592
+Actual columns: ['osm_id', 'code', 'fclass', 'name', 'geometry']
+{"osm_id": "298296165", "code": "2501", "fclass": "supermarket", "name": "ሻሸመኔ / Shashamane", "geometry_type": "Point", "representative_lon": 38.5950783, "representative_lat": 7.2007039}
+{"osm_id": "613085400", "code": "2401", "fclass": "hotel", "name": "Arregash Lodge", "geometry_type": "Point", "representative_lon": 38.4434425, "representative_lat": 6.7493658}
+{"osm_id": "706617838", "code": "2511", "fclass": "convenience", "name": "Total", "geometry_type": "Point", "representative_lon": 39.1876837, "representative_lat": 6.9782932}
+{"osm_id": "846907925", "code": "2523", "fclass": "stationery", "name": "Hawi", "geometry_type": "Point", "representative_lon": 38.482475, "representative_lat": 7.0507793}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_traffic_free
+Geometry type: Point
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name' 'calming']
+Full-layer feature count: 4038
+Features in discovery bbox: 281
+Actual columns: ['osm_id', 'code', 'fclass', 'name', 'calming', 'geometry']
+{"osm_id": "319214120", "code": "5202", "fclass": "mini_roundabout", "name": "", "calming": "", "geometry_type": "Point", "representative_lon": 38.2623466, "representative_lat": 6.6929841}
+{"osm_id": "846907938", "code": "5250", "fclass": "fuel", "name": "Total", "calming": "", "geometry_type": "Point", "representative_lon": 38.6036136, "representative_lat": 7.1925452}
+{"osm_id": "1104312254", "code": "5250", "fclass": "fuel", "name": "Fuel Stop (Wendo)", "calming": "", "geometry_type": "Point", "representative_lon": 38.42505, "representative_lat": 6.60497}
+{"osm_id": "1104312266", "code": "5250", "fclass": "fuel", "name": "Fuel Stop (Boree)", "calming": "", "geometry_type": "Point", "representative_lon": 38.62385, "representative_lat": 6.36143}
+
+------------------------------------------------------------------------------
+LAYER: gis_osm_transport_free
+Geometry type: Point
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name']
+Full-layer feature count: 856
+Features in discovery bbox: 25
+Actual columns: ['osm_id', 'code', 'fclass', 'name', 'geometry']
+{"osm_id": "1042042582", "code": "5651", "fclass": "airport", "name": "Dodola Airport", "geometry_type": "Point", "representative_lon": 39.0511017, "representative_lat": 7.0205598}
+{"osm_id": "2459194575", "code": "5622", "fclass": "bus_station", "name": "Shashamane Bus Station", "geometry_type": "Point", "representative_lon": 38.6105089, "representative_lat": 7.2039149}
+{"osm_id": "2722038554", "code": "5622", "fclass": "bus_station", "name": "አሮጌው መነሃሪያ", "geometry_type": "Point", "representative_lon": 38.4866674, "representative_lat": 7.0480154}
+{"osm_id": "4481608153", "code": "5641", "fclass": "taxi", "name": "Bajaj Stop", "geometry_type": "Point", "representative_lon": 38.4937737, "representative_lat": 7.0569211}

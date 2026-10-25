@@ -1,0 +1,61 @@
+PHASE 2F.4 - FIELD VERIFICATION SHORTLIST AUDIT
+========================================================================
+Generated UTC: 2026-10-23T16:35:11.084090+00:00
+Status: completed
+
+Input: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f3_manual_verification_register.csv
+Field verification shortlist: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f4_field_verification_shortlist.csv
+Separate boundary review register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f4_boundary_review_register.csv
+
+RECORD COUNTS
+------------------------------------------------------------------------
+Source register rows: 497
+Inside-Sidama shortlist rows: 255
+Boundary-review rows: 3
+Outside-Sidama records retained in source: 239
+
+SHORTLIST PRIORITY COUNTS
+------------------------------------------------------------------------
+  HIGH: 117
+  LOW: 78
+  MEDIUM: 60
+
+SHORTLIST REVIEW-GROUP COUNTS
+------------------------------------------------------------------------
+  AGRICULTURAL_LAND_ONLY: 54
+  BUILDING_CANDIDATE: 6
+  INDUSTRIAL_SITE_CANDIDATE: 93
+  MARKET_CANDIDATE: 15
+  OTHER_LANDUSE_REVIEW: 1
+  OTHER_POI_REVIEW: 20
+  RETAIL_OR_FOOD_MARKET_CANDIDATE: 9
+  SETTLEMENT_REFERENCE: 57
+
+SHORTLIST SOURCE-LAYER COUNTS
+------------------------------------------------------------------------
+  gis_osm_buildings_a_free: 6
+  gis_osm_landuse_a_free: 148
+  gis_osm_places_a_free: 2
+  gis_osm_places_free: 55
+  gis_osm_pois_a_free: 9
+  gis_osm_pois_free: 35
+
+VALIDATION CHECKS
+------------------------------------------------------------------------
+Shortlist IDs match inside-Sidama source IDs: True
+Boundary IDs match boundary source IDs: True
+Shortlist IDs unique: True
+Boundary IDs unique: True
+Shortlist and boundary IDs disjoint: True
+Invalid shortlist coordinates: 0
+Shortlist safety flags intact: True
+Boundary safety flags intact: True
+
+INTERPRETATION AND LIMITATIONS
+------------------------------------------------------------------------
+- This is a review shortlist, not a verified facility inventory.
+- Review priority is a proposed order, not proof of facility function.
+- OSM tags alone do not establish operational status or vehicle access.
+- Boundary-review candidates remain unresolved.
+- Outside-Sidama candidates remain in the original source register.
+- No candidate is approved for operational routing by this step.

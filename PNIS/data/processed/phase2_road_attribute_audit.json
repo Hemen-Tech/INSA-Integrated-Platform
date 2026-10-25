@@ -1,0 +1,202 @@
+{
+  "project": "Perishable Network Intelligence System",
+  "phase": "Phase 2A — Road attribute validation",
+  "generated_utc": "2026-10-20T20:59:49.852394+00:00",
+  "source_file": "data\\processed\\geographic\\ethiopia.gpkg",
+  "source_size_bytes": 866123776,
+  "checks": {
+    "sqlite_quick_check": "ok",
+    "road_layer": "gis_osm_roads_free",
+    "road_record_count": 449581,
+    "road_columns": [
+      "fid",
+      "geom",
+      "osm_id",
+      "code",
+      "fclass",
+      "name",
+      "ref",
+      "oneway",
+      "maxspeed",
+      "layer",
+      "bridge",
+      "tunnel"
+    ],
+    "road_layer_metadata": {
+      "table_name": "gis_osm_roads_free",
+      "identifier": "gis_osm_roads_free",
+      "srs_id": 100000,
+      "min_x": 32.9787254,
+      "min_y": 3.3653059,
+      "max_x": 48.1040759,
+      "max_y": 14.8946408
+    },
+    "road_geometry_metadata": {
+      "column_name": "geom",
+      "geometry_type_name": "LINESTRING",
+      "srs_id": 100000
+    },
+    "spatial_index_tables": [],
+    "spatial_index_available": false,
+    "field_completeness": {
+      "osm_id": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "fclass": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "oneway": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "maxspeed": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "bridge": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "tunnel": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "layer": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 0,
+        "null_percent": 0.0,
+        "empty_percent": 0.0
+      },
+      "name": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 439628,
+        "null_percent": 0.0,
+        "empty_percent": 97.7862
+      },
+      "ref": {
+        "available": true,
+        "null_count": 0,
+        "empty_count": 444641,
+        "null_percent": 0.0,
+        "empty_percent": 98.9012
+      }
+    },
+    "categorical_distributions": {
+      "fclass": {
+        "residential": 245397,
+        "unclassified": 65068,
+        "path": 44524,
+        "track": 36481,
+        "service": 17844,
+        "tertiary": 14727,
+        "secondary": 5529,
+        "footway": 5045,
+        "primary": 4603,
+        "trunk": 3205,
+        "track_grade3": 2065,
+        "track_grade4": 1339,
+        "track_grade2": 663,
+        "primary_link": 662,
+        "track_grade5": 427,
+        "trunk_link": 359,
+        "secondary_link": 314,
+        "living_street": 284,
+        "tertiary_link": 259,
+        "steps": 221,
+        "unknown": 147,
+        "motorway": 128,
+        "motorway_link": 113,
+        "pedestrian": 69,
+        "cycleway": 37,
+        "track_grade1": 37,
+        "bridleway": 34
+      },
+      "oneway": {
+        "B": 439481,
+        "F": 10098,
+        "T": 2
+      },
+      "bridge": {
+        "F": 441494,
+        "T": 8087
+      },
+      "tunnel": {
+        "F": 449267,
+        "T": 314
+      }
+    },
+    "speed_summary": {
+      "positive_numeric_speed_count": 2600,
+      "zero_speed_count": 446981,
+      "null_speed_count": 0,
+      "interpretation": "Zero or missing values must not be treated as measured travel speeds."
+    },
+    "speed_value_distribution": {
+      "0": 446981,
+      "50": 622,
+      "56": 432,
+      "93": 370,
+      "80": 281,
+      "30": 230,
+      "40": 199,
+      "60": 142,
+      "5": 96,
+      "20": 87,
+      "90": 71,
+      "100": 58,
+      "2": 3,
+      "70": 2,
+      "10": 2,
+      "96": 1,
+      "79": 1,
+      "400": 1,
+      "251": 1,
+      "250": 1
+    },
+    "duplicate_osm_ids": {
+      "duplicate_id_groups": 0,
+      "excess_records": 0,
+      "examples": []
+    },
+    "admin_layer_columns": [
+      "fid",
+      "geom",
+      "osm_id",
+      "code",
+      "fclass",
+      "name"
+    ],
+    "sidama_admin_attribute_samples": [
+      {
+        "fid": 224,
+        "osm_id": "13422229",
+        "name": "Sidama"
+      }
+    ]
+  },
+  "warnings": [
+    "No road R-tree spatial-index table was found. Spatial filtering may require a full scan."
+  ]
+}

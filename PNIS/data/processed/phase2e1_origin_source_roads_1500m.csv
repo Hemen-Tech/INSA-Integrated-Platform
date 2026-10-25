@@ -1,0 +1,2 @@
+osm_id,name,fclass,oneway,maxspeed,bridge,tunnel,layer,geometry_type,feature_length_m,distance_to_origin_m,provisionally_graph_eligible
+620921089,,tertiary,B,0,F,F,0,MultiLineString,9386.639173602722,0.0,True

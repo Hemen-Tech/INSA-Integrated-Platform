@@ -1,0 +1,78 @@
+﻿PNIS — PHASE 1 GEOGRAPHIC VALIDATION REPORT
+============================================
+
+Status: Initial geographic validation completed
+
+SOURCE DATA
+-----------
+File: data/processed/geographic/ethiopia.gpkg
+Format: GeoPackage
+Road layer: gis_osm_roads_free
+Administrative layer: gis_osm_adminareas_a_free
+Road features in Ethiopia: 449,581
+
+SIDAMA BOUNDARY
+---------------
+Matching administrative records: 2
+Feature IDs: 223 and 224
+Administrative classifications: admin_level4 and admin_level5
+Geometry type: MultiPolygon
+The two matching records have identical geometry blobs.
+
+Approximate boundary extent:
+Longitude: 37.906427 to 39.1327237 degrees east
+Latitude: 6.1387516 to 7.1656743 degrees north
+
+ROAD GEOMETRY VALIDATION
+------------------------
+Road features scanned: 449,581
+Road features parsed: 449,581
+Features with parsing issues: 0
+Spatial index found for road/admin layers: No
+
+ACTUAL-POLYGON VERTEX CHECK
+---------------------------
+Sidama boundary polygons parsed: 1
+Road features with at least one vertex inside Sidama: 18,574
+Road vertices inside Sidama: 290,080
+
+Features by road class:
+Residential: 12,846
+Unclassified: 3,020
+Path: 989
+Service: 482
+Tertiary: 465
+Track: 389
+Footway: 165
+Secondary: 136
+Trunk: 29
+Secondary link: 22
+Primary: 9
+Primary link: 7
+Steps: 3
+Tertiary link: 3
+Pedestrian: 3
+Track grade 3: 3
+Track grade 4: 1
+Track grade 2: 1
+Trunk link: 1
+
+LIMITATIONS
+-----------
+1. The road count includes features with at least one vertex inside
+   Sidama; it is not an exact count of clipped road segments.
+2. Roads crossing the boundary without an interior vertex may be missed.
+3. Road-network connectivity has not been validated.
+4. One-way direction and speed-limit attributes require further checks.
+5. The data does not by itself establish real farm, collection-point,
+   storage-facility, or buyer locations.
+6. Routing suitability and travel-time accuracy remain unverified.
+
+RECOMMENDATION
+--------------
+The geographic source passes the initial file-integrity and geometry-
+parsing checks. It is suitable for continued investigation and pilot
+preparation, but should not yet be described as a fully validated
+routing network.
+
+END OF REPORT

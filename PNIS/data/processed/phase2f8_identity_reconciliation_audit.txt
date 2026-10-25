@@ -1,0 +1,28 @@
+PNIS PHASE 2F.8 - CANDIDATE IDENTITY RECONCILIATION AUDIT
+====================================================================
+Generated UTC: 2026-10-23T16:57:22.168891+00:00
+Input pairs: 53
+Output pairs: 53
+
+RELATIONSHIP CLASS COUNTS
+relationship_class
+NEARBY_FEATURES_IDENTITY_UNRESOLVED           34
+SETTLEMENT_AND_NEARBY_FEATURE                 10
+NEARBY_AGRICULTURAL_FEATURES                   7
+SAME_OSM_OBJECT_SAME_LAYER_CLASS_CONFLICT      1
+SAME_OSM_OBJECT_CROSS_LAYER_REPRESENTATION     1
+
+VALIDATION CHECKS
+PASS - all_53_pairs_retained
+PASS - same_osm_id_pairs_identified
+PASS - all_decisions_pending
+PASS - no_identity_auto_verified
+PASS - no_merge_or_delete_authorized
+PASS - no_routing_approved
+
+LIMITATIONS
+- This register proposes review actions; it does not resolve identities automatically.
+- Matching OSM IDs and coordinates support a same-object hypothesis, not operational verification.
+- No candidate was deleted, merged, verified, or approved for routing.
+
+Overall status: PASS

@@ -1,0 +1,49 @@
+PNIS PHASE 2F.6 - MANUAL VERIFICATION PROTOCOL
+Generated UTC: 2026-10-23T16:49:57.378699+00:00
+
+PURPOSE
+Create a review plan for candidate sites inside the working Sidama boundary.
+This is a planning step, not a verified facility inventory.
+
+REVIEW ORDER
+1. Markets and retail/food-market candidates.
+2. Industrial-site candidates.
+3. Agricultural-land/farmyard candidates.
+4. Other POIs.
+5. Building candidates.
+6. Settlement references.
+7. Other land-use candidates.
+
+EVIDENCE TO COLLECT FOR EACH RELEVANT CANDIDATE
+- Candidate ID and OSM reference used to identify the mapped feature.
+- Date checked and reviewer identity/initials.
+- Evidence source and a reference to the evidence (field observation, authorized contact,
+  official record, or dated source).
+- Confirmation that the site exists and its actual function.
+- Operating status, including unknown or temporarily closed where applicable.
+- Coordinate/location check and any corrected coordinates with a recorded source.
+- Vehicle access observations: approach road, access point, vehicle limitations, and
+  unresolved access questions.
+- Final review decision and reason.
+
+DECISION SAFEGUARDS
+- Do not mark a candidate verified without recorded supporting evidence.
+- Do not infer a warehouse, collection point, farm, market, or processing function
+  from an OSM class alone.
+- A settlement reference is not an operational facility by default.
+- Proximity within 250 m is a manual review flag only; it does not prove duplication.
+- Do not automatically merge or delete nearby records.
+- Do not approve vehicle routing from this phase alone.
+- Unknown status must remain unknown; do not substitute assumptions for evidence.
+
+CURRENT STATE
+Candidates in input: 255
+Nearby candidate pairs flagged within 250 m: 53
+Candidates currently marked UNVERIFIED: 255
+Candidates currently marked REVIEW_PENDING: 255
+
+OUTPUTS
+- phase2f6_manual_verification_queue.csv: prioritized manual review queue.
+- phase2f6_nearby_candidate_review.csv: nearby candidate pairs for manual inspection.
+- phase2f6_verification_protocol.txt: this protocol.
+- phase2f6_verification_protocol_audit.txt: validation results.

@@ -1,0 +1,2 @@
+part_number,length_m,distance_part_to_origin_m,start_endpoint_distance_m,end_endpoint_distance_m,start_x,start_y,end_x,end_y,coordinate_count,within_search_radius,part_bounds
+1,9386.639173602722,0.0,4490.800367979596,0.0,478471.7291081304,697197.5420688081,474953.3436867579,699988.2860505662,199,True,"(474953.3436867579, 697197.5420688081, 479670.3417677026, 700283.1577895924)"

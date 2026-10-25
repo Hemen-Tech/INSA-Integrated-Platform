@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "generated_utc": "2026-10-20T22:42:02.900570+00:00",
+  "duration_seconds": 37.98,
+  "method": {
+    "edge_cost": "projected distance in meters",
+    "route_direction": "directed edges respected",
+    "test_locations": "existing graph nodes only; not real markets, farms, warehouses, or collection points",
+    "test_node_selection": "Up to 16 spatially distributed nodes from the largest strongly connected component",
+    "random_seed": 42,
+    "detour_ratio_warning_threshold": 3.0,
+    "detour_threshold_note": "Configurable screening heuristic, not a validated transport standard",
+    "track_classes_flagged": [
+      "track",
+      "track_grade1",
+      "track_grade2",
+      "track_grade3",
+      "track_grade4",
+      "track_grade5"
+    ],
+    "detailed_route_count": 12
+  },
+  "input": {
+    "nodes_file": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e_vehicle_graph_nodes.csv",
+    "edges_file": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e_vehicle_graph_edges.csv",
+    "node_rows": 285298,
+    "directed_edge_rows": 591428,
+    "invalid_edge_cost_rows": 0,
+    "unknown_endpoint_rows": 0
+  },
+  "connectivity": {
+    "weakly_connected_components": 60,
+    "strongly_connected_components": 60,
+    "largest_scc_nodes": 283567,
+    "largest_scc_share": 0.9939326598854531
+  },
+  "routing_tests": {
+    "selected_test_nodes": 14,
+    "pairs_tested": 45,
+    "reachable_pairs": 45,
+    "unreachable_pairs": 0,
+    "median_shortest_path_km": 93.36764196821191,
+    "max_shortest_path_km": 184.90557508572994,
+    "median_detour_ratio": 1.420362233768237,
+    "detour_warning_count": 2,
+    "detailed_routes_with_track_use": 4
+  },
+  "limitations": [
+    "Test nodes are technical network nodes, not verified real-world facilities.",
+    "Graph validation does not establish actual road passability or truck suitability.",
+    "Distance is optimized; travel time, traffic, road condition, and seasonality are not modeled.",
+    "Track roads remain provisional and require field or authoritative source validation.",
+    "The detour ratio threshold is a configurable screening heuristic.",
+    "Snapping real facilities cannot be evaluated until verified facility coordinates are supplied."
+  ],
+  "outputs": [
+    "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e1_route_pair_results.csv",
+    "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e1_route_details.csv",
+    "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e1_component_summary.csv",
+    "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e1_route_validation_audit.json",
+    "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2e1_route_validation_audit.txt"
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "file_name": "phase1_research_extracted.txt",
+    "relative_path": "data/processed/phase1_research_extracted.txt",
+    "file_size_bytes": 92848,
+    "source_type": "Processed research text",
+    "coverage": "Text extracted from the two research PDFs",
+    "intended_use": "Searchable research review and evidence extraction",
+    "limitations": "Secondary extraction; verify important claims against the original PDF.",
+    "inspection": {
+      "readable": true,
+      "inspection_note": "File exists and is non-empty; extracted text was reviewed separately."
+    }
+  },
+  {
+    "file_name": "avocado-production.csv",
+    "relative_path": "data/raw/public/faostat/avocado-production.csv",
+    "file_size_bytes": 189469,
+    "source_type": "Public statistical data",
+    "coverage": "Ethiopia, national annual production",
+    "intended_use": "Historical national production context",
+    "limitations": "Not farm-level or Sidama-specific harvest data.",
+    "inspection": {
+      "readable": true,
+      "columns": 4,
+      "column_names": [
+        "Entity",
+        "Code",
+        "Year",
+        "Avocados - Production (tonnes)"
+      ],
+      "sample_rows_checked": 3,
+      "inspection_note": "Header and up to three data rows inspected."
+    }
+  },
+  {
+    "file_name": "ethiopia-latest-free.gpkg.zip",
+    "relative_path": "data/raw/public/openstreetmap/ethiopia-latest-free.gpkg.zip",
+    "file_size_bytes": 414786290,
+    "source_type": "Public geographic data",
+    "coverage": "Ethiopia geographic and transport features",
+    "intended_use": "Potential road-network and geographic analysis",
+    "limitations": "Road suitability, completeness, and routing usability require validation.",
+    "inspection": {
+      "readable": true,
+      "archive_members": 2,
+      "archive_contents": [
+        {
+          "name": "README",
+          "uncompressed_bytes": 656
+        },
+        {
+          "name": "ethiopia.gpkg",
+          "uncompressed_bytes": 866123776
+        }
+      ],
+      "integrity_check": "passed"
+    }
+  },
+  {
+    "file_name": "world_bank_agriculture_ethiopia.zip",
+    "relative_path": "data/raw/public/world_bank/world_bank_agriculture_ethiopia.zip",
+    "file_size_bytes": 112213,
+    "source_type": "Public statistical data",
+    "coverage": "Ethiopia, agriculture value added indicator",
+    "intended_use": "Macroeconomic agriculture context",
+    "limitations": "Not avocado-specific or operational supply-chain data.",
+    "inspection": {
+      "readable": true,
+      "archive_members": 3,
+      "archive_contents": [
+        {
+          "name": "Metadata_Indicator_API_NV.AGR.TOTL.KD_DS2_en_csv_v2_21432.csv",
+          "uncompressed_bytes": 1212
+        },
+        {
+          "name": "API_NV.AGR.TOTL.KD_DS2_en_csv_v2_21432.csv",
+          "uncompressed_bytes": 251775
+        },
+        {
+          "name": "Metadata_Country_API_NV.AGR.TOTL.KD_DS2_en_csv_v2_21432.csv",
+          "uncompressed_bytes": 65232
+        }
+      ],
+      "integrity_check": "passed"
+    }
+  },
+  {
+    "file_name": "ethiopia_avocado_postharvest_loss_multiregion_2026.pdf",
+    "relative_path": "data/raw/real/ethiopia_avocado_postharvest_loss_multiregion_2026.pdf",
+    "file_size_bytes": 680285,
+    "source_type": "Research publication",
+    "coverage": "Multiple Ethiopian avocado-producing areas",
+    "intended_use": "Evidence on postharvest loss and its drivers",
+    "limitations": "Study-level results are not individual farm records.",
+    "inspection": {
+      "readable": true,
+      "inspection_note": "File exists and is non-empty; PDF content was inspected separately."
+    }
+  },
+  {
+    "file_name": "sidama_gedeo_avocado_postharvest_loss_2026.pdf",
+    "relative_path": "data/raw/real/sidama_gedeo_avocado_postharvest_loss_2026.pdf",
+    "file_size_bytes": 584770,
+    "source_type": "Research publication",
+    "coverage": "Sidama and Gedeo areas",
+    "intended_use": "Local evidence on avocado postharvest loss",
+    "limitations": "Study findings should not be treated as measurements for every farm.",
+    "inspection": {
+      "readable": true,
+      "inspection_note": "File exists and is non-empty; PDF content was inspected separately."
+    }
+  }
+]

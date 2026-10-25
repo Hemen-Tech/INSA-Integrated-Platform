@@ -1,0 +1,85 @@
+PHASE 2G.6 — FIELD-VERIFICATION WORKLIST AND EVIDENCE REGISTER
+========================================================================
+Generated UTC: 2026-10-24T03:50:58.232306+00:00
+Status: completed
+
+INPUT
+------------------------------------------------------------------------
+data\processed\phase2g5_candidate_access_risk_register_v2.csv
+
+METHOD
+------------------------------------------------------------------------
+All candidates are retained; no candidate is approved automatically.
+Review order: HIGH_REVIEW, ELEVATED_REVIEW, STANDARD_REVIEW.
+Within each risk screen: original P1/P2/P3/P4 distance priority,
+then descending mapped-road distance.
+The sequence is a review-workload order, not a safety assessment.
+All Phase 2G.6 evidence fields begin pending or not reviewed.
+
+RESULTS
+------------------------------------------------------------------------
+Source rows: 255
+Worklist rows: 255
+Evidence register rows: 255
+Unique candidate IDs: 255
+
+RISK SCREEN COUNTS
+------------------------------------------------------------------------
+HIGH_REVIEW: 25
+ELEVATED_REVIEW: 13
+STANDARD_REVIEW: 217
+
+ORIGINAL DISTANCE PRIORITY COUNTS
+------------------------------------------------------------------------
+P1: 13
+P2: 13
+P3: 34
+P4: 195
+
+NEAREST ROAD CLASS COUNTS
+------------------------------------------------------------------------
+footway: 3
+path: 2
+pedestrian: 3
+primary: 1
+residential: 81
+secondary: 18
+service: 9
+tertiary: 45
+track: 4
+trunk: 8
+unclassified: 81
+
+SAFETY
+------------------------------------------------------------------------
+Physical vehicle access confirmed: 0
+Operational facility verified: 0
+Routing eligible: 0
+Field verification: pending for all candidates
+
+OUTPUTS
+------------------------------------------------------------------------
+data\processed\phase2g6_field_verification_worklist.csv
+data\processed\phase2g6_evidence_register.csv
+data\processed\phase2g6_field_verification_audit.txt
+
+VALIDATION
+------------------------------------------------------------------------
+PASS: source row count is 255
+PASS: candidate IDs are nonblank and unique
+PASS: all risk screen labels are recognized
+PASS: all original distance priority labels are recognized
+PASS: all nearest-road distances are valid and nonnegative
+PASS: physical vehicle access remains unconfirmed
+PASS: operational facilities remain unverified
+PASS: all candidates remain routing-ineligible
+PASS: no existing output was overwritten
+
+LIMITATIONS
+------------------------------------------------------------------------
+This worklist is not field evidence.
+Mapped-road proximity and road class do not establish an entrance,
+vehicle suitability, surface condition, seasonal passability,
+legal access, or facility operation.
+Do not change routing eligibility without documented verification
+and a separate reviewed decision.

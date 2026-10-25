@@ -1,0 +1,60 @@
+﻿PNIS PHASE 2G.8 - FIELD VERIFICATION PROTOCOL
+========================================================================
+Status: protocol prepared; field verification not yet performed
+Candidate population: 255
+Generated UTC: 2026-10-24T11:08:00Z
+
+1. PURPOSE
+This protocol governs the collection and review of evidence for candidate
+facilities. Map proximity and road classification are screening indicators,
+not proof of physical access or operational status.
+
+2. REQUIRED FIELD CHECKS
+For each candidate, record:
+- Visit date and observer identifier.
+- Candidate location and GPS coordinates, including reported GPS accuracy.
+- Facility type and whether the facility is operating.
+- Physical entrance and whether the intended vehicle can reach it.
+- Vehicle type assessed, road surface, usable width or clearance where relevant.
+- Seasonal passability and any access restrictions.
+- Evidence references, such as photographs or documented observations.
+- Notes on uncertainty, unavailable evidence, or conflicting observations.
+
+Record only observations actually made. Never invent coordinates, visits,
+photographs, road conditions, or facility status.
+
+3. EVIDENCE QUALITY
+Check that observations identify the candidate, include a date and observer,
+and have traceable supporting evidence where applicable.
+Flag missing, contradictory, outdated, or uncertain evidence for follow-up.
+A photograph or GPS point alone does not prove vehicle suitability.
+
+4. REVIEW DECISIONS
+Use these review outcomes:
+PENDING_REVIEW - evidence has not yet been assessed.
+MORE_EVIDENCE_REQUIRED - evidence is insufficient or contradictory.
+NOT_APPROVED - access or operational requirements are not met.
+APPROVED_FOR_ROUTING_REVIEW - evidence appears sufficient for a separate
+routing eligibility decision; this is not automatic routing approval.
+
+The reviewer must record their identity, review date, evidence references,
+reasoning, and any outstanding conditions. Where practical, the reviewer
+should be someone other than the field observer.
+
+5. ROUTING ELIGIBILITY SAFEGUARD
+All candidates remain routing-ineligible at this stage.
+Do not set routing_eligible to YES from proximity, road class, or an
+unreviewed field observation. A separate controlled decision must confirm
+the required evidence, vehicle suitability, operational status, and any
+applicable access restrictions before eligibility is changed.
+
+6. FIELDWORK TIMING
+Conduct fieldwork after the checklist and collection arrangements are ready,
+and before using these candidates as confirmed routing destinations.
+Prioritize candidates using the existing Phase 2G.6 review sequence, while
+coordinating visits geographically where practical. Record failed visits
+and unavailable evidence instead of treating them as successful verification.
+
+7. CURRENT LIMITATION
+No real field observations have been collected yet. This protocol and its
+checklist are planning and quality-control artifacts only.

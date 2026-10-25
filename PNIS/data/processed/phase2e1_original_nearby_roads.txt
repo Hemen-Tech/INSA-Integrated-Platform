@@ -1,0 +1,21 @@
+============================================================================
+PHASE 2E.1 — ORIGINAL NEARBY ROAD INSPECTION
+============================================================================
+Original road features within 2000 m: 4
+Present in Phase 2C v2 by OSM ID: 2
+Not present in Phase 2C v2 by OSM ID: 2
+Features whose geometry covers route origin: 0
+
+NEAREST 30 ROADS
+----------------------------------------------------------------------------
+   osm_id       fclass name ref oneway  maxspeed bridge tunnel  layer  distance_to_origin_m  present_in_phase2c_v2  intersects_origin geometry_type
+620921089     tertiary               B         0      F      F      0          4.084256e-12                   True              False    LineString
+620913992     tertiary               B         0      F      F      0          5.359179e+01                  False              False    LineString
+620921090     tertiary               B         0      F      F      0          1.622388e+03                   True              False    LineString
+539235726 unclassified               B         0      F      F      0          1.999498e+03                  False              False    LineString
+
+Output CSV:
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_original_nearby_roads.csv
+
+This is a proximity audit, not permission to connect roads.
+Nearby features may be disconnected for valid reasons.

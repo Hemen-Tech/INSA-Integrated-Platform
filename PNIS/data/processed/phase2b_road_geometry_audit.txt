@@ -1,0 +1,43 @@
+PNIS PHASE 2B — ROAD GEOMETRY VALIDATION
+====================================================
+Generated UTC: 2026-10-20T21:25:58.395479+00:00
+Source: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+
+ROAD LAYER
+Features: 449,581
+Geometry type metadata: LineString
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Geometry types: {'LineString': 449581}
+
+GEOMETRY INTEGRITY
+Null geometries: 0
+Empty geometries: 0
+Valid geometries: 449,581
+Invalid nonempty geometries: 0
+
+SIDAMA BOUNDARY
+Matching admin records: 1
+Dissolved type: Polygon
+Valid: True
+Bounds: (37.906427, 6.1387516, 39.1327237, 7.1656743)
+
+ROAD INTERSECTION
+Roads intersecting Sidama: 18,574
+Percent of full road layer: 4.1314%
+Road GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2b_sidama_intersecting_roads.gpkg
+Road CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2b_sidama_intersecting_roads.csv
+
+INVALID GEOMETRY SAMPLES
+No invalid nonempty geometries detected.
+
+WARNINGS
+None recorded.
+
+LIMITATIONS
+- Geometric intersection does not prove that a road is passable.
+- This script does not establish routable network connectivity.
+- Roads are selected by intersection with the Sidama polygon; their complete geometries are retained and are not clipped.
+- Duplicate or overlapping boundary records are dissolved before the spatial intersection.
+
+This report does not certify routability, connected components,
+turn restrictions, travel speeds, or realistic travel times.

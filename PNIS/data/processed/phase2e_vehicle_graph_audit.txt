@@ -1,0 +1,74 @@
+PHASE 2E - VEHICLE ROUTING GRAPH AUDIT
+========================================================================
+Status: completed
+Generated UTC: 2026-10-20T22:13:05.476900+00:00
+Input features: 21,626
+Eligible vehicle-road features: 20,225
+Excluded features: 1,401
+
+GRAPH
+------------------------------------------------------------------------
+CRS: EPSG:32637
+Nodes: 285,298
+Directed edges: 591,428
+Physical segments: 297,672
+Undirected components: 60
+Weakly connected components: 60
+Strongly connected components: 60
+Largest component nodes: 283,567
+Largest component share: 99.3933%
+Isolated nodes: 0
+Zero in-degree nodes: 0
+Zero out-degree nodes: 0
+
+DISTANCE VALIDATION
+------------------------------------------------------------------------
+Physical segment length: 14,201.787 km
+Directed-edge length sum: 28,217.457 km
+Invalid edge costs: 0
+Skipped short/collapsed segments: 0
+Unknown-direction features skipped: 0
+
+ROAD CLASS COUNTS
+------------------------------------------------------------------------
+residential: 14,628
+unclassified: 3,691
+tertiary: 585
+service: 519
+track: 513
+secondary: 161
+trunk: 45
+secondary_link: 22
+primary: 21
+primary_link: 11
+track_grade3: 10
+track_grade4: 9
+tertiary_link: 5
+trunk_link: 3
+track_grade5: 1
+track_grade2: 1
+
+IMPORTANT LIMITATIONS
+------------------------------------------------------------------------
+- This is a preliminary graph, not a field-validated routing network.
+- Vehicle eligibility is inferred from road class; private access, width, surface, seasonal passability, and truck restrictions are not fully available in the input.
+- Track roads are included provisionally and may not support loaded collection vehicles.
+- Road connections are made at coincident existing vertices only. Some legitimate junctions may remain disconnected.
+- Centimetre coordinate rounding can merge extremely close vertices.
+- Crossings without shared vertices are not automatically connected; this reduces false junctions but may miss real intersections.
+- Bridge, tunnel, and layer tags are retained for review; they do not by themselves validate every junction.
+- Distance costs use projected geometry lengths, not travel time.
+- The graph is based on the Sidama plus 5 km buffer extract.
+- A connected component does not establish real-world passability.
+
+OUTPUTS
+------------------------------------------------------------------------
+eligible_roads_gpkg: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_eligible_roads.gpkg
+graph_edges_gpkg: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_graph_edges.gpkg
+nodes_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_graph_nodes.csv
+edges_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_graph_edges.csv
+road_class_summary_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_road_class_summary.csv
+excluded_roads_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_excluded_roads.csv
+review_flags_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_road_review_flags.csv
+audit_json: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_graph_audit.json
+audit_text: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e_vehicle_graph_audit.txt

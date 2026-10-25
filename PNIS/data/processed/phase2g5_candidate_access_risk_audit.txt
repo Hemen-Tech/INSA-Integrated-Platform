@@ -1,0 +1,68 @@
+PHASE 2G.5 — CANDIDATE ACCESS RISK PRIORITIZATION AUDIT
+========================================================================
+Generated UTC: 2026-10-23T20:23:07.236734+00:00
+Status: completed
+
+INPUTS
+Phase 2G.2: data\processed\phase2g2_access_review_register.csv
+Phase 2G.4 v2: data\processed\phase2g4_candidate_road_access_review_register_v2.csv
+Phase 2G.2 priority field used: review_priority_rank
+
+RESULTS
+Candidate rows: 255
+Output rows: 255
+Distance field: recalculated_nearest_road_distance_m
+Road class field: nearest_road_fclass
+Candidates over 250 m: 26
+Candidates over 500 m: 13
+Nearest road in potentially restrictive class: 12
+
+RISK SCREEN COUNTS
+access_risk_screen
+STANDARD_REVIEW    217
+HIGH_REVIEW         25
+ELEVATED_REVIEW     13
+
+FINAL REVIEW PRIORITY COUNTS
+phase2g5_review_priority
+P1     25
+P2     13
+P4    217
+
+NEAREST ROAD CLASS COUNTS
+nearest_road_fclass
+residential     81
+unclassified    81
+tertiary        45
+secondary       18
+service          9
+trunk            8
+track            4
+footway          3
+pedestrian       3
+path             2
+primary          1
+
+SAFETY
+Physical vehicle access confirmed: 0
+Operational facility verified: 0
+Routing eligible: 0
+All candidates remain pending field verification.
+Road proximity and road class are screening evidence, not proof of physical access.
+
+OUTPUT
+data\processed\phase2g5_candidate_access_risk_register.csv
+
+VALIDATION
+PASS: Input candidate counts match
+PASS: Output row count preserved
+PASS: Output candidate IDs unique
+PASS: All distances valid
+PASS: All candidates access-unconfirmed
+PASS: All candidates operationally unverified
+PASS: All candidates routing-ineligible
+PASS: All decisions pending field verification
+PASS: All review priorities valid
+PASS: Queue order unique
+
+Existing Phase 2 outputs were not modified.

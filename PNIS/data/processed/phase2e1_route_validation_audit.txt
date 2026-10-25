@@ -1,0 +1,47 @@
+PHASE 2E.1 — VEHICLE ROUTE-GRAPH VALIDATION
+========================================================================
+Generated UTC: 2026-10-20T22:42:02.900570+00:00
+Status: completed
+
+INPUT AND BASIC VALIDATION
+------------------------------------------------------------------------
+Node rows: 285,298
+Directed edge rows: 591,428
+Invalid edge-cost rows: 0
+Rows with unknown endpoints: 0
+
+CONNECTIVITY
+------------------------------------------------------------------------
+Weakly connected components: 60
+Strongly connected components: 60
+Largest strongly connected component nodes: 283,567
+Largest SCC share: 99.3933%
+
+ROUTE TESTS
+------------------------------------------------------------------------
+Selected test nodes: 14
+Directed node pairs tested: 45
+Reachable pairs: 45
+Unreachable pairs: 0
+Median shortest-path distance: 93.36764196821191
+Maximum shortest-path distance: 184.90557508572994
+Median detour ratio: 1.420362233768237
+Detour warnings (> 3): 2
+Detailed routes traced: 12
+Detailed routes using tracks: 4
+
+INTERPRETATION
+------------------------------------------------------------------------
+These are graph-level tests between existing network nodes, not real facilities.
+They verify computational reachability and distance calculations, not road passability.
+A detour warning is a screening flag, not proof of an invalid route.
+Track use is flagged because track passability for loaded collection vehicles is unverified.
+Real facility snapping and operational route validation require actual coordinates.
+
+OUTPUTS
+------------------------------------------------------------------------
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route_pair_results.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route_details.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_component_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route_validation_audit.json
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route_validation_audit.txt

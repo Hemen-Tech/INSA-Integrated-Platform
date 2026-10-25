@@ -1,0 +1,59 @@
+PNIS PHASE 2G.12 - FACILITY AND ACCESS READINESS AUDIT
+========================================================================
+Generated UTC: 2026-10-24T12:02:54.877718+00:00
+Input files: 8
+Readiness register rows: 255
+Summary rows: 24
+
+CHECK RESULTS
+------------------------------------------------------------------------
+PASS: All eight required inputs loaded
+PASS: All source candidate IDs are unique and nonblank
+PASS: Candidate ID sets match across all eight inputs
+PASS: Readiness register row count matches source
+PASS: Routing eligibility remains NO for every candidate
+PASS: Operational facility verification remains NO
+PASS: Physical vehicle access confirmation remains NO
+
+CANDIDATE SUMMARY
+------------------------------------------------------------------------
+High risk review: 25
+Elevated review: 13
+Standard review: 217
+Nearest mapped road >500 m: 13
+Observation register visit date/observer recorded: 0
+Observation register evidence/GPS notes recorded: 0
+Operational facility verified by this script: 0
+Physical vehicle access confirmed by this script: 0
+Routing-eligible candidates: 0
+
+INPUT FILES
+------------------------------------------------------------------------
+proximity: data\processed\phase2g1_candidate_road_proximity_register.csv
+access: data\processed\phase2g4_candidate_road_access_review_register_v2.csv
+risk: data\processed\phase2g5_candidate_access_risk_register_v2.csv
+evidence: data\processed\phase2g6_evidence_register.csv
+worklist: data\processed\phase2g6_field_verification_worklist.csv
+observations: data\processed\phase2g7_field_observation_register.csv
+plan: data\processed\phase2g10_fieldwork_priority_plan.csv
+form: data\processed\phase2g10_field_data_collection_form.csv
+
+OUTPUT FILES
+------------------------------------------------------------------------
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g12_facility_access_readiness_register.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g12_readiness_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g12_readiness_audit.txt
+
+LIMITATIONS
+------------------------------------------------------------------------
+This is a data consolidation and readiness screening, not field verification.
+The script does not establish facility identity, operation, legal access,
+physical entrance connectivity, road passability, or vehicle suitability.
+Blank field evidence is not interpreted as proof that a facility does not exist.
+All candidates remain routing-ineligible pending verified evidence and review.
+
+Checks passed: 7/7
+Checks failed: 0/7
+Issues recorded: 0
+
+Status: PASS

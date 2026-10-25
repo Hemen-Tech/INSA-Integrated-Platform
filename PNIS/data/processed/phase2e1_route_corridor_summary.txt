@@ -1,0 +1,62 @@
+PHASE 2E.1 — ROUTE CORRIDOR CONNECTIVITY AUDIT
+====================================================================
+Route ID: 5
+Route steps in input: 2261
+Steps skipped for missing node coordinates: 0
+Zero-length route steps skipped: 0
+Source road features: 21626
+Search radius: 30 m
+Nearby route-step/source-road pairs: 361
+
+IMPORTANT: Proximity is not proof of a valid junction.
+Review bridge, tunnel, layer, geometry and direction before
+considering any network correction.
+
+Nearby feature pairs within 5 m: 228
+Nearby feature pairs within 15 m: 271
+Nearby feature pairs within 30 m: 361
+
+NEAREST CANDIDATE LOCATIONS
+--------------------------------------------------------------------
+Step 19: route OSM 620921089 (tertiary); nearby OSM 620921090 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 20: route OSM 620921090 (tertiary); nearby OSM 620921089 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 350: route OSM 620921090 (tertiary); nearby OSM 620921095 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 351: route OSM 620921094 (tertiary); nearby OSM 620921090 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 369: route OSM 620921094 (tertiary); nearby OSM 620921092 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 370: route OSM 620921092 (residential); nearby OSM 620921094 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 383: route OSM 890367563 (residential); nearby OSM 890367562 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 407: route OSM 890367563 (residential); nearby OSM 890367564 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 408: route OSM 890367564 (residential); nearby OSM 890367563 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 420: route OSM 890367564 (residential); nearby OSM 890367565 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 421: route OSM 890367564 (residential); nearby OSM 890367565 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 426: route OSM 890367564 (residential); nearby OSM 890367567 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 427: route OSM 890367567 (residential); nearby OSM 890367564 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 432: route OSM 890367567 (residential); nearby OSM 890367570 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 435: route OSM 890367566 (residential); nearby OSM 890367568 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 436: route OSM 890367566 (residential); nearby OSM 890367568 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 438: route OSM 890367566 (residential); nearby OSM 890367576 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 439: route OSM 890367576 (residential); nearby OSM 890367566 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 442: route OSM 890367576 (residential); nearby OSM 890367577 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 443: route OSM 890367576 (residential); nearby OSM 890367577 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 475: route OSM 890367576 (residential); nearby OSM 890367582 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 488: route OSM 890367576 (residential); nearby OSM 493164771 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 489: route OSM 493164771 (tertiary); nearby OSM 890367576 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 497: route OSM 493164771 (tertiary); nearby OSM 608776847 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 498: route OSM 608776847 (tertiary); nearby OSM 493164771 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 499: route OSM 608776850 (tertiary); nearby OSM 608776847 (tertiary); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 500: route OSM 608776855 (tertiary); nearby OSM 608776850 (tertiary); distance=0.00 m; bridge=T; tunnel=F; layer=1
+Step 514: route OSM 608776855 (tertiary); nearby OSM 608776852 (track); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 515: route OSM 608776855 (tertiary); nearby OSM 608776852 (track); distance=0.00 m; bridge=F; tunnel=F; layer=0
+Step 552: route OSM 608776855 (tertiary); nearby OSM 1122733736 (residential); distance=0.00 m; bridge=F; tunnel=F; layer=0
+
+CANDIDATE ROAD CLASS COUNTS
+--------------------------------------------------------------------
+unclassified: 115
+tertiary: 109
+residential: 107
+track: 14
+service: 9
+path: 7
+
+Detailed CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route_corridor_audit.csv
+No source roads or graph files were modified.

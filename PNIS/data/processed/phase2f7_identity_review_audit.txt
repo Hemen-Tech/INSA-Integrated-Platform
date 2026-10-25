@@ -1,0 +1,27 @@
+PNIS PHASE 2F.7 - DETAILED IDENTITY REVIEW AUDIT
+==================================================================
+Generated UTC: 2026-10-23T16:53:32.652090+00:00
+Phase 2F.6 pairs: 53
+Detailed review rows: 53
+
+PRIORITY COUNTS
+review_priority
+P1_EXACT_COORDINATE_OVERLAP     2
+P1_VERY_CLOSE_CROSS_LAYER       3
+P2_CLOSE_PAIR                  10
+P3_CROSS_LAYER_WITHIN_250M     14
+P4_NEARBY_PAIR                 24
+
+IMPORTANT LIMITATIONS
+- Exact or nearby coordinates do not prove duplicate identity.
+- Close records may represent distinct adjacent facilities.
+- No records were merged, deleted, or approved for routing.
+
+VALIDATION CHECKS
+PASS - pair_count_matches_phase2f6
+PASS - pair_records_enriched_from_candidate_queue
+PASS - no_pair_auto_merged_or_deleted
+PASS - no_pair_routing_approved
+PASS - all_pairs_pending_manual_review
+
+Overall status: PASS

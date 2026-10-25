@@ -1,0 +1,43 @@
+PNIS PHASE 2G.11 - INDEPENDENT FIELDWORK PACKAGE QA
+====================================================================
+Generated UTC: 2026-10-24T11:56:08.649017+00:00
+Source rows: 255
+Plan rows: 255
+Form rows: 255
+Checks passed: 19 / 19
+Checks failed: 0 / 19
+Issues recorded: 0
+
+CHECK RESULTS
+--------------------------------------------------------------------
+PASS: Candidate ID column exists in all files — Required column: candidate_record_id
+PASS: Source row count and IDs — Rows=255; nonblank unique IDs=True.
+PASS: Plan row count and IDs — Rows=255; source rows=255; nonblank unique IDs=True.
+PASS: Form row count and IDs — Rows=255; source rows=255; nonblank unique IDs=True.
+PASS: Plan ID set matches source — Missing=0; unexpected=0.
+PASS: Form ID set matches source — Missing=0; unexpected=0.
+PASS: Plan and form candidate order matches — IDs appear in the same order.
+PASS: Planned coordinates match source — Missing/unparseable=0; mismatches=0; columns=longitude/latitude.
+PASS: Required field evidence columns present — Missing columns: none
+PASS: All form candidates remain routing-ineligible — NO=255 of 255 form rows.
+PASS: Plan safeguard: routing_eligibility — Unexpected or blank values=0 of 255.
+PASS: Plan safeguard: operational_facility_confirmed — Unexpected or blank values=0 of 255.
+PASS: Plan safeguard: physical_vehicle_access_confirmed — Unexpected or blank values=0 of 255.
+PASS: No fabricated field observations detected — Populated fields: none
+PASS: Plan follows Phase 2G.5/2G.6 priority keys — Checked keys: phase2g5_risk_queue_order_v2, phase2g6_review_sequence; candidate ID used as final tie-breaker.
+PASS: Fieldwork protocol exists — C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_fieldwork_protocol.txt
+PASS: Protocol describes key safeguards — Missing terms: none
+PASS: Phase 2G.10 preparation audit exists — C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_preparation_audit.txt
+PASS: Preparation audit reports zero issues — Exact zero-issues marker found.
+
+OUTPUT FILES
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g11_fieldwork_qa_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g11_fieldwork_qa_issues.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g11_fieldwork_qa_audit.txt
+
+LIMITATION
+This audit checks file consistency and safeguards only. It does not
+verify facility identity, operation, physical access, road passability,
+or field evidence.
+
+Status: PASS

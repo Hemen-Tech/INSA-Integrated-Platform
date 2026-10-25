@@ -1,0 +1,54 @@
+PNIS PHASE 2G.2 - ACCESS-REVIEW REGISTER BUILD
+========================================================================
+Generated UTC: 2026-10-23T17:34:02.897263+00:00
+Project root: C:\Users\tadesse.yilma\projects\PNIS
+
+INPUT
+------------------------------------------------------------------------
+Phase 2G.1 register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g1_candidate_road_proximity_register.csv
+Candidate ID column: candidate_record_id
+Distance column: nearest_mapped_road_distance_m
+Proximity-band column: road_proximity_band
+
+METHOD AND SAFETY LIMITS
+------------------------------------------------------------------------
+Review priority orders manual review workload by mapped-road distance only.
+Road proximity does not confirm a physical entrance, vehicle access, road surface, seasonal passability, legal access, or operational facility function.
+All candidates remain pending field verification and routing-ineligible.
+No candidate is automatically approved, merged, deleted, or marked operational.
+
+SUMMARY
+------------------------------------------------------------------------
+Candidates: 255
+Unique candidate IDs: 255
+Minimum mapped-road distance (m): 0.553
+Median mapped-road distance (m): 44.025
+Maximum mapped-road distance (m): 3675.941
+Review priority counts:
+  P1_FAR_FROM_MAPPED_ROAD: 13
+  P2_MODERATE_DISTANCE: 13
+  P3_PROXIMITY_REVIEW: 34
+  P4_NEAR_ROAD_STILL_REQUIRES_ACCESS_CHECK: 195
+
+VALIDATION CHECKS
+------------------------------------------------------------------------
+PASS - expected_candidate_count: rows=255, expected=255
+PASS - candidate_ids_unique: unique_ids=255
+PASS - distance_values_valid: valid_distances=255
+PASS - priority_values_assigned: assigned=255
+PASS - field_verification_pending: non_pending=0
+PASS - access_decision_pending: non_pending=0
+PASS - no_physical_access_confirmed: confirmed_yes=0
+PASS - no_operational_facilities_verified: verified_yes=0
+PASS - no_candidates_routing_eligible: routing_eligible_yes=0
+PASS - review_evidence_fields_present: required_review_fields=4
+PASS - output_paths_are_phase2g2: csv=phase2g2_access_review_register.csv
+
+Checks passed: 11
+Checks failed: 0
+Overall status: PASS
+
+OUTPUTS
+------------------------------------------------------------------------
+Register CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g2_access_review_register.csv
+Audit TXT: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g2_access_review_audit.txt

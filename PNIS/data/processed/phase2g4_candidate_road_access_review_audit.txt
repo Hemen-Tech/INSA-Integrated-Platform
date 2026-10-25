@@ -1,0 +1,68 @@
+PNIS PHASE 2G.4 - CANDIDATE-TO-ROAD ACCESS REVIEW
+========================================================================
+Generated UTC: 2026-10-23T17:45:21.846949+00:00
+Project root: C:\Users\tadesse.yilma\projects\PNIS
+
+INPUTS
+------------------------------------------------------------------------
+Candidate proximity register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g1_candidate_road_proximity_register.csv
+Road suitability register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g3_road_suitability_review_register.csv
+Candidate ID column: candidate_record_id
+Nearest-road distance column: nearest_mapped_road_distance_m
+Proximity band column: road_proximity_band
+Candidate nearest-road FID column: (not found)
+Candidate nearest-road OSM ID column: (not found)
+Candidate nearest-road class column: (not found)
+Road FID column: source_fid
+Road OSM ID column: source_osm_id
+Selected join method: none
+
+METHOD AND SAFETY LIMITS
+------------------------------------------------------------------------
+The register links candidate proximity evidence to road review attributes
+only when a usable identifier is available. Ambiguous identifiers are
+not joined arbitrarily. A road class copied from the proximity register
+without an identifier match is explicitly marked as unjoined.
+Nearest-road distance does not prove a physical entrance, access path,
+legal access, vehicle passability, or operational facility status.
+All candidates remain unverified and routing-ineligible.
+
+SUMMARY
+------------------------------------------------------------------------
+Candidate records: 255
+Unique candidate IDs: 255
+Matched by stable ID: 0
+Unresolved/ambiguous joins: 255
+Median nearest mapped-road distance (m): 44.025
+Maximum nearest mapped-road distance (m): 3675.941
+
+ROAD JOIN STATUS COUNTS
+------------------------------------------------------------------------
+  NO_STABLE_ROAD_ID_AVAILABLE: 255
+
+ACCESS REVIEW PRIORITY COUNTS
+------------------------------------------------------------------------
+  P1_JOIN_OR_IDENTITY_REVIEW: 255
+
+VALIDATION CHECKS
+------------------------------------------------------------------------
+PASS - input_candidates_present: rows=255
+PASS - candidate_ids_complete_and_unique: nonblank=255; unique=255
+PASS - nearest_road_distances_valid: valid=255; total=255
+PASS - access_priorities_assigned: assigned=255
+PASS - field_verification_pending: non_pending=0
+PASS - access_decisions_pending: non_pending=0
+PASS - no_physical_vehicle_access_confirmed: confirmed_yes=0
+PASS - no_operational_facilities_verified: verified_yes=0
+PASS - no_candidates_routing_eligible: eligible_yes=0
+PASS - road_join_status_recorded: statuses=1
+PASS - output_paths_are_phase2g4: csv=phase2g4_candidate_road_access_review_register.csv
+
+Checks passed: 11
+Checks failed: 0
+Overall status: PASS
+
+OUTPUTS
+------------------------------------------------------------------------
+Access review register CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g4_candidate_road_access_review_register.csv
+Audit TXT: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g4_candidate_road_access_review_audit.txt

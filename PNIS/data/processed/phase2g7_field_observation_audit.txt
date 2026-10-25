@@ -1,0 +1,45 @@
+PHASE 2G.7 - FIELD OBSERVATION REGISTER AUDIT
+========================================================================
+Generated UTC: 2026-10-24T04:13:12.471562+00:00
+Status: completed
+
+INPUT
+------------------------------------------------------------------------
+data\processed\phase2g6_field_verification_worklist.csv
+
+METHOD
+------------------------------------------------------------------------
+Retained every Phase 2G.6 candidate and source field.
+Added blank field-observation and independent-review fields.
+No field evidence was invented or inferred.
+No candidate was automatically approved for routing.
+
+RESULTS
+------------------------------------------------------------------------
+Source rows: 255
+Output rows: 255
+Unique candidate IDs: 255
+Field visits recorded at generation: 0
+Review decisions completed at generation: 0
+Routing-eligible candidates: 0
+
+VALIDATION
+------------------------------------------------------------------------
+PASS: all 255 candidate rows retained in source order
+PASS: candidate IDs are nonblank and unique
+PASS: all new observations start pending or unrecorded
+PASS: all review decisions start pending
+PASS: all candidates remain routing-ineligible
+PASS: no existing output was overwritten
+
+LIMITATIONS
+------------------------------------------------------------------------
+This register is a blank recording template, not field evidence.
+Record only observations actually made and evidence actually collected.
+GPS, photographs, or notes alone do not establish vehicle suitability.
+Routing eligibility requires documented evidence and a separate review.
+
+OUTPUTS
+------------------------------------------------------------------------
+data\processed\phase2g7_field_observation_register.csv
+data\processed\phase2g7_field_observation_audit.txt

@@ -1,0 +1,36 @@
+PHASE 2F — MARKET CANDIDATE REVIEW
+============================================================
+Input register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_candidate_review_register.csv
+Marketplace candidates: 23
+Output: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_market_candidates_review.csv
+
+CANDIDATE RECORDS
+------------------------------------------------------------
+ID=PNIS2F-00315 | OSM=12463790297 | Name=gis_osm_pois_free | Layer=12463790297 marketplace | Class=marketplace
+ID=PNIS2F-00316 | OSM=1253231388 | Name=gis_osm_pois_a_free | Layer=1253231388 marketplace | Class=marketplace
+ID=PNIS2F-00317 | OSM=1255491622 | Name=gis_osm_pois_a_free | Layer=1255491622 marketplace livestock market | Class=marketplace
+ID=PNIS2F-00318 | OSM=1265793974 | Name=gis_osm_pois_a_free | Layer=1265793974 marketplace market | Class=marketplace
+ID=PNIS2F-00319 | OSM=1969968438 | Name=gis_osm_pois_free | Layer=1969968438 marketplace saturday market | Class=marketplace
+ID=PNIS2F-00320 | OSM=3003215862 | Name=gis_osm_pois_free | Layer=3003215862 marketplace hawassa open market | Class=marketplace
+ID=PNIS2F-00321 | OSM=302690327 | Name=gis_osm_pois_a_free | Layer=302690327 marketplace | Class=marketplace
+ID=PNIS2F-00322 | OSM=314453062 | Name=gis_osm_pois_a_free | Layer=314453062 marketplace | Class=marketplace
+ID=PNIS2F-00323 | OSM=328833279 | Name=gis_osm_pois_a_free | Layer=328833279 marketplace fish market | Class=marketplace
+ID=PNIS2F-00324 | OSM=404672690 | Name=gis_osm_pois_a_free | Layer=404672690 marketplace | Class=marketplace
+ID=PNIS2F-00325 | OSM=4498589365 | Name=gis_osm_pois_free | Layer=4498589365 marketplace goat market | Class=marketplace
+ID=PNIS2F-00326 | OSM=4524469558 | Name=gis_osm_pois_free | Layer=4524469558 marketplace አድሱ ገቢያ / addisu geyiya | Class=marketplace
+ID=PNIS2F-00327 | OSM=4583755942 | Name=gis_osm_pois_free | Layer=4583755942 marketplace | Class=marketplace
+ID=PNIS2F-00328 | OSM=4747188433 | Name=gis_osm_pois_free | Layer=4747188433 marketplace | Class=marketplace
+ID=PNIS2F-00329 | OSM=5336092488 | Name=gis_osm_pois_free | Layer=5336092488 marketplace | Class=marketplace
+ID=PNIS2F-00330 | OSM=542557632 | Name=gis_osm_pois_a_free | Layer=542557632 marketplace | Class=marketplace
+ID=PNIS2F-00331 | OSM=6622350986 | Name=gis_osm_pois_free | Layer=6622350986 marketplace | Class=marketplace
+ID=PNIS2F-00332 | OSM=6622509313 | Name=gis_osm_pois_free | Layer=6622509313 marketplace | Class=marketplace
+ID=PNIS2F-00333 | OSM=887912714 | Name=gis_osm_pois_a_free | Layer=887912714 marketplace | Class=marketplace
+ID=PNIS2F-00334 | OSM=903956348 | Name=gis_osm_pois_a_free | Layer=903956348 marketplace ገባያ | Class=marketplace
+ID=PNIS2F-00335 | OSM=903970957 | Name=gis_osm_pois_a_free | Layer=903970957 marketplace | Class=marketplace
+ID=PNIS2F-00336 | OSM=986468991 | Name=gis_osm_pois_a_free | Layer=986468991 marketplace | Class=marketplace
+ID=PNIS2F-00337 | OSM=990895333 | Name=gis_osm_pois_a_free | Layer=990895333 marketplace | Class=marketplace
+
+CONTROL
+------------------------------------------------------------
+All candidates remain unverified.
+Do not use for operational routing until location and identity are checked.

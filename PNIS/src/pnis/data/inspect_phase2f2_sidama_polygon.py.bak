@@ -1,0 +1,108 @@
+﻿from pathlib import Path
+import geopandas as gpd
+import pandas as pd
+
+ROOT = Path.cwd()
+GPKG = ROOT / "data" / "processed" / "geographic" / "ethiopia.gpkg"
+OUT = ROOT / "data" / "processed" / "phase2f2_sidama_polygon_search.txt"
+LAYER = "gis_osm_adminareas_a_free"
+
+lines = []
+def log(s=""):
+    s = str(s)
+    lines.append(s)
+    print(s)
+
+log("=" * 76)
+log("PHASE 2F.2 — SIDAMA POLYGON SEARCH")
+log("=" * 76)
+
+gdf = gpd.read_file(GPKG, layer=LAYER)
+log(f"Layer: {LAYER}")
+log(f"Rows: {len(gdf)}")
+log(f"CRS: {gdf.crs}")
+log(f"Fields: {list(gdf.columns)}")
+
+# Search all attributes for Sidama, not only the name field.
+text_cols = [
+    c for c in gdf.columns
+    if c != gdf.geometry.name
+    and (
+        pd.api.types.is_string_dtype(gdf[c])
+        or gdf[c].dtype == object
+    )
+]
+mask = pd.Series(False, index=gdf.index)
+for col in text_cols:
+    mask |= gdf[col].fillna("").astype(str).str.contains(
+        "sidama", case=False, regex=False
+    )
+
+hits = gdf.loc[mask].copy()
+log(f"\nRecords with 'Sidama' in any text attribute: {len(hits)}")
+
+if len(hits):
+    for _, row in hits.iterrows():
+        log("\nMATCH")
+        for col in gdf.columns:
+            if col != gdf.geometry.name:
+                log(f"  {col}: {row[col]}")
+        geom = row.geometry
+        log(f"  geometry_type: {geom.geom_type if geom else None}")
+        log(f"  bounds: {list(geom.bounds) if geom else None}")
+        log(f"  valid: {geom.is_valid if geom else None}")
+else:
+    log("No administrative feature explicitly names Sidama.")
+
+# Use the earlier discovery extent only to find nearby records for inspection.
+# This is a diagnostic window, NOT an official Sidama boundary.
+xmin, ymin, xmax, ymax = 37.85, 6.09, 39.19, 7.22
+window = gpd.GeoDataFrame(
+    {"window_id": [1]},
+    geometry=gpd.GeoSeries.from_bbox((xmin, ymin, xmax, ymax)),
+    crs="EPSG:4326"
+)
+if gdf.crs is not None:
+    window = window.to_crs(gdf.crs)
+
+near = gdf[gdf.geometry.intersects(window.geometry.iloc[0])].copy()
+log(f"\nAdministrative polygons intersecting diagnostic window: {len(near)}")
+if len(near):
+    for _, row in near.iterrows():
+        geom = row.geometry
+        bounds = [round(float(v), 6) for v in geom.bounds]
+        log(
+            f"osm_id={row.get('osm_id')} | "
+            f"code={row.get('code')} | "
+            f"fclass={row.get('fclass')} | "
+            f"name={row.get('name')} | "
+            f"bounds={bounds} | valid={geom.is_valid}"
+        )
+
+# Locate existing boundary-related artifacts; list only, do not modify.
+log("\nEXISTING BOUNDARY-RELATED ARTIFACTS")
+processed = ROOT / "data" / "processed"
+artifacts = sorted(
+    p for p in processed.glob("*")
+    if p.is_file() and any(
+        term in p.name.lower()
+        for term in ("boundary", "phase2c", "phase2e1_sidama")
+    )
+)
+for p in artifacts:
+    log(f"{p.name} | {p.stat().st_size} bytes")
+    if p.suffix.lower() in (".txt", ".json") and p.stat().st_size < 200_000:
+        try:
+            content = p.read_text(encoding="utf-8-sig", errors="replace")
+            log("  --- file preview ---")
+            log("\n".join(content.splitlines()[:35]))
+            log("  --- end preview ---")
+        except Exception as exc:
+            log(f"  Could not read: {exc}")
+
+log("\nINTERPRETATION")
+log("A matching name or intersecting polygon is a lead, not proof of the official region boundary.")
+log("Do not use the diagnostic window as the final geographic inclusion test.")
+
+OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+log(f"\nReport saved: {OUT}")

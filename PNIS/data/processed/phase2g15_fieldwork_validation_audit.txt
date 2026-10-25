@@ -1,0 +1,63 @@
+PNIS PHASE 2G.15 — FIELDWORK RESULTS VALIDATION
+========================================================================
+Generated: 2026-10-24T15:59:50
+Status: COMPLETED WITH VALIDATION RESULTS
+
+INPUT
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g14_fieldwork_visit_workbook.xlsx
+Worksheet: All Candidates
+
+RESULTS
+Candidate rows read: 255
+Expected candidate rows: 255
+Unique candidate IDs: 255
+Missing candidate IDs: 0
+Duplicate candidate ID values: 0
+Visited rows: 0
+Awaiting fieldwork rows: 255
+Rows with actual non-pending review decisions: 0
+Rows ready for manual routing review: 0
+Rows requiring review: 0
+Rows with incomplete evidence/review: 0
+Rows with validation issues: 0
+Total validation issues: 0
+Source routing-eligible YES rows: 0
+
+COLUMN MAPPING
+candidate_id: candidate_record_id - FOUND
+fieldwork_status: fieldwork_status - FOUND
+visit_date: field_visit_date - FOUND
+observer: observer_name_or_id - FOUND
+actual_longitude: actual_gps_longitude - FOUND
+actual_latitude: actual_gps_latitude - FOUND
+facility_identity: facility_identity_result - FOUND
+operating_status: operating_status - FOUND
+vehicle_access: vehicle_access_result - FOUND
+road_condition: observed_road_condition - FOUND
+vehicle_type: vehicle_type_assessed - FOUND
+evidence_reference: photo_or_document_reference - FOUND
+field_notes: field_observation_notes - FOUND
+review_decision: review_decision - FOUND
+reviewer: reviewer_name_or_id - FOUND
+review_date: review_date - FOUND
+review_notes: review_evidence_notes - FOUND
+physical_access_guardrail: physical_vehicle_access_confirmed - FOUND
+operational_guardrail: operational_facility_verified - FOUND
+routing_eligible: routing_eligible - FOUND
+
+MISSING EXPECTED COLUMNS
+None
+
+INTERPRETATION
+- PENDING_REVIEW is not treated as a completed review.
+- NOT_VISITED candidates are classified as AWAITING_FIELDWORK.
+- Blank field observations are not treated as failed inspections.
+- Source guardrail values are reported, not overwritten.
+- No candidate is approved for routing by this script.
+- READY_FOR_MANUAL_ROUTING_REVIEW is only a review queue.
+- Physical access requires actual field evidence; road proximity is insufficient.
+
+OUTPUTS
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g15_fieldwork_validation.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g15_fieldwork_validation_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g15_fieldwork_validation_audit.txt

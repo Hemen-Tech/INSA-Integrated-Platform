@@ -1,0 +1,66 @@
+============================================================================
+PHASE 2E.1 — BUFFER BOUNDARY CHECK
+============================================================================
+Source: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Analysis CRS: EPSG:32637
+Buffer distance: 5000 m
+Route origin: (474953.344, 699988.286)
+
+No existing road, graph, or Phase 2C output is modified.
+
+BOUNDARY CANDIDATES
+----------------------------------------------------------------------------
+Candidates found: 2
+
+CANDIDATE 1
+  OSM ID: 3306775
+  Name: ሲዳማ ክልል Sidama سيداما
+  Administrative class: admin_level4
+  Projected bounds: (379108.8528982146, 678542.6390090717, 514684.1275785108, 792115.5255750809)
+  Boundary area: 6867.680 km2
+  Origin inside 5 km buffer: True
+  Origin to buffer boundary: 0.000 m
+  Origin to Sidama polygon: 5000.000 m
+  Original road first coordinate inside buffer: False
+  Original road last coordinate inside buffer: False
+  First coordinate to buffer boundary: 1699.745 m
+  Last coordinate to buffer boundary: 52.681 m
+  Original road intersects buffer: True
+  Road length inside buffer: 9386.639 m
+
+CANDIDATE 2
+  OSM ID: 13422229
+  Name: Sidama
+  Administrative class: admin_level5
+  Projected bounds: (379108.8528982146, 678542.6390090717, 514684.1275785108, 792115.5255750809)
+  Boundary area: 6867.680 km2
+  Origin inside 5 km buffer: True
+  Origin to buffer boundary: 0.000 m
+  Origin to Sidama polygon: 5000.000 m
+  Original road first coordinate inside buffer: False
+  Original road last coordinate inside buffer: False
+  First coordinate to buffer boundary: 1699.745 m
+  Last coordinate to buffer boundary: 52.681 m
+  Original road intersects buffer: True
+  Road length inside buffer: 9386.639 m
+
+ORIGINAL ROAD CROSS-CHECK
+----------------------------------------------------------------------------
+Original road records: 1
+Original road geometry type: LineString
+Route origin to original road geometry: 0.000000 m
+Route origin to first original coordinate: 4248.186 m
+Route origin to last original coordinate: 53.592 m
+
+INTERPRETATION GUIDE
+----------------------------------------------------------------------------
+A very small origin-to-buffer-boundary distance suggests the
+origin may be at the clipping boundary, but is not proof by itself.
+If the origin is far from the buffer boundary and coincides with
+an endpoint of the original road, the source road itself ends there.
+If the origin is far from the buffer boundary but is not an endpoint
+of the original road, investigate clipping or geometry processing.
+Confirm which boundary candidate the Phase 2C v2 builder actually
+used before making any correction.
+
+No files from Phase 2C or Phase 2E were modified.

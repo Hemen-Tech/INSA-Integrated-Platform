@@ -1,0 +1,87 @@
+PNIS PHASE 2G.3 - ROAD SUITABILITY REVIEW REGISTER
+========================================================================
+Generated UTC: 2026-10-23T17:37:46.408509+00:00
+Project root: C:\Users\tadesse.yilma\projects\PNIS
+
+INPUT
+------------------------------------------------------------------------
+Source GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2c_v2_sidama_buffered_roads.gpkg
+Source layer: sidama_buffered_roads_v2
+Source CRS: EPSG:32637
+Original source columns: 11
+
+METHOD AND SAFETY LIMITS
+------------------------------------------------------------------------
+This register screens mapped road classes and attributes for manual review.
+It does not establish physical road condition, width, legal access,
+seasonal passability, bridge capacity, or vehicle suitability.
+No road is automatically approved or rejected for operational routing.
+All road records remain unverified and routing-ineligible.
+
+SUMMARY
+------------------------------------------------------------------------
+Road features: 21626
+Unique review IDs: 21626
+CRS used for length calculation: EPSG:32637 when source was geographic; otherwise source CRS
+Total mapped length (km): 14714.744
+Road classes available: 20
+
+ROAD CLASS COUNTS
+------------------------------------------------------------------------
+  footway: 165
+  path: 1230
+  pedestrian: 3
+  primary: 21
+  primary_link: 11
+  residential: 14628
+  secondary: 161
+  secondary_link: 22
+  service: 519
+  steps: 3
+  tertiary: 585
+  tertiary_link: 5
+  track: 513
+  track_grade2: 1
+  track_grade3: 10
+  track_grade4: 9
+  track_grade5: 1
+  trunk: 45
+  trunk_link: 3
+  unclassified: 3691
+
+VEHICLE-SUITABILITY SCREEN COUNTS
+------------------------------------------------------------------------
+  CLASS_NOT_OBVIOUSLY_RESTRICTIVE: 15481
+  POTENTIALLY_RESTRICTIVE: 1401
+  UNCLASSIFIED_FOR_VEHICLE_USE: 21
+  VEHICLE_SUITABILITY_UNCERTAIN: 4723
+
+REVIEW PRIORITY COUNTS
+------------------------------------------------------------------------
+  P1_CLASSIFICATION_REVIEW: 21
+  P1_RESTRICTIVE_CLASS_REVIEW: 1401
+  P2_SURFACE_AND_ACCESS_REVIEW: 4723
+  P3_STANDARD_FIELD_REVIEW: 15481
+
+VALIDATION CHECKS
+------------------------------------------------------------------------
+PASS - input_features_loaded: road_features=21626
+PASS - review_ids_unique: unique_review_ids=21626
+PASS - road_class_review_field_present: field_present=True
+PASS - review_priority_assigned: assigned=21626
+PASS - road_lengths_nonnegative: valid_lengths=21626
+PASS - field_verification_pending: non_pending=0
+PASS - vehicle_decisions_pending: non_pending=0
+PASS - no_roads_marked_verified: verified_yes=0
+PASS - no_roads_routing_eligible: routing_eligible_yes=0
+PASS - manual_review_fields_present: required manual review fields checked
+PASS - output_paths_are_phase2g3: csv=phase2g3_road_suitability_review_register.csv; audit=phase2g3_road_suitability_review_audit.txt
+
+Checks passed: 11
+Checks failed: 0
+Overall status: PASS
+
+OUTPUTS
+------------------------------------------------------------------------
+Review register CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g3_road_suitability_review_register.csv
+Audit TXT: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g3_road_suitability_review_audit.txt

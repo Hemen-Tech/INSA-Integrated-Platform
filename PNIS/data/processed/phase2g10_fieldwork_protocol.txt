@@ -1,0 +1,60 @@
+PNIS PHASE 2G.10 - FIELDWORK PREPARATION PROTOCOL
+Generated UTC: 2026-10-24T11:26:03.279417+00:00
+
+1. PURPOSE
+Prepare a controlled field verification process for the 255 candidate
+records in the Phase 2G.6 worklist. This package is for planning and
+recording future observations; it does not certify any candidate.
+
+2. VISIT PRIORITY
+The visit-priority plan follows the existing Phase 2G.5 risk queue,
+then the Phase 2G.6 review sequence, then candidate ID.
+This is NOT an optimized driving route. Grouping and route planning
+require field-team starting points, transport, and access information.
+
+3. BEFORE EACH VISIT
+- Confirm the candidate_record_id and planned coordinates.
+- Treat the mapped feature and its label as an unverified lead.
+- Prepare a way to record GPS coordinates, date, observer, and evidence.
+- Do not assume agricultural land is a verified farm or collection point.
+
+4. REQUIRED FIELD CHECKS
+- Establish the actual facility or farm identity and its function.
+- Record whether it is operating and the basis for that conclusion.
+- Record actual GPS coordinates and GPS accuracy where available.
+- Locate and record the physical entrance separately when practical.
+- Observe road surface and condition; record restrictions and seasonal
+  passability.
+- Record which vehicle types are supported and the evidence basis.
+- Record access permissions or legal restrictions when relevant.
+- Record evidence references, visit outcome, and required follow-up.
+
+5. EVIDENCE QUALITY
+Record only observations actually made and documents/photos actually
+collected or inspected. Use stable evidence references and dates.
+Distinguish direct observation, statements from a named source, and
+unverified assumptions. Do not fabricate missing values or evidence.
+
+6. FAILED OR INCOMPLETE VISITS
+Use the visit outcome and follow-up fields to document not found,
+inaccessible, closed, unsafe to approach, permission denied, or
+insufficient evidence as applicable. Do not treat a failed visit as
+proof that a facility does not exist. Schedule follow-up when needed.
+
+7. REVIEW AND ROUTING SAFEGUARD
+Field collection and approval are separate steps. A reviewer must
+assess facility identity, operation, coordinates, physical entrance,
+vehicle access, restrictions, and evidence quality before making a
+decision. Keep routing_eligible = NO unless a separate authorized
+review explicitly approves eligibility and updates the controlled
+routing dataset. Never infer approval from road proximity alone.
+
+8. CURRENT LIMITATION
+The current register has no confirmed field visits. The generated form
+contains blank observation fields and prefilled candidate identifiers
+and planned coordinates only. No real-world access or facility status
+is asserted by this package.
+
+SOURCE
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g6_field_verification_worklist.csv
+Existing source worklist was read only.

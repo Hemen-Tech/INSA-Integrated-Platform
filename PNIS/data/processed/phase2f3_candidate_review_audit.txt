@@ -1,0 +1,44 @@
+PHASE 2F.3 — CANDIDATE REVIEW AND PRIORITIZATION
+================================================================
+Generated UTC: 2026-10-23T16:30:19.978801+00:00
+Status: completed
+
+Input: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f2_osm_facility_candidates_spatially_classified_v1.csv
+Rows in register: 497
+Unique candidate IDs: 497
+Inside Sidama: 255
+Source-layer counts for inside candidates sum to: 255
+Blank coordinate cells (longitude + latitude): 0
+Non-numeric/missing coordinate values: 0
+
+SPATIAL CLASSIFICATION COUNTS
+  BOUNDARY_REVIEW: 3
+  INSIDE_SIDAMA: 255
+  OUTSIDE_SIDAMA: 239
+
+REVIEW PRIORITY COUNTS
+  OUTSIDE_INITIAL_SCOPE: 239
+  HIGH: 117
+  LOW: 78
+  MEDIUM: 60
+  BOUNDARY_REVIEW: 3
+
+INSIDE-SIDAMA SOURCE LAYER COUNTS
+  gis_osm_landuse_a_free: 148
+  gis_osm_places_free: 55
+  gis_osm_pois_free: 35
+  gis_osm_pois_a_free: 9
+  gis_osm_buildings_a_free: 6
+  gis_osm_places_a_free: 2
+
+SAFETY VALIDATION
+Non-UNVERIFIED rows: 0
+Rows confirmed operational: 0
+Rows approved for operational routing: 0
+
+LIMITATIONS
+- Priorities are proposed review order, not verified facility status.
+- OSM tags do not establish actual market, warehouse, farm, or collection-point function.
+- Outside-Sidama candidates are retained, not deleted.
+- Boundary-review candidates remain flagged for review.
+- No candidate is approved for operational routing.

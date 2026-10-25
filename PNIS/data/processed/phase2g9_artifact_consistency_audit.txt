@@ -1,0 +1,22 @@
+﻿PNIS PHASE 2G.9 - ARTIFACT CONSISTENCY AUDIT
+Generated UTC: 2026-10-24T11:21:41Z
+Expected candidate population: 255
+Successfully loaded input files: 8 of 8
+Summary rows written: 8
+Field observation records with visit date or observer entered: 0
+Issue records: 0
+
+INPUT SUMMARY
+------------------------------------------------------------
+phase2g1_candidate_road_proximity_register.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g2_access_review_register.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g4_candidate_road_access_review_register_v2.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g5_candidate_access_risk_register_v2.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g6_field_verification_worklist.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g6_evidence_register.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g7_field_observation_register.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+phase2g8_candidate_review_checklist.csv | rows=255 | unique_ids=255 | blank_ids=0 | duplicate_id_rows=0
+------------------------------------------------------------
+Status: PASS - all eight inputs summarized; defined checks found no issues.
+
+LIMITATION: This audit does not establish real-world facility access or approve routing.

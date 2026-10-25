@@ -1,0 +1,74 @@
+PHASE 2G.5 V2 — CANDIDATE ACCESS RISK PRIORITIZATION AUDIT
+========================================================================
+Generated UTC: 2026-10-24T03:34:00.656345+00:00
+Status: completed
+
+INPUTS
+Phase 2G.2: data\processed\phase2g2_access_review_register.csv
+Phase 2G.4 v2: data\processed\phase2g4_candidate_road_access_review_register_v2.csv
+Phase 2G.2 priority label field: phase2g2_review_priority
+
+METHOD
+Original Phase 2G.2 priority is preserved as a distance-only priority.
+A separate access-risk screen flags candidates over 500 m from mapped roads
+and candidates whose nearest road class is potentially restrictive.
+Candidates 250–500 m from mapped roads receive elevated review unless
+a higher-risk condition applies.
+No road or facility is declared passable, physically accessible, or operational.
+
+RESULTS
+Candidate rows: 255
+Output rows: 255
+Candidates over 250 m: 26
+Candidates over 500 m: 13
+Candidates nearest to potentially restrictive classes: 12
+
+ORIGINAL PHASE 2G.2 DISTANCE PRIORITIES
+phase2g2_distance_priority
+P1     13
+P2     13
+P3     34
+P4    195
+
+INDEPENDENT ACCESS-RISK SCREEN
+phase2g5_access_risk_screen_v2
+STANDARD_REVIEW    217
+HIGH_REVIEW         25
+ELEVATED_REVIEW     13
+
+NEAREST ROAD CLASSES
+nearest_road_fclass
+residential     81
+unclassified    81
+tertiary        45
+secondary       18
+service          9
+trunk            8
+track            4
+footway          3
+pedestrian       3
+path             2
+primary          1
+
+SAFETY
+Physical vehicle access confirmed: 0
+Operational facility verified: 0
+Routing eligible: 0
+All candidates remain pending field verification.
+
+OUTPUT
+data\processed\phase2g5_candidate_access_risk_register_v2.csv
+
+VALIDATION
+PASS: Candidate row count preserved
+PASS: Candidate IDs unique
+PASS: All candidates matched to original distance priority
+PASS: All distances valid
+PASS: All queue positions unique
+PASS: All original priority labels valid
+PASS: All access remains unconfirmed
+PASS: All facilities remain unverified
+PASS: All candidates remain routing-ineligible
+PASS: All decisions remain pending
+
+Original Phase 2G.5 and earlier phase outputs were not modified.

@@ -1,0 +1,71 @@
+========================================================================
+PHASE 2E.1 — ORIGINAL SOURCE INSPECTION
+========================================================================
+Source GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Target road OSM ID: 620921089
+
+AVAILABLE LAYERS
+------------------------------------------------------------------------
+gis_osm_places_free | geometry=Point
+gis_osm_traffic_free | geometry=Point
+gis_osm_pois_free | geometry=Point
+gis_osm_transport_free | geometry=Point
+gis_osm_natural_free | geometry=Point
+gis_osm_pofw_free | geometry=Point
+gis_osm_roads_free | geometry=LineString
+gis_osm_waterways_free | geometry=LineString
+gis_osm_pois_a_free | geometry=MultiPolygon
+gis_osm_protected_areas_a_free | geometry=MultiPolygon
+gis_osm_places_a_free | geometry=MultiPolygon
+gis_osm_adminareas_a_free | geometry=MultiPolygon
+gis_osm_landuse_a_free | geometry=MultiPolygon
+gis_osm_water_a_free | geometry=MultiPolygon
+gis_osm_traffic_a_free | geometry=MultiPolygon
+gis_osm_buildings_a_free | geometry=MultiPolygon
+gis_osm_transport_a_free | geometry=MultiPolygon
+gis_osm_natural_a_free | geometry=MultiPolygon
+gis_osm_pofw_a_free | geometry=MultiPolygon
+gis_osm_railways_free | geometry=LineString
+
+SOURCE ROAD LAYER
+------------------------------------------------------------------------
+Layer: gis_osm_roads_free
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id', 'code', 'fclass', 'name', 'ref', 'oneway', 'maxspeed', 'layer', 'bridge', 'tunnel']
+
+TARGET ROAD RESULT
+------------------------------------------------------------------------
+Matching records: 1
+Road attributes CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_original_road_620921089.csv
+
+Feature index: 0
+{"osm_id": "620921089", "code": "5115", "fclass": "tertiary", "name": "", "ref": "", "oneway": "B", "maxspeed": "0", "layer": "0", "bridge": "F", "tunnel": "F"}
+Geometry type: LineString
+Empty: False
+Length in source CRS units: 0.10661404238180228
+Bounds: (38.7731404, 6.2978207, 38.8161968, 6.3353804)
+Line parts: 1
+Part 1: vertices=225
+  First coordinate: (38.7917563, 6.2988733)
+  Last coordinate:  (38.7731404, 6.3324316)
+
+ADMINISTRATIVE BOUNDARY LAYER
+------------------------------------------------------------------------
+Layer: gis_osm_adminareas_a_free
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id', 'code', 'fclass', 'name']
+Administrative features loaded: 258
+Name/admin candidate fields: ['name']
+Rows containing 'Sidama': 2
+Sidama candidate attributes:
+  osm_id  code       fclass                  name
+ 3306775  1204 admin_level4 ሲዳማ ክልል Sidama سيداما
+13422229  1205 admin_level5                Sidama
+Boundary candidate CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_sidama_boundary_candidates.csv
+
+INTERPRETATION
+------------------------------------------------------------------------
+This inspection identifies source features and boundary candidates.
+It does not yet determine whether the route origin is on the buffer
+boundary. That requires comparing projected geometries.
+No source data or existing Phase 2 outputs were modified.

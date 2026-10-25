@@ -1,0 +1,37 @@
+PHASE 2G.4 V2 — CANDIDATE TO NEAREST-ROAD LINKAGE AUDIT
+========================================================================
+Generated UTC: 2026-10-23T20:20:37.762554+00:00
+Status: completed
+
+INPUTS
+Candidates: data\processed\phase2g1_candidate_road_proximity_register.csv
+Road network: data\processed\phase2c_v2_sidama_buffered_roads.gpkg | layer=sidama_buffered_roads_v2
+Road suitability review: data\processed\phase2g3_road_suitability_review_register.csv
+
+RESULTS
+Candidate rows: 255
+Output rows: 255
+Road features considered: 21626
+Candidate coordinates valid: 255/255
+Candidates with recalculated distance: 255
+Unique Phase 2G.3 OSM ID linkages: 255
+Max absolute distance difference vs Phase 2G.1 (m): 0.0004980618088410438
+
+LINKAGE STATUS COUNTS
+MATCHED_UNIQUE_OSM_ID: 255
+
+SAFETY
+Physical vehicle access confirmed: 0
+Operational facility verified: 0
+Routing eligible: 0
+Nearest-road proximity is not proof of physical access.
+
+OUTPUT
+data\processed\phase2g4_candidate_road_access_review_register_v2.csv
+
+VALIDATION
+Unique candidate IDs: True
+Row count preserved: True
+All recalculated distances present: True
+All candidates routing-ineligible: True
+All candidates access-unconfirmed: True

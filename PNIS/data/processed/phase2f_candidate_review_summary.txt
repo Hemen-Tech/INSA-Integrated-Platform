@@ -1,0 +1,421 @@
+PHASE 2F — CANDIDATE REVIEW REGISTER
+========================================================================
+Generated UTC: 2026-10-22T21:36:45.650022+00:00
+Input: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_osm_facility_candidates.csv
+Output: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_candidate_review_register.csv
+
+Input rows: 497
+Output rows: 497
+Rows with repeated OSM ID across input: 4
+Rows repeated within same layer and OSM ID: 0
+
+REVIEW GROUP COUNTS
+------------------------------------------------------------------------
+INDUSTRIAL_SITE_CANDIDATE: 161
+SETTLEMENT_REFERENCE: 123
+AGRICULTURAL_SITE_CANDIDATE: 68
+AGRICULTURAL_LAND_ONLY: 68
+OTHER_POI_REVIEW: 26
+MARKET_CANDIDATE: 23
+BUILDING_CANDIDATE: 17
+RETAIL_OR_FOOD_MARKET_CANDIDATE: 11
+
+SOURCE LAYER COUNTS
+------------------------------------------------------------------------
+gis_osm_places_free: 113
+gis_osm_buildings_a_free: 17
+gis_osm_places_a_free: 10
+1038221072 industrial: 1
+1047780396 farmland: 1
+1047781150 farmland: 1
+1047781152 farmland: 1
+1047781153 farmland: 1
+990872069 industrial: 1
+929180564 farmyard: 1
+9635879467 supermarket mini_market: 1
+976481890 farmyard: 1
+976481891 farmyard: 1
+977074333 farmyard: 1
+977077414 farmyard: 1
+983719999 farmyard: 1
+984960958 farmyard: 1
+986034136 farmyard: 1
+986039528 farmyard: 1
+986039533 farmyard: 1
+986455547 farmyard: 1
+986468985 farmyard: 1
+986468991 marketplace: 1
+1047807318 farmland: 1
+11671567529 town_hall kercheche muncipality: 1
+12463790297 marketplace: 1
+1253231388 marketplace: 1
+1255491622 marketplace livestock market: 1
+12638046297 town_hall sida hall: 1
+12638058147 town_hall sida hall: 1
+12638113855 town_hall sida hall: 1
+1265793974 marketplace market: 1
+12843634601 beauty_shop medi decor: 1
+1319934035 industrial: 1
+1319934038 industrial: 1
+1319934041 industrial: 1
+1319934043 industrial: 1
+1319934045 industrial: 1
+1319934046 industrial: 1
+1319934047 industrial: 1
+1319934048 industrial: 1
+1319934049 industrial: 1
+1319934050 industrial: 1
+1319934051 industrial: 1
+1319934052 industrial: 1
+1319934053 industrial: 1
+1319934054 industrial: 1
+1319934057 industrial: 1
+1319934059 industrial: 1
+1319934060 industrial: 1
+1319963193 industrial: 1
+1319963194 industrial: 1
+1319963195 industrial: 1
+1319963203 industrial: 1
+1319963205 industrial: 1
+1319963206 industrial: 1
+1319963210 industrial: 1
+1319963212 industrial: 1
+1319963213 industrial: 1
+1319963214 industrial: 1
+1319963215 industrial: 1
+1319963216 industrial: 1
+1319963218 industrial: 1
+1319963220 industrial: 1
+1319963221 industrial: 1
+1319963223 industrial: 1
+1319963224 industrial: 1
+1319963225 industrial: 1
+1319963227 industrial: 1
+1319963228 industrial: 1
+1319963229 industrial: 1
+1319963232 industrial: 1
+1319963233 industrial: 1
+1319982534 industrial: 1
+1319982542 industrial: 1
+1319982548 industrial: 1
+1319982549 industrial: 1
+1319982550 industrial: 1
+1319982552 industrial: 1
+1319982553 industrial: 1
+1319982554 industrial: 1
+1319982555 industrial: 1
+1319982556 industrial: 1
+1320134008 farmyard: 1
+1320134009 farmyard: 1
+1320134010 farmyard: 1
+1320134011 industrial: 1
+1320134012 industrial: 1
+1320134013 industrial: 1
+1320134030 industrial: 1
+1320231534 industrial coffee processing plant: 1
+1320231536 industrial: 1
+1320231538 industrial: 1
+1320231540 industrial: 1
+1320231543 industrial: 1
+1320231544 industrial: 1
+1320425966 industrial: 1
+1320425967 industrial: 1
+1320425968 industrial: 1
+1320425969 industrial: 1
+1320425970 industrial: 1
+1320425976 industrial: 1
+1320425977 industrial: 1
+1320495446 industrial: 1
+1320495450 industrial: 1
+1320551622 industrial: 1
+1321486317 industrial: 1
+1322160108 industrial: 1
+1344477626 industrial: 1
+1344477627 industrial: 1
+1350438237 industrial: 1
+1350438238 industrial: 1
+1350438239 industrial: 1
+1350438240 industrial: 1
+1350438241 industrial: 1
+1350438242 industrial: 1
+1350438243 industrial: 1
+1350438244 industrial: 1
+1350438246 industrial: 1
+1350438247 industrial: 1
+1350438248 industrial: 1
+1350438249 industrial: 1
+1350438250 industrial: 1
+1350438251 industrial: 1
+1350438252 industrial: 1
+1350438253 industrial: 1
+1350438254 industrial: 1
+1350438255 industrial: 1
+1350438256 industrial: 1
+1350438257 industrial: 1
+1350438258 industrial: 1
+1350438259 industrial: 1
+1356253666 industrial: 1
+184972703 farmland: 1
+184972711 farmland: 1
+184972754 farmland: 1
+1955436424 school ardayita agricultural training college: 1
+1969968438 marketplace saturday market: 1
+20460439 farmland: 1
+210047885 residential kela town: 1
+2821530 farmland: 1
+298296165 supermarket ሻሸመኔ / shashamane: 1
+3003215861 college hawassa agricultural college: 1
+3003215862 marketplace hawassa open market: 1
+302690327 marketplace: 1
+314453062 marketplace: 1
+328833279 attraction fish market: 1
+328833279 marketplace fish market: 1
+382738733 farmland: 1
+392704675 fast_food old library cafeteria: 1
+404672690 marketplace: 1
+421235285 farmland: 1
+421323081 industrial: 1
+421483001 industrial: 1
+4340620890 supermarket hawassa supermarket: 1
+447873668 industrial: 1
+4486578390 supermarket abazir supermarket: 1
+4486590492 gift_shop: 1
+4486590493 gift_shop: 1
+4498589365 marketplace goat market: 1
+4504644889 supermarket: 1
+451333454 convenience mini shop: 1
+4524469558 marketplace አድሱ ገቢያ / addisu geyiya: 1
+4563155053 kiosk fruit market: 1
+4583755942 marketplace: 1
+473783581 farmland: 1
+473783582 farmland: 1
+473783583 farmland: 1
+473783584 farmland: 1
+4747188433 marketplace: 1
+4806382222 computer_shop ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና: 1
+4861397668 supermarket ዮካሞ / yokamo shop: 1
+493344680 industrial: 1
+507851032 industrial: 1
+5277497122 fast_food: 1
+5277497124 supermarket hany supermarket: 1
+5296405121 computer_shop: 1
+5302435923 mobile_phone_shop ዴቭ ሞባይል ጥገና እና አክሰሰሪ: 1
+5336092488 marketplace: 1
+542557632 marketplace: 1
+542557640 industrial: 1
+547783274 farmyard: 1
+615611394 industrial: 1
+615639380 industrial: 1
+615639397 farmyard: 1
+615639398 farmyard: 1
+615639399 industrial: 1
+615639400 industrial: 1
+615639414 industrial: 1
+615639415 farmyard: 1
+615639416 industrial: 1
+615641836 industrial: 1
+615641837 industrial: 1
+615641840 industrial: 1
+615641843 industrial: 1
+615641845 industrial: 1
+615641847 industrial: 1
+615641849 industrial: 1
+618969496 farmland: 1
+618969497 farmland: 1
+618969498 farmland: 1
+618987054 farmland: 1
+618987055 farmland: 1
+618987056 farmland: 1
+618987057 farmland: 1
+620708117 farmland: 1
+620708118 farmland: 1
+620708119 farmland: 1
+620708120 farmland: 1
+620708121 farmland: 1
+620708122 farmland: 1
+620708964 farmland: 1
+620716868 farmland: 1
+620716869 farmland: 1
+620716870 farmland: 1
+620716977 farmland: 1
+620717582 farmland: 1
+620717583 farmland: 1
+621297177 farmland: 1
+621297178 farmland: 1
+6326453400 fast_food ሲና: 1
+6463584087 bicycle_shop የሳይክል ጥገና: 1
+6463584289 furniture_shop: 1
+6463585585 furniture_shop: 1
+6622350986 marketplace: 1
+6622350992 town_hall bona zuria woreda administration: 1
+6622509313 marketplace: 1
+6839511085 supermarket አበዚር ሱፔርማ: 1
+6926665785 bookshop: 1
+6926665985 mobile_phone_shop: 1
+706395714 industrial ceramic fabric: 1
+7222099364 clothes wedding dress shop: 1
+7319781285 fast_food አናሞ ፋስት ፉድ እና ጁስ ሀውስ: 1
+743185275 industrial hawassa industrial park: 1
+743185906 industrial: 1
+8065197286 supermarket ሴፍ ዌይ ሱፐር ማርኬት: 1
+887912714 marketplace: 1
+894511264 farmland: 1
+894511265 farmland: 1
+894581918 farmland: 1
+894582677 farmland: 1
+894582678 farmland: 1
+894583945 farmland: 1
+894585025 farmland: 1
+894585026 farmland: 1
+894587325 farmland: 1
+894587326 farmland: 1
+894587327 farmland: 1
+903956348 marketplace ገባያ: 1
+903970957 marketplace: 1
+914871055 farmland bombe washing station: 1
+917734751 industrial: 1
+917734752 farmland: 1
+917734753 farmland: 1
+917734754 farmyard: 1
+917787106 industrial: 1
+917787107 industrial: 1
+917787111 industrial: 1
+917787112 industrial: 1
+917787113 industrial: 1
+917787114 industrial: 1
+917803746 industrial: 1
+917803749 industrial: 1
+917803753 industrial: 1
+917838342 farmland: 1
+918607511 industrial: 1
+918635130 industrial: 1
+918682559 industrial: 1
+918682562 industrial: 1
+918682563 industrial: 1
+918682565 industrial: 1
+918682566 industrial: 1
+918682567 industrial: 1
+918682568 industrial: 1
+918682569 industrial: 1
+918682570 industrial: 1
+918682571 industrial: 1
+918682572 farmyard: 1
+918682573 industrial: 1
+929038257 industrial: 1
+929112401 farmyard: 1
+929112402 industrial: 1
+929112403 farmyard: 1
+929112404 farmyard: 1
+929112405 farmyard: 1
+929112407 industrial: 1
+929112408 industrial: 1
+929112409 industrial: 1
+929112410 farmyard: 1
+929112412 farmyard: 1
+929112413 farmyard: 1
+929112415 farmyard: 1
+929112416 farmyard: 1
+929112417 farmyard: 1
+929112418 industrial: 1
+929112419 industrial: 1
+929112420 farmyard: 1
+929112421 farmyard: 1
+929112423 industrial: 1
+929112424 farmyard: 1
+929112425 farmyard: 1
+929112426 farmyard: 1
+929112427 farmyard: 1
+929112428 farmyard: 1
+929112430 industrial: 1
+929112431 industrial: 1
+929112432 industrial: 1
+929112433 farmyard: 1
+929112434 farmyard: 1
+929112435 farmyard: 1
+929112436 farmyard: 1
+929112437 industrial: 1
+929112438 farmyard: 1
+929112439 farmyard: 1
+929112440 farmyard: 1
+929112441 farmyard: 1
+929112442 industrial: 1
+929112445 farmyard: 1
+929112447 industrial: 1
+929112448 farmyard: 1
+929112450 industrial: 1
+929112451 farmyard: 1
+929112452 farmyard: 1
+929180539 farmyard: 1
+929180541 industrial: 1
+929180546 farmyard: 1
+929180560 farmyard: 1
+929180562 farmyard: 1
+1047807316 farmland: 1
+990895333 marketplace: 1
+991206588 farmyard: 1
+995266383 farmyard: 1
+995266395 farmyard: 1
+995266397 farmyard: 1
+995277260 farmyard: 1
+995296526 farmyard: 1
+995308039 farmyard: 1
+995349837 farmyard: 1
+995398027 farmyard: 1
+995927218 farmyard: 1
+996707198 farmyard: 1
+1047848415 farmyard: 1
+10246100009 computer_shop ኢትዮ ኮምፒውተር እስኩል: 1
+1049512211 farmland: 1
+929180563 farmyard: 1
+1047864554 farmland: 1
+1047949092 farmland: 1
+1047952732 farmland: 1
+1048025688 farmland: 1
+1048025689 farmland: 1
+1048177625 farmland: 1
+1048177628 farmland: 1
+1048280893 farmyard farm_yard: 1
+1049270248 farmland: 1
+1049274425 farmland: 1
+1049510949 farmland: 1
+1049511554 farmland: 1
+1049511778 farmland: 1
+1049512129 farmland: 1
+990156842 industrial: 1
+
+FEATURE CLASS COUNTS
+------------------------------------------------------------------------
+industrial: 161
+village: 86
+farmland: 68
+farmyard: 68
+town: 37
+marketplace: 23
+building: 17
+supermarket: 9
+town_hall: 5
+fast_food: 4
+computer_shop: 3
+mobile_phone_shop: 2
+furniture_shop: 2
+gift_shop: 2
+beauty_shop: 1
+attraction: 1
+college: 1
+clothes: 1
+bicycle_shop: 1
+bookshop: 1
+kiosk: 1
+convenience: 1
+school: 1
+residential: 1
+
+CONTROL NOTES
+------------------------------------------------------------------------
+All candidates remain UNVERIFIED.
+No candidate is approved for operational routing.
+Farmland is not equivalent to a farm facility.
+Industrial land is not equivalent to a warehouse.
+Settlement references are not operational facilities.
+Duplicate IDs are flagged, not automatically deleted.
+No source GeoPackage or Phase 2C/2E output was modified.

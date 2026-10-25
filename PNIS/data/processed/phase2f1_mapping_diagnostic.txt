@@ -1,0 +1,100 @@
+==============================================================================
+PHASE 2F.1 — ORIGINAL CSV MAPPING DIAGNOSTIC
+==============================================================================
+Rows: 497
+Columns: ['osm_id', 'code', 'fclass', 'population', 'name', 'source_layer', 'candidate_match_text', 'candidate_status', 'geometry_wkt']
+Recognized GeoPackage layers: 20
+
+EXACT LAYER-NAME MATCH COUNTS BY COLUMN
+osm_id: 0
+code: 0
+fclass: 0
+population: 0
+name: 357
+source_layer: 140
+candidate_match_text: 0
+candidate_status: 0
+geometry_wkt: 0
+
+SAMPLE ROWS WITH PLACE NAMES IN THE 'name' COLUMN
+Rows whose name value is not a GeoPackage layer: 140
+osm_id=237524640 | code=1002 | fclass=town | population=0 | name=ይርጋለም / Yirgalem | source_layer=gis_osm_places_free | candidate_match_text=237524640 town ይርጋለም / yirgalem | candidate_status=unverified_osm_candidate_requires_review
+osm_id=319213876 | code=1002 | fclass=town | population=0 | name=Hantate | source_layer=gis_osm_places_free | candidate_match_text=319213876 town hantate | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1104301696 | code=1002 | fclass=town | population=0 | name=Agre Salam | source_layer=gis_osm_places_free | candidate_match_text=1104301696 town agre salam | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1149030656 | code=1002 | fclass=town | population=0 | name=ሾኔ / Shone | source_layer=gis_osm_places_free | candidate_match_text=1149030656 town ሾኔ / shone | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1149030682 | code=1003 | fclass=village | population=0 | name=Mazoriya | source_layer=gis_osm_places_free | candidate_match_text=1149030682 village mazoriya | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150883265 | code=1002 | fclass=town | population=0 | name=Magaalaa Dodola/ዶዶላ | source_layer=gis_osm_places_free | candidate_match_text=1150883265 town magaalaa dodola/ዶዶላ | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150886917 | code=1002 | fclass=town | population=0 | name=Ropi | source_layer=gis_osm_places_free | candidate_match_text=1150886917 town ropi | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150889653 | code=1002 | fclass=town | population=0 | name=Bore | source_layer=gis_osm_places_free | candidate_match_text=1150889653 town bore | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150898630 | code=1003 | fclass=village | population=0 | name=Abela Lida | source_layer=gis_osm_places_free | candidate_match_text=1150898630 village abela lida | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150899285 | code=1002 | fclass=town | population=50000 | name=Bona Qabelanka | source_layer=gis_osm_places_free | candidate_match_text=1150899285 town bona qabelanka | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150900107 | code=1002 | fclass=town | population=0 | name=Arbe Gona | source_layer=gis_osm_places_free | candidate_match_text=1150900107 town arbe gona | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150909673 | code=1003 | fclass=village | population=0 | name=Dembara | source_layer=gis_osm_places_free | candidate_match_text=1150909673 village dembara | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150913202 | code=1002 | fclass=town | population=0 | name=Kefole | source_layer=gis_osm_places_free | candidate_match_text=1150913202 town kefole | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150913362 | code=1003 | fclass=village | population=0 | name=Hoghiso | source_layer=gis_osm_places_free | candidate_match_text=1150913362 village hoghiso | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150914885 | code=1003 | fclass=village | population=0 | name=Teferi Kela | source_layer=gis_osm_places_free | candidate_match_text=1150914885 village teferi kela | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150919179 | code=1002 | fclass=town | population=0 | name=K'Ore / Qoree | source_layer=gis_osm_places_free | candidate_match_text=1150919179 town k'ore / qoree | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150919290 | code=1003 | fclass=village | population=0 | name=Wenago | source_layer=gis_osm_places_free | candidate_match_text=1150919290 village wenago | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150920620 | code=1002 | fclass=town | population=0 | name=Kokosa | source_layer=gis_osm_places_free | candidate_match_text=1150920620 town kokosa | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150923029 | code=1003 | fclass=village | population=0 | name=Fisiha Gennet | source_layer=gis_osm_places_free | candidate_match_text=1150923029 village fisiha gennet | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150933498 | code=1002 | fclass=town | population=0 | name=አለታ ወንዶ / Aleta Wondo | source_layer=gis_osm_places_free | candidate_match_text=1150933498 town አለታ ወንዶ / aleta wondo | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150938787 | code=1003 | fclass=village | population=0 | name=Lok'E | source_layer=gis_osm_places_free | candidate_match_text=1150938787 village lok'e | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150945650 | code=1003 | fclass=village | population=0 | name=Bule | source_layer=gis_osm_places_free | candidate_match_text=1150945650 village bule | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150945689 | code=1003 | fclass=village | population=0 | name=Uolabo | source_layer=gis_osm_places_free | candidate_match_text=1150945689 village uolabo | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150967112 | code=1002 | fclass=town | population=0 | name=Yiriga Cheffe | source_layer=gis_osm_places_free | candidate_match_text=1150967112 town yiriga cheffe | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150968178 | code=1003 | fclass=village | population=0 | name=Mejo | source_layer=gis_osm_places_free | candidate_match_text=1150968178 village mejo | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150969992 | code=1003 | fclass=village | population=0 | name=Guguma | source_layer=gis_osm_places_free | candidate_match_text=1150969992 village guguma | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1150981107 | code=1003 | fclass=village | population=0 | name=ወንዶ ገነት / Wondo Genet | source_layer=gis_osm_places_free | candidate_match_text=1150981107 village ወንዶ ገነት / wondo genet | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1195526426 | code=1002 | fclass=town | population=0 | name=Chucko | source_layer=gis_osm_places_free | candidate_match_text=1195526426 town chucko | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1445206208 | code=1003 | fclass=village | population=0 | name=Deneba | source_layer=gis_osm_places_free | candidate_match_text=1445206208 village deneba | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1445206306 | code=1003 | fclass=village | population=0 | name=Deneba (Upper) | source_layer=gis_osm_places_free | candidate_match_text=1445206306 village deneba (upper) | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1445259708 | code=1002 | fclass=town | population=0 | name=Woncho | source_layer=gis_osm_places_free | candidate_match_text=1445259708 town woncho | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1445259753 | code=1002 | fclass=town | population=0 | name=Wabe | source_layer=gis_osm_places_free | candidate_match_text=1445259753 town wabe | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1445259849 | code=1002 | fclass=town | population=0 | name=Edo | source_layer=gis_osm_places_free | candidate_match_text=1445259849 town edo | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1445259862 | code=1002 | fclass=town | population=0 | name=Ashoka Velag | source_layer=gis_osm_places_free | candidate_match_text=1445259862 town ashoka velag | candidate_status=unverified_osm_candidate_requires_review
+osm_id=1507698951 | code=1003 | fclass=village | population=0 | name=ሌንዳ / Lenda | source_layer=gis_osm_places_free | candidate_match_text=1507698951 village ሌንዳ / lenda | candidate_status=unverified_osm_candidate_requires_review
+
+ROWS WHERE 'source_layer' LOOKS LIKE AN ID/CLASS/NAME STRING
+Rows with source_layer not matching a real layer: 357
+osm_id=298296165 | code=2501 | fclass=supermarket | population=ሻሸመኔ / Shashamane | name=gis_osm_pois_free | source_layer=298296165 supermarket ሻሸመኔ / shashamane | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.595078 7.200704)
+osm_id=1955436424 | code=2082 | fclass=school | population=Ardayita Agricultural Training College | name=gis_osm_pois_free | source_layer=1955436424 school ardayita agricultural training college | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (39.064709 7.085138)
+osm_id=1969968438 | code=2016 | fclass=marketplace | population=Saturday Market | name=gis_osm_pois_free | source_layer=1969968438 marketplace saturday market | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (39.182905 6.972412)
+osm_id=3003215861 | code=2084 | fclass=college | population=Hawassa Agricultural College | name=gis_osm_pois_free | source_layer=3003215861 college hawassa agricultural college | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.471812 7.055532)
+osm_id=3003215862 | code=2016 | fclass=marketplace | population=Hawassa Open Market | name=gis_osm_pois_free | source_layer=3003215862 marketplace hawassa open market | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.474639 7.058189)
+osm_id=4340620890 | code=2501 | fclass=supermarket | population=Hawassa Supermarket | name=gis_osm_pois_free | source_layer=4340620890 supermarket hawassa supermarket | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.478801 7.046676)
+osm_id=4486578390 | code=2501 | fclass=supermarket | population=Abazir Supermarket | name=gis_osm_pois_free | source_layer=4486578390 supermarket abazir supermarket | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.477181 7.04866)
+osm_id=4486590492 | code=2521 | fclass=gift_shop | population= | name=gis_osm_pois_free | source_layer=4486590492 gift_shop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.474973 7.050873)
+osm_id=4486590493 | code=2521 | fclass=gift_shop | population= | name=gis_osm_pois_free | source_layer=4486590493 gift_shop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.474772 7.050842)
+osm_id=4498589365 | code=2016 | fclass=marketplace | population=Goat Market | name=gis_osm_pois_free | source_layer=4498589365 marketplace goat market | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.49361 7.057864)
+osm_id=4504644889 | code=2501 | fclass=supermarket | population= | name=gis_osm_pois_free | source_layer=4504644889 supermarket  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.490079 7.047588)
+osm_id=4524469558 | code=2016 | fclass=marketplace | population=አድሱ ገቢያ / Addisu Geyiya | name=gis_osm_pois_free | source_layer=4524469558 marketplace አድሱ ገቢያ / addisu geyiya | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.495359 7.021138)
+osm_id=4563155053 | code=2503 | fclass=kiosk | population=Fruit Market | name=gis_osm_pois_free | source_layer=4563155053 kiosk fruit market | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.486511 7.048857)
+osm_id=4583755942 | code=2016 | fclass=marketplace | population= | name=gis_osm_pois_free | source_layer=4583755942 marketplace  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.477601 7.036222)
+osm_id=4747188433 | code=2016 | fclass=marketplace | population= | name=gis_osm_pois_free | source_layer=4747188433 marketplace  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.29256 7.081661)
+osm_id=4806382222 | code=2546 | fclass=computer_shop | population=ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና | name=gis_osm_pois_free | source_layer=4806382222 computer_shop ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.484719 7.049678)
+osm_id=4861397668 | code=2501 | fclass=supermarket | population=ዮካሞ / Yokamo Shop | name=gis_osm_pois_free | source_layer=4861397668 supermarket ዮካሞ / yokamo shop | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.47966 7.03901)
+osm_id=5277497122 | code=2302 | fclass=fast_food | population= | name=gis_osm_pois_free | source_layer=5277497122 fast_food  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.464692 7.04935)
+osm_id=5277497124 | code=2501 | fclass=supermarket | population=Hany Supermarket | name=gis_osm_pois_free | source_layer=5277497124 supermarket hany supermarket | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.467202 7.05016)
+osm_id=5296405121 | code=2546 | fclass=computer_shop | population= | name=gis_osm_pois_free | source_layer=5296405121 computer_shop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.484237 7.034997)
+osm_id=5302435923 | code=2525 | fclass=mobile_phone_shop | population=ዴቭ ሞባይል ጥገና እና አክሰሰሪ | name=gis_osm_pois_free | source_layer=5302435923 mobile_phone_shop ዴቭ ሞባይል ጥገና እና አክሰሰሪ | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.486028 7.049829)
+osm_id=5336092488 | code=2016 | fclass=marketplace | population= | name=gis_osm_pois_free | source_layer=5336092488 marketplace  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.583109 6.877039)
+osm_id=6326453400 | code=2302 | fclass=fast_food | population=ሲና | name=gis_osm_pois_free | source_layer=6326453400 fast_food ሲና | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.467334 7.046153)
+osm_id=6463584087 | code=2542 | fclass=bicycle_shop | population=የሳይክል ጥገና | name=gis_osm_pois_free | source_layer=6463584087 bicycle_shop የሳይክል ጥገና | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.306494 6.415374)
+osm_id=6463584289 | code=2544 | fclass=furniture_shop | population= | name=gis_osm_pois_free | source_layer=6463584289 furniture_shop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.309688 6.415532)
+osm_id=6463585585 | code=2544 | fclass=furniture_shop | population= | name=gis_osm_pois_free | source_layer=6463585585 furniture_shop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.312651 6.413393)
+osm_id=6622350986 | code=2016 | fclass=marketplace | population= | name=gis_osm_pois_free | source_layer=6622350986 marketplace  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.712274 6.528464)
+osm_id=6622350992 | code=2008 | fclass=town_hall | population=Bona Zuria Woreda Administration | name=gis_osm_pois_free | source_layer=6622350992 town_hall bona zuria woreda administration | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.714867 6.530468)
+osm_id=6622509313 | code=2016 | fclass=marketplace | population= | name=gis_osm_pois_free | source_layer=6622509313 marketplace  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.74105 6.511926)
+osm_id=6839511085 | code=2501 | fclass=supermarket | population=አበዚር ሱፔርማ | name=gis_osm_pois_free | source_layer=6839511085 supermarket አበዚር ሱፔርማ | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.475452 7.050436)
+osm_id=6926665785 | code=2515 | fclass=bookshop | population= | name=gis_osm_pois_free | source_layer=6926665785 bookshop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.424751 6.60551)
+osm_id=6926665985 | code=2525 | fclass=mobile_phone_shop | population= | name=gis_osm_pois_free | source_layer=6926665985 mobile_phone_shop  | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.424198 6.605312)
+osm_id=7222099364 | code=2512 | fclass=clothes | population=Wedding dress shop | name=gis_osm_pois_free | source_layer=7222099364 clothes wedding dress shop | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.475034 7.049787)
+osm_id=7319781285 | code=2302 | fclass=fast_food | population=አናሞ ፋስት ፉድ እና ጁስ ሀውስ | name=gis_osm_pois_free | source_layer=7319781285 fast_food አናሞ ፋስት ፉድ እና ጁስ ሀውስ | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.304186 6.414358)
+osm_id=8065197286 | code=2501 | fclass=supermarket | population=ሴፍ ዌይ ሱፐር ማርኬት | name=gis_osm_pois_free | source_layer=8065197286 supermarket ሴፍ ዌይ ሱፐር ማርኬት | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=POINT (38.486893 7.04934)
+
+DUPLICATE OSM IDS IN ORIGINAL CSV
+Rows participating in duplicate OSM IDs: 4
+osm_id=328833279 | code=2016 | fclass=marketplace | population=Fish Market | name=gis_osm_pois_a_free | source_layer=328833279 marketplace fish market | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=MULTIPOLYGON (((38.458956 7.042631, 38.459476 7.042338, 38.459747 7.042085, 38.459852 7.041939, 38.460029 7.041641, 38.460517 7.041915, 38.460088 7.043118, 38.459999 7.043174, 38.46016 7.043422, 38.460056 7.043491, 38.460126 7.0436, 38.460077 7.043629, 38.459616 7.043613, 38.459464 7.043307, 38.458956 7.042631)))
+osm_id=328833279 | code=2721 | fclass=attraction | population=Fish Market | name=gis_osm_pois_a_free | source_layer=328833279 attraction fish market | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=MULTIPOLYGON (((38.458956 7.042631, 38.459476 7.042338, 38.459747 7.042085, 38.459852 7.041939, 38.460029 7.041641, 38.460517 7.041915, 38.460088 7.043118, 38.459999 7.043174, 38.46016 7.043422, 38.460056 7.043491, 38.460126 7.0436, 38.460077 7.043629, 38.459616 7.043613, 38.459464 7.043307, 38.458956 7.042631)))
+osm_id=451333454 | code=2511 | fclass=convenience | population=Mini Shop | name=gis_osm_pois_a_free | source_layer=451333454 convenience mini shop | candidate_match_text=unverified_osm_candidate_requires_review | candidate_status=MULTIPOLYGON (((38.499808 7.058123, 38.499828 7.058051, 38.499868 7.058062, 38.499848 7.058134, 38.499808 7.058123)))
+osm_id=451333454 | code=1500 | fclass=building | population=Mini Shop | name= | source_layer=gis_osm_buildings_a_free | candidate_match_text=451333454 building mini shop  | candidate_status=unverified_osm_candidate_requires_review

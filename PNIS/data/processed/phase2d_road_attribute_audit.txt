@@ -1,0 +1,65 @@
+PHASE 2D — ROAD ATTRIBUTE AND ROUTING-READINESS AUDIT
+=================================================================
+Generated UTC: 2026-10-20T21:57:53.957720+00:00
+Status: completed
+Input features: 21,626
+CRS: EPSG:32637
+
+GEOMETRY
+-----------------------------------------------------------------
+geometry_type_counts: {'MultiLineString': 21626}
+empty_or_null_count: 0
+invalid_count: 0
+length_under_1m_count: 0
+length_under_5m_count: 10
+total_length_km: 14714.744
+median_feature_length_m: 326.495
+
+ATTRIBUTE COVERAGE
+-----------------------------------------------------------------
+blank_name_count: 21499
+blank_ref_count: 21564
+speed_zero_or_missing_count: 21569
+speed_positive_count: 57
+speed_positive_share_pct: 0.264
+speed_above_130_count: 1
+speed_positive_min: 50.0
+speed_positive_median: 56.0
+speed_positive_max: 251.0
+
+ATTRIBUTE DISTRIBUTIONS
+-----------------------------------------------------------------
+fclass: {'residential': 14628, 'unclassified': 3691, 'path': 1230, 'tertiary': 585, 'service': 519, 'track': 513, 'footway': 165, 'secondary': 161, 'trunk': 45, 'secondary_link': 22, 'primary': 21, 'primary_link': 11, 'track_grade3': 10, 'track_grade4': 9, 'tertiary_link': 5, 'steps': 3, 'trunk_link': 3, 'pedestrian': 3, 'track_grade5': 1, 'track_grade2': 1}
+oneway: {'B': 21296, 'F': 330}
+bridge: {'F': 21491, 'T': 135}
+tunnel: {'F': 21626}
+layer: {'0': 21503, '1': 121, '-1': 2}
+
+REVIEW FLAGS
+-----------------------------------------------------------------
+flag_speed_zero_or_missing: 21569
+flag_speed_above_130: 1
+flag_very_short_under_1m: 0
+flag_short_under_5m: 10
+flag_bridge_with_layer_zero: 14
+flag_tunnel_with_layer_zero: 0
+flag_grade_separation_tag: 137
+flag_unrecognized_oneway: 0
+records_with_any_review_flag: 21574
+
+INTERPRETATION AND LIMITATIONS
+-----------------------------------------------------------------
+- This audit describes source attributes; it does not validate road passability.
+- A zero maxspeed value is treated as missing/unspecified, not zero travel speed.
+- Speed values above 130 are flagged for review, not automatically rejected.
+- Short geometries may be legitimate connectors or clipping artifacts.
+- Bridge/tunnel/layer flags require spatial inspection before changing connectivity.
+- The source oneway codes must be confirmed against the dataset documentation before routing.
+- Feature lengths describe clipped geometries, not necessarily complete source-road lengths.
+
+OUTPUTS
+-----------------------------------------------------------------
+json_report: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2d_road_attribute_audit.json
+text_report: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2d_road_attribute_audit.txt
+road_class_summary_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2d_road_class_summary.csv
+review_flags_csv: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2d_road_review_flags.csv

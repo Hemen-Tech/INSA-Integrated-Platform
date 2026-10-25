@@ -1,0 +1,163 @@
+{
+  "generated_utc": "2026-10-20T21:34:32.182173+00:00",
+  "status": "completed",
+  "source_roads": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2b_sidama_intersecting_roads.gpkg",
+  "source_boundary": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\geographic\\ethiopia.gpkg",
+  "projected_crs": "EPSG:32637",
+  "buffer_meters": 5000,
+  "coordinate_precision_meters": 1,
+  "software": {
+    "python": "3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)]",
+    "geopandas": "1.2.0",
+    "pyogrio": "0.13.0",
+    "shapely": "2.2.0",
+    "networkx": "3.7",
+    "pandas": "3.0.6"
+  },
+  "input_and_clipping": {
+    "phase2b_input_road_features": 18574,
+    "null_or_empty_input_geometries_skipped": 0,
+    "input_features_not_intersecting_buffer": 0,
+    "clipped_line_features": 18590,
+    "clipped_total_length_km": 12628.7,
+    "noded_network_total_length_km": 12628.7,
+    "road_class_counts": {
+      "secondary": 136,
+      "residential": 12855,
+      "tertiary": 467,
+      "unclassified": 3022,
+      "service": 483,
+      "footway": 166,
+      "track": 390,
+      "trunk": 29,
+      "secondary_link": 22,
+      "path": 989,
+      "steps": 3,
+      "tertiary_link": 3,
+      "pedestrian": 3,
+      "primary": 9,
+      "primary_link": 7,
+      "track_grade4": 1,
+      "track_grade3": 3,
+      "track_grade2": 1,
+      "trunk_link": 1
+    }
+  },
+  "network_topology": {
+    "nodes": 266499,
+    "edges": 277836,
+    "connected_components": 34,
+    "degree_1_endpoints": 5492,
+    "degree_0_isolated_nodes": 0,
+    "degree_2_nodes": 236573,
+    "degree_3_nodes": 20732,
+    "degree_4_or_more_nodes": 3702,
+    "largest_component_nodes": 264756,
+    "largest_component_node_share": 0.99346
+  },
+  "components": {
+    "top_20_component_node_counts": [
+      {
+        "rank": 1,
+        "node_count": 264756
+      },
+      {
+        "rank": 2,
+        "node_count": 373
+      },
+      {
+        "rank": 3,
+        "node_count": 313
+      },
+      {
+        "rank": 4,
+        "node_count": 293
+      },
+      {
+        "rank": 5,
+        "node_count": 252
+      },
+      {
+        "rank": 6,
+        "node_count": 126
+      },
+      {
+        "rank": 7,
+        "node_count": 46
+      },
+      {
+        "rank": 8,
+        "node_count": 41
+      },
+      {
+        "rank": 9,
+        "node_count": 32
+      },
+      {
+        "rank": 10,
+        "node_count": 27
+      },
+      {
+        "rank": 11,
+        "node_count": 24
+      },
+      {
+        "rank": 12,
+        "node_count": 23
+      },
+      {
+        "rank": 13,
+        "node_count": 18
+      },
+      {
+        "rank": 14,
+        "node_count": 17
+      },
+      {
+        "rank": 15,
+        "node_count": 17
+      },
+      {
+        "rank": 16,
+        "node_count": 14
+      },
+      {
+        "rank": 17,
+        "node_count": 13
+      },
+      {
+        "rank": 18,
+        "node_count": 12
+      },
+      {
+        "rank": 19,
+        "node_count": 12
+      },
+      {
+        "rank": 20,
+        "node_count": 12
+      }
+    ],
+    "components_with_1_node": 0,
+    "components_with_2_to_10_nodes": 13,
+    "components_with_more_than_10_nodes": 21
+  },
+  "outputs": {
+    "clipped_roads_gpkg": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2c_sidama_buffered_roads.gpkg",
+    "nodes_csv": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2c_road_nodes.csv",
+    "edges_csv": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2c_road_edges.csv",
+    "report_json": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2c_road_connectivity_audit.json",
+    "report_txt": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2c_road_connectivity_audit.txt"
+  },
+  "limitations": [
+    "This is a preliminary geometric topology graph, not a routing-certified road network.",
+    "Geometric crossings are noded without reliably separating bridges, tunnels, and different road levels.",
+    "Degree-1 nodes are geometric endpoints and are not automatically confirmed physical dead ends.",
+    "The 5 km buffer is a configurable analysis choice, not a validated travel-access threshold.",
+    "The graph uses geometric length only; it does not calculate travel times or account for surface condition, seasonal passability, or traffic.",
+    "One-way restrictions, turn restrictions, and vehicle access restrictions are not enforced.",
+    "The input roads were originally selected because they intersect Sidama; this may omit nearby roads that do not intersect Sidama but lie inside the buffer.",
+    "Coordinate rounding is used for graph node keys; review precision and near-coincident nodes before routing use."
+  ],
+  "interpretation_warning": "Use connectivity counts as diagnostic evidence only. Inspect the map and resolve grade-separated crossings and access restrictions before routing."
+}

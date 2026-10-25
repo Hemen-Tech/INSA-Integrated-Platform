@@ -1,0 +1,171 @@
+PHASE 2E.1 — FOCUSED DETOUR DIAGNOSTIC
+========================================================================
+Origin: N47495334_69998829
+Destination: N50091508_68964365
+Detailed route ID 5 matches pair: True
+Detailed route segments: 2261
+Detailed route distance: 101.751 km
+Continuity errors: 0
+Graph reachable: True
+Graph shortest path: 101.751 km
+
+ROAD CLASS SUMMARY
+------------------------------------------------------------------------
+
+ENDPOINT NEIGHBORHOODS (within 500 m)
+------------------------------------------------------------------------
+N47495334_69998829:
+{
+  "found": true,
+  "x_utm_m": 474953.3436867579,
+  "y_utm_m": 699988.2860505662,
+  "in_degree": 1,
+  "out_degree": 1,
+  "nodes_within_500m": [
+    {
+      "node_id": "N47495334_69998829",
+      "distance_m": 0.0,
+      "in_degree": 1,
+      "out_degree": 1
+    },
+    {
+      "node_id": "N47496415_69998903",
+      "distance_m": 10.83,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N47502527_69993531",
+      "distance_m": 89.34,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N47510250_69990431",
+      "distance_m": 171.18,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N47522464_69995409",
+      "distance_m": 273.44,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N47527587_69997720",
+      "distance_m": 322.72,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N47536645_69996286",
+      "distance_m": 413.88,
+      "in_degree": 2,
+      "out_degree": 2
+    }
+  ]
+}
+N50091508_68964365:
+{
+  "found": true,
+  "x_utm_m": 500915.0838337297,
+  "y_utm_m": 689643.648964897,
+  "in_degree": 2,
+  "out_degree": 2,
+  "nodes_within_500m": [
+    {
+      "node_id": "N50091508_68964365",
+      "distance_m": 0.0,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50092517_68961770",
+      "distance_m": 27.84,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50091627_68957055",
+      "distance_m": 73.11,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50090618_68949332",
+      "distance_m": 150.59,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50087295_68979101",
+      "distance_m": 153.27,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50089075_68945796",
+      "distance_m": 187.28,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50084150_68981813",
+      "distance_m": 189.36,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50088482_68943438",
+      "distance_m": 211.45,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50079818_68982992",
+      "distance_m": 219.92,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50075960_68983109",
+      "distance_m": 243.54,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50089669_68939783",
+      "distance_m": 246.5,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50091331_68936954",
+      "distance_m": 274.12,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50070085_68984820",
+      "distance_m": 296.2,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50097799_68931884",
+      "distance_m": 330.84,
+      "in_degree": 2,
+      "out_degree": 2
+    },
+    {
+      "node_id": "N50063494_68988194",
+      "distance_m": 367.79,
+      "in_degree": 2,
+      "out_degree": 2
+    }
+  ]
+}
+
+Interpretation: this is a network-data diagnostic, not proof of
+real-world road passability.

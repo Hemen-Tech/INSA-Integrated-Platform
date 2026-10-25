@@ -1,0 +1,56 @@
+PHASE 2E.1 — ROUTE 5 SOURCE-CONNECTIVITY AUDIT
+========================================================================
+Source CRS: EPSG:32637
+Source road features: 21626
+Route ID: 5
+Route steps in details file: 2261
+Route segment geometries constructed: 2261
+Start node: N47495334_69998829
+End node: N50091508_68964365
+Start graph degree: 1
+End graph degree: 2
+Endpoint candidate rows: 2
+Route corridor candidate rows: 891
+
+ENDPOINT CANDIDATES BY ENDPOINT
+------------------------------------------------------------------------
+route_start: 1 candidate source features
+  OSM 620921089 class=tertiary distance=0.000m nearest_source_endpoint=0.0m bridge=F tunnel=F layer=0 status=GEOMETRY_TOUCHES_ENDPOINT_REVIEW_TOPOLOGY
+route_end: 1 candidate source features
+  OSM 627851551 class=unclassified distance=0.000m nearest_source_endpoint=7027.224889085873m bridge=F tunnel=F layer=0 status=GEOMETRY_TOUCHES_ENDPOINT_REVIEW_TOPOLOGY
+
+CORRIDOR GEOMETRY RELATIONS
+------------------------------------------------------------------------
+NEARBY_NO_INTERSECTION: 714
+GEOMETRIC_CROSSING_OR_TOUCH: 177
+
+CLOSEST 20 NON-ROUTE SOURCE ROAD CANDIDATES
+step=19 route_osm=620921089 candidate_osm=620921090 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=20 route_osm=620921090 candidate_osm=620921089 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=350 route_osm=620921090 candidate_osm=620921095 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=350 route_osm=620921090 candidate_osm=620921094 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=351 route_osm=620921094 candidate_osm=620921090 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=351 route_osm=620921094 candidate_osm=620921095 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=369 route_osm=620921094 candidate_osm=620921092 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=370 route_osm=620921092 candidate_osm=620921094 class=tertiary distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=383 route_osm=890367563 candidate_osm=890367562 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=407 route_osm=890367563 candidate_osm=890367564 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=408 route_osm=890367564 candidate_osm=890367563 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=420 route_osm=890367564 candidate_osm=890367565 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=421 route_osm=890367564 candidate_osm=890367565 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=426 route_osm=890367564 candidate_osm=890367567 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=427 route_osm=890367567 candidate_osm=890367564 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=432 route_osm=890367567 candidate_osm=890367570 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=435 route_osm=890367566 candidate_osm=890367568 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=436 route_osm=890367566 candidate_osm=890367568 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=438 route_osm=890367566 candidate_osm=890367576 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+step=439 route_osm=890367576 candidate_osm=890367566 class=residential distance=0.000m relation=GEOMETRIC_CROSSING_OR_TOUCH bridge=F tunnel=F layer=0
+
+INTERPRETATION LIMITS
+------------------------------------------------------------------------
+Geometric proximity or intersection does not prove a routable junction.
+Bridge, tunnel, layer, one-way direction, and source topology need review.
+No source roads or graph files were modified.
+
+Corridor CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route5_connectivity_candidates.csv
+Endpoint CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2e1_route5_endpoint_candidates.csv

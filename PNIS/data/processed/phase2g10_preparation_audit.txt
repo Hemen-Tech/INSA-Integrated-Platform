@@ -1,0 +1,19 @@
+PNIS PHASE 2G.10 - FIELDWORK PREPARATION AUDIT
+Generated UTC: 2026-10-24T11:26:03.282214+00:00
+Source rows: 255
+Unique source candidate IDs: 255
+Plan rows: 255
+Field form rows: 255
+Form rows with routing_eligible=NO: 255
+Issues found: 0
+
+OUTPUT FILES
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_fieldwork_priority_plan.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_field_data_collection_form.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_fieldwork_protocol.txt
+
+LIMITATION
+This package prepares fieldwork; it does not verify facility identity,
+operational status, physical vehicle access, or routing eligibility.
+
+Status: PASS - generated row counts, IDs, order, and routing safeguard validated.

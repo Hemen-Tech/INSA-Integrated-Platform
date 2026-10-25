@@ -1,0 +1,53 @@
+PNIS PHASE 2G.1 — CANDIDATE-TO-ROAD PROXIMITY ASSESSMENT
+========================================================================
+Generated UTC: 2026-10-23T17:11:59.777936+00:00
+Project root: C:\Users\tadesse.yilma\projects\PNIS
+
+METHOD AND SAFETY LIMITS
+------------------------------------------------------------------------
+Candidate points are measured against Phase 2C v2 Sidama-buffered road geometries.
+Candidate coordinate columns: longitude=longitude; latitude=latitude
+Road source: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2c_v2_sidama_buffered_roads.gpkg
+Road layer: sidama_buffered_roads_v2
+Usable road features: 21626
+Projected distance CRS: EPSG:32637
+Distance is geometric proximity to a mapped road feature only. It does NOT establish a physical entrance,
+road connectivity, legal access, surface quality, seasonal passability, or vehicle suitability.
+All candidates remain unverified and routing-ineligible.
+
+SUMMARY
+------------------------------------------------------------------------
+Evidence-register candidates assessed: 255
+Unique candidate IDs: 255
+Minimum distance (m): 0.553
+Median distance (m): 44.025
+Maximum distance (m): 3675.941
+Proximity bands:
+  0_25_M: 78
+  25_50_M: 65
+  50_100_M: 52
+  100_250_M: 34
+  250_500_M: 13
+  OVER_500_M: 13
+
+VALIDATION CHECKS
+------------------------------------------------------------------------
+PASS - candidate_count_255: rows=255
+PASS - candidate_ids_unique: unique_ids=255
+PASS - all_distances_finite: non_null=255
+PASS - distances_nonnegative: minimum_m=0.553
+PASS - all_candidates_unverified: verified candidates=0
+PASS - all_candidates_routing_ineligible: routing-approved candidates=0
+PASS - physical_access_not_confirmed: physical access confirmations=0
+PASS - evidence_ids_match_inside_spatial_ids: evidence=255, inside=255
+PASS - road_layer_has_line_geometry: usable road features=21626; CRS=EPSG:32637
+PASS - outputs_do_not_overwrite_inputs: separate Phase 2G.1 output paths
+
+Checks passed: 10
+Checks failed: 0
+Overall status: PASS
+
+OUTPUTS
+------------------------------------------------------------------------
+Register CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g1_candidate_road_proximity_register.csv
+Audit TXT: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g1_candidate_road_proximity_audit.txt

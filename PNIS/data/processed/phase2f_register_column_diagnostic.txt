@@ -1,0 +1,139 @@
+﻿FILE: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_candidate_review_register.csv
+ROWS: 497
+
+ACTUAL CSV COLUMNS:
+  'candidate_record_id'
+  'osm_id'
+  'code'
+  'fclass'
+  'population'
+  'name'
+  'source_layer'
+  'candidate_match_text'
+  'candidate_status'
+  'geometry_wkt'
+  'duplicate_osm_id'
+  'duplicate_layer_and_osm_id'
+  'review_group'
+  'review_guidance'
+  'verification_status'
+  'operational_facility_confirmed'
+  'verification_source'
+  'reviewer_notes'
+  'coordinate_review_status'
+  'routing_eligibility'
+
+FIRST 5 RECORDS (actual column/value pairs):
+
+ROW 1
+  candidate_record_id: PNIS2F-00001
+  osm_id: 1047780396
+  code: 7229
+  fclass: farmland
+  population: 
+  name: gis_osm_landuse_a_free
+  source_layer: 1047780396 farmland
+  candidate_match_text: unverified_osm_candidate_requires_review
+  candidate_status: MULTIPOLYGON (((38.620578 7.094031, 38.621675 7.093973, 38.622707 7.093912, 38.624105 7.09388, 38.623772 7.09442, 38.623469 7.094705, 38.62311 7.095328, 38.622828 7.095727, 38.6226
+  geometry_wkt: 
+  duplicate_osm_id: False
+  duplicate_layer_and_osm_id: False
+  review_group: AGRICULTURAL_LAND_ONLY
+  review_guidance: Land-use polygon; do not treat as an operational facility without evidence.
+  verification_status: UNVERIFIED
+  operational_facility_confirmed: NO
+  verification_source: 
+  reviewer_notes: 
+  coordinate_review_status: NOT_YET_REVIEWED
+  routing_eligibility: NOT_APPROVED_FOR_OPERATIONAL_ROUTING
+
+ROW 2
+  candidate_record_id: PNIS2F-00002
+  osm_id: 1047781150
+  code: 7229
+  fclass: farmland
+  population: 
+  name: gis_osm_landuse_a_free
+  source_layer: 1047781150 farmland
+  candidate_match_text: unverified_osm_candidate_requires_review
+  candidate_status: MULTIPOLYGON (((38.62462 7.083492, 38.624656 7.083281, 38.625101 7.083235, 38.625392 7.083186, 38.625685 7.083196, 38.625806 7.083253, 38.62605 7.083548, 38.626195 7.083478, 38.626
+  geometry_wkt: 
+  duplicate_osm_id: False
+  duplicate_layer_and_osm_id: False
+  review_group: AGRICULTURAL_LAND_ONLY
+  review_guidance: Land-use polygon; do not treat as an operational facility without evidence.
+  verification_status: UNVERIFIED
+  operational_facility_confirmed: NO
+  verification_source: 
+  reviewer_notes: 
+  coordinate_review_status: NOT_YET_REVIEWED
+  routing_eligibility: NOT_APPROVED_FOR_OPERATIONAL_ROUTING
+
+ROW 3
+  candidate_record_id: PNIS2F-00003
+  osm_id: 1047781152
+  code: 7229
+  fclass: farmland
+  population: 
+  name: gis_osm_landuse_a_free
+  source_layer: 1047781152 farmland
+  candidate_match_text: unverified_osm_candidate_requires_review
+  candidate_status: MULTIPOLYGON (((38.620156 7.09875, 38.621883 7.098076, 38.622194 7.100098, 38.620446 7.10085, 38.620156 7.09875)))
+  geometry_wkt: 
+  duplicate_osm_id: False
+  duplicate_layer_and_osm_id: False
+  review_group: AGRICULTURAL_LAND_ONLY
+  review_guidance: Land-use polygon; do not treat as an operational facility without evidence.
+  verification_status: UNVERIFIED
+  operational_facility_confirmed: NO
+  verification_source: 
+  reviewer_notes: 
+  coordinate_review_status: NOT_YET_REVIEWED
+  routing_eligibility: NOT_APPROVED_FOR_OPERATIONAL_ROUTING
+
+ROW 4
+  candidate_record_id: PNIS2F-00004
+  osm_id: 1047781153
+  code: 7229
+  fclass: farmland
+  population: 
+  name: gis_osm_landuse_a_free
+  source_layer: 1047781153 farmland
+  candidate_match_text: unverified_osm_candidate_requires_review
+  candidate_status: MULTIPOLYGON (((38.621975 7.098069, 38.62361 7.097774, 38.623886 7.099537, 38.622265 7.100035, 38.621975 7.098069)))
+  geometry_wkt: 
+  duplicate_osm_id: False
+  duplicate_layer_and_osm_id: False
+  review_group: AGRICULTURAL_LAND_ONLY
+  review_guidance: Land-use polygon; do not treat as an operational facility without evidence.
+  verification_status: UNVERIFIED
+  operational_facility_confirmed: NO
+  verification_source: 
+  reviewer_notes: 
+  coordinate_review_status: NOT_YET_REVIEWED
+  routing_eligibility: NOT_APPROVED_FOR_OPERATIONAL_ROUTING
+
+ROW 5
+  candidate_record_id: PNIS2F-00005
+  osm_id: 1047807316
+  code: 7229
+  fclass: farmland
+  population: 
+  name: gis_osm_landuse_a_free
+  source_layer: 1047807316 farmland
+  candidate_match_text: unverified_osm_candidate_requires_review
+  candidate_status: MULTIPOLYGON (((38.6147 7.091259, 38.615314 7.091259, 38.615604 7.091006, 38.61558 7.090645, 38.618341 7.09044, 38.618717 7.093698, 38.615938 7.093783, 38.615009 7.093813, 38.61486
+  geometry_wkt: 
+  duplicate_osm_id: False
+  duplicate_layer_and_osm_id: False
+  review_group: AGRICULTURAL_LAND_ONLY
+  review_guidance: Land-use polygon; do not treat as an operational facility without evidence.
+  verification_status: UNVERIFIED
+  operational_facility_confirmed: NO
+  verification_source: 
+  reviewer_notes: 
+  coordinate_review_status: NOT_YET_REVIEWED
+  routing_eligibility: NOT_APPROVED_FOR_OPERATIONAL_ROUTING
+
+MARKETPLACE FILTER CHECK:
+  fclass: 23 exact marketplace matches

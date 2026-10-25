@@ -1,0 +1,39 @@
+PNIS PHASE 2G.18 - RISK-PRIORITIZED FIELDWORK WORKLIST
+========================================================================
+Generated: 2026-10-24T16:51:08
+Status: COMPLETED - INPUT VALIDATION PASSED
+
+INPUTS
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_fieldwork_priority_plan.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g5_candidate_access_risk_register_v2.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g17_fieldwork_progress.csv
+
+VALIDATION
+Priority-plan rows: 255
+Risk-register rows: 255
+Progress-report rows: 255
+Unique candidate IDs: 255
+Candidate ID sets match: YES
+Risk classification mismatches: 0
+
+FIELDWORK STATUS
+Visited candidates: 0
+Awaiting fieldwork: 255
+
+RISK COUNTS
+ELEVATED_REVIEW: 13
+HIGH_REVIEW: 25
+STANDARD_REVIEW: 217
+
+GUARDRAILS
+- Existing inputs were read only.
+- Existing workbook, audits, and routing graph were not edited.
+- Phase 2G.10 visit priority order was preserved.
+- Risk classes were cross-checked against Phase 2G.5.
+- This worklist does not certify facility identity or access.
+- Routing approval granted by Phase 2G.18: NO.
+
+OUTPUT FILES
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g18_risk_prioritized_worklist.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g18_risk_prioritized_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g18_risk_prioritized_audit.txt

@@ -1,0 +1,122 @@
+============================================================================
+PHASE 2E.1 — CLIPPED ROAD COMPARISON
+============================================================================
+OSM road: 620921089
+CRS: EPSG:32637
+Buffer: 5000 m
+
+ORIGINAL SOURCE ROAD
+----------------------------------------------------------------------------
+{
+  "label": "original_source_road",
+  "geometry_type": "LineString",
+  "empty": false,
+  "length_m": 11789.510869171198,
+  "bounds": [
+    474909.140694661,
+    696131.0088237142,
+    479670.3417677026,
+    700283.1577895924
+  ],
+  "origin_distance_m": 4.084256061403652e-12,
+  "parts": [
+    {
+      "part": 1,
+      "vertices": 225,
+      "length_m": 11789.510869171198,
+      "start_xy": [
+        476966.600717004,
+        696247.4470710038
+      ],
+      "end_xy": [
+        474909.140694661,
+        699957.984643828
+      ],
+      "start_to_origin_m": 4248.185511585939,
+      "end_to_origin_m": 53.591788182833675
+    }
+  ]
+}
+
+STORED PHASE 2C V2 ROAD
+----------------------------------------------------------------------------
+{
+  "label": "stored_phase2c_v2_road",
+  "geometry_type": "MultiLineString",
+  "empty": false,
+  "length_m": 9386.639173602722,
+  "bounds": [
+    474953.3436867579,
+    697197.5420688081,
+    479670.3417677026,
+    700283.1577895924
+  ],
+  "origin_distance_m": 0.0,
+  "parts": [
+    {
+      "part": 1,
+      "vertices": 199,
+      "length_m": 9386.639173602722,
+      "start_xy": [
+        478471.7291081304,
+        697197.5420688081
+      ],
+      "end_xy": [
+        474953.3436867579,
+        699988.2860505662
+      ],
+      "start_to_origin_m": 4490.800367979596,
+      "end_to_origin_m": 0.0
+    }
+  ]
+}
+
+RECREATED CLIP
+----------------------------------------------------------------------------
+{
+  "label": "recreated_original_road_intersection_buffer",
+  "geometry_type": "LineString",
+  "empty": false,
+  "length_m": 9386.639173602722,
+  "bounds": [
+    474953.3436867579,
+    697197.5420688081,
+    479670.3417677026,
+    700283.1577895924
+  ],
+  "origin_distance_m": 0.0,
+  "parts": [
+    {
+      "part": 1,
+      "vertices": 199,
+      "length_m": 9386.639173602722,
+      "start_xy": [
+        478471.7291081304,
+        697197.5420688081
+      ],
+      "end_xy": [
+        474953.3436867579,
+        699988.2860505662
+      ],
+      "start_to_origin_m": 4490.800367979596,
+      "end_to_origin_m": 0.0
+    }
+  ]
+}
+
+COMPARISON
+----------------------------------------------------------------------------
+Origin to buffer boundary: 0.000000 m
+Original road to buffer boundary: 0.000000 m
+Stored clipped road to buffer boundary: 0.000000 m
+Origin covered by buffer: True
+Origin on stored road (within 1 cm): True
+Recreated clip length: 9386.639 m
+Stored clip length: 9386.639 m
+Symmetric difference length: 0.000000 m
+Symmetric difference area: 0.000000 m2
+Stored clip matches recreated clip (1 cm tolerance): True
+Original first coordinate to buffer boundary: 1699.745 m
+Original last coordinate to buffer boundary: 52.681 m
+
+No input files were modified.

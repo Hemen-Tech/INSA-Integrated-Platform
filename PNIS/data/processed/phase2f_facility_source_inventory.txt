@@ -1,0 +1,433 @@
+PHASE 2F — FACILITY SOURCE INVENTORY
+============================================================================
+Generated UTC: 2026-10-22T21:17:06.411104+00:00
+Source: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Discovery bounding box: (37.85, 6.09, 39.19, 7.22)
+
+SOURCE LAYERS
+----------------------------------------------------------------------------
+gis_osm_places_free | geometry=Point | features=24839 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, population, name
+gis_osm_traffic_free | geometry=Point | features=4038 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name, calming
+gis_osm_pois_free | geometry=Point | features=13998 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_transport_free | geometry=Point | features=856 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_natural_free | geometry=Point | features=21213 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_pofw_free | geometry=Point | features=783 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_roads_free | geometry=LineString | features=449581 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_waterways_free | geometry=LineString | features=30840 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_pois_a_free | geometry=MultiPolygon | features=8420 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_protected_areas_a_free | geometry=MultiPolygon | features=62 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_places_a_free | geometry=MultiPolygon | features=1853 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, population, name
+gis_osm_adminareas_a_free | geometry=MultiPolygon | features=258 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_landuse_a_free | geometry=MultiPolygon | features=111787 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_water_a_free | geometry=MultiPolygon | features=12992 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_traffic_a_free | geometry=MultiPolygon | features=703 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name, calming
+gis_osm_buildings_a_free | geometry=MultiPolygon | features=2559482 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name, type
+gis_osm_transport_a_free | geometry=MultiPolygon | features=202 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_natural_a_free | geometry=MultiPolygon | features=286 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+gis_osm_pofw_a_free | geometry=MultiPolygon | features=5914 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+  Fields: osm_id, code, fclass, name
+gis_osm_railways_free | geometry=LineString | features=1087 | CRS=GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+
+FACILITY-RELATED LAYER INSPECTION
+----------------------------------------------------------------------------
+
+gis_osm_places_free: 343 features in discovery window
+  Available fields: osm_id, code, fclass, population, name, geometry
+  Category/name field summaries:
+    code:
+      1050: 201
+      1003: 79
+      1002: 34
+      1004: 20
+      1001: 7
+      1010: 2
+    fclass:
+      locality: 201
+      village: 79
+      town: 34
+      hamlet: 20
+      city: 7
+      suburb: 2
+    name:
+      Leku: 2
+      Edo: 2
+      ይርጋለም / Yirgalem: 1
+      ዲላ / Dilla: 1
+      Hantate: 1
+      Boditi: 1
+      Agre Salam: 1
+      ሾኔ / Shone: 1
+      Mazoriya: 1
+      Tula Bota: 1
+      Sala Bota: 1
+      Bonora Shet': 1
+  Text-matched possible candidates: 113
+
+gis_osm_traffic_free: 281 features in discovery window
+  Available fields: osm_id, code, fclass, name, calming, geometry
+  Category/name field summaries:
+    code:
+      5204: 199
+      5250: 32
+      5260: 14
+      5202: 13
+      5321: 6
+      5209: 6
+      5207: 4
+      5201: 2
+      5251: 2
+      5270: 1
+      5332: 1
+      5206: 1
+    fclass:
+      pedestrian_crossing: 199
+      fuel: 32
+      parking: 14
+      mini_roundabout: 13
+      waterfall: 6
+      street_lamp: 6
+      turning_circle: 4
+      traffic_signals: 2
+      service: 2
+      parking_bicycle: 1
+      weir: 1
+      motorway_junction: 1
+    name:
+      Total: 4
+      Fuel Stop (Wendo): 1
+      Fuel Stop (Boree): 1
+      Fuel: 1
+      Fuel (Yirga Ch): 1
+      Shell Fuel (Yirga Ch) No Fuel: 1
+      Shell Fuel (Awassa): 1
+      Total Fuel (Awassa): 1
+      TAF: 1
+      Nile shashemene: 1
+      Bedessa Exit: 1
+      OiLibya: 1
+  Text-matched possible candidates: 0
+
+gis_osm_pois_free: 592 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      2401: 67
+      2301: 43
+      2951: 39
+      2601: 38
+      2082: 36
+      2303: 34
+      2404: 25
+      2742: 24
+      2305: 18
+      2902: 18
+      2101: 14
+      2111: 13
+    fclass:
+      hotel: 67
+      restaurant: 43
+      comms_tower: 39
+      bank: 38
+      school: 36
+      cafe: 34
+      guesthouse: 25
+      viewpoint: 24
+      bar: 18
+      bench: 18
+      pharmacy: 14
+      clinic: 13
+    name:
+      Commercial Bank of Ethiopia: 6
+      Dashen Bank: 2
+      Sidama Sumuda: 2
+      አቶቴ: 2
+      Sida Hall: 2
+      ሻሸመኔ / Shashamane: 1
+      Arregash Lodge: 1
+      Total: 1
+      Hawi: 1
+      Commercial Bank Of Ethiopia: 1
+      Alemaz Endashaw: 1
+      Blue Nile Hotel: 1
+  Text-matched possible candidates: 43
+
+gis_osm_transport_free: 25 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      5622: 13
+      5621: 6
+      5641: 5
+      5651: 1
+    fclass:
+      bus_station: 13
+      bus_stop: 6
+      taxi: 5
+      airport: 1
+    name:
+      Bajaj Stop: 4
+      Dodola Airport: 1
+      Shashamane Bus Station: 1
+      አሮጌው መነሃሪያ: 1
+      አዲሱ መነሀሪያ: 1
+      Mobil: 1
+      Adola Negele Road: 1
+      Buses to Addis (Selam, Ethio, Habesha, Sky): 1
+      Bus station: 1
+      Bedessa Bus Station: 1
+      Bona Bus Station: 1
+      ዶቢ: 1
+  Text-matched possible candidates: 0
+
+gis_osm_pofw_free: 34 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      3100: 10
+      3106: 8
+      3107: 8
+      3300: 3
+      3301: 3
+      3104: 1
+      3102: 1
+    fclass:
+      christian: 10
+      christian_orthodox: 8
+      christian_protestant: 8
+      muslim: 3
+      muslim_sunni: 3
+      christian_lutheran: 1
+      christian_catholic: 1
+    name:
+      St. Gabriele: 1
+      Mosque - Arab Sefer: 1
+      Mekane Iyesus: 1
+      Kale Hiywet - Word of Life Church: 1
+      Apostolic Church: 1
+      Ethiopian Evangelical Church Mekaneeyesus: 1
+      ሀዋሳ ሙሉ ወንጌል ቤተክርስትያን: 1
+      ማርያም ቤ/ክርስቲያን: 1
+      Hawassa Tabor Kale Heywet Church: 1
+      Christ Embassy Hawassa: 1
+      St.gabrial church: 1
+      ቢላል መስጊድ: 1
+  Text-matched possible candidates: 0
+
+gis_osm_pois_a_free: 197 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      2252: 55
+      2082: 27
+      2110: 15
+      2081: 14
+      2016: 13
+      2015: 13
+      2253: 11
+      2204: 8
+      2256: 6
+      2301: 4
+      2401: 3
+      2901: 3
+    fclass:
+      pitch: 55
+      school: 27
+      hospital: 15
+      university: 14
+      marketplace: 13
+      graveyard: 13
+      swimming_pool: 11
+      park: 8
+      stadium: 6
+      restaurant: 4
+      hotel: 3
+      toilet: 3
+    name:
+      Fish Market: 2
+      Dilla University: 2
+      Rift valley university: 2
+      Haile Resort: 1
+      Amora Gedel Park: 1
+      Adenium: 1
+      Old library Cafeteria: 1
+      Habtish Fiyel bet: 1
+      Korem Meda: 1
+      Handball and Volleyball field done by nigus: 1
+      Tree Nursery: 1
+      Hawassa artificial stadium: 1
+  Text-matched possible candidates: 16
+
+gis_osm_places_a_free: 16 features in discovery window
+  Available fields: osm_id, code, fclass, population, name, geometry
+  Category/name field summaries:
+    code:
+      1003: 7
+      1004: 5
+      1002: 3
+      1020: 1
+    fclass:
+      village: 7
+      hamlet: 5
+      town: 3
+      island: 1
+    name:
+      Gacheno: 1
+      Hobicha Bada: 1
+      Worqicha: 1
+  Text-matched possible candidates: 10
+
+gis_osm_landuse_a_free: 2,491 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      7203: 2030
+      7204: 161
+      7201: 90
+      7229: 68
+      7228: 68
+      7209: 20
+      7214: 16
+      7206: 13
+      7202: 8
+      7218: 8
+      7217: 3
+      7213: 2
+    fclass:
+      residential: 2030
+      industrial: 161
+      forest: 90
+      farmland: 68
+      farmyard: 68
+      commercial: 20
+      quarry: 16
+      cemetery: 13
+      park: 8
+      grass: 8
+      scrub: 3
+      military: 2
+    name:
+      Yirgalem: 1
+      Dilla: 1
+      Wondo: 1
+      Chucko: 1
+      Yirga Chefe: 1
+      Dodola: 1
+      Mount Duurroo: 1
+      Harena Forest: 1
+      Assasa: 1
+      kela town: 1
+      Amora Gedel Park: 1
+      Buge: 1
+  Text-matched possible candidates: 298
+
+gis_osm_traffic_a_free: 7 features in discovery window
+  Available fields: osm_id, code, fclass, name, calming, geometry
+  Category/name field summaries:
+    code:
+      5260: 3
+      5303: 2
+      5311: 1
+      5250: 1
+    fclass:
+      parking: 3
+      pier: 2
+      dam: 1
+      fuel: 1
+    name:
+      Gidabo Dam: 1
+      NOC: 1
+  Text-matched possible candidates: 0
+
+gis_osm_buildings_a_free: 327,859 features in discovery window
+  Available fields: osm_id, code, fclass, name, type, geometry
+  Category/name field summaries:
+    code:
+      1500: 327859
+    fclass:
+      building: 327859
+    name:
+      Class: 5
+      house of society: 4
+      Warehouse: 3
+      Dormitery: 3
+      Guest House: 2
+      B115: 2
+      B114: 2
+      B113: 2
+      Habtish Fiyel bet: 2
+      appartment: 2
+      Staff Office: 2
+      warehouse: 2
+    type:
+      greenhouse: 408
+      hut: 37
+      residential: 34
+      construction: 14
+      house: 9
+      dormitory: 9
+      church: 7
+      school: 7
+      electricity: 4
+      grandstand: 3
+      stadium: 3
+      detached: 2
+  Text-matched possible candidates: 17
+
+gis_osm_transport_a_free: 6 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      5622: 3
+      5651: 2
+      5656: 1
+    fclass:
+      bus_station: 3
+      airport: 2
+      apron: 1
+    name:
+      01 menehariya: 1
+      Bus Station: 1
+      Bilate Airport: 1
+      Hawassa Airport: 1
+  Text-matched possible candidates: 0
+
+gis_osm_pofw_a_free: 23 features in discovery window
+  Available fields: osm_id, code, fclass, name, geometry
+  Category/name field summaries:
+    code:
+      3106: 10
+      3100: 10
+      3300: 3
+    fclass:
+      christian_orthodox: 10
+      christian: 10
+      muslim: 3
+    name:
+      Hawassa 01 Mosque: 1
+      Korem Mosque: 1
+      መዳነናለም / Medanhalem Church: 1
+      kela_baleweld_cherch: 1
+      khalid mosqiue: 1
+  Text-matched possible candidates: 0
+
+INTERPRETATION
+----------------------------------------------------------------------------
+OSM text matches are discovery leads only.
+They are not confirmed farms, collection points, markets, or warehouses.
+Names and tags must be reviewed, coordinates checked, and sources documented.
+No road graph or Phase 2C/2E output was modified.
+
+Candidate CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_osm_facility_candidates.csv
+Text report: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_facility_source_inventory.txt
+JSON report: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_facility_source_inventory.json

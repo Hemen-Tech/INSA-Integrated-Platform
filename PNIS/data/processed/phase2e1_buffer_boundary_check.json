@@ -1,0 +1,46 @@
+[
+  {
+    "candidate_number": 1,
+    "osm_id": "3306775",
+    "name": "ሲዳማ ክልል Sidama سيداما",
+    "fclass": "admin_level4",
+    "projected_bounds": [
+      379108.8528982146,
+      678542.6390090717,
+      514684.1275785108,
+      792115.5255750809
+    ],
+    "boundary_area_km2": 6867.679859995752,
+    "origin_inside_buffer": true,
+    "origin_to_buffer_boundary_m": 5.559533676822206e-12,
+    "origin_to_sidama_polygon_m": 5000.000000000011,
+    "original_road_start_inside_buffer": false,
+    "original_road_end_inside_buffer": false,
+    "original_road_start_to_buffer_boundary_m": 1699.7448194921262,
+    "original_road_end_to_buffer_boundary_m": 52.681344018582614,
+    "original_road_intersects_buffer": true,
+    "original_road_length_inside_buffer_m": 9386.639173602722
+  },
+  {
+    "candidate_number": 2,
+    "osm_id": "13422229",
+    "name": "Sidama",
+    "fclass": "admin_level5",
+    "projected_bounds": [
+      379108.8528982146,
+      678542.6390090717,
+      514684.1275785108,
+      792115.5255750809
+    ],
+    "boundary_area_km2": 6867.679859995752,
+    "origin_inside_buffer": true,
+    "origin_to_buffer_boundary_m": 5.559533676822206e-12,
+    "origin_to_sidama_polygon_m": 5000.000000000011,
+    "original_road_start_inside_buffer": false,
+    "original_road_end_inside_buffer": false,
+    "original_road_start_to_buffer_boundary_m": 1699.7448194921262,
+    "original_road_end_to_buffer_boundary_m": 52.681344018582614,
+    "original_road_intersects_buffer": true,
+    "original_road_length_inside_buffer_m": 9386.639173602722
+  }
+]

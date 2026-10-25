@@ -54,3 +54,12 @@ __pycache__/
 !.env.example.docker
 Novarion/.git/
 PNIS/.git/
+
+# Nested repository metadata
+Novarion/.git/
+PNIS/.git/
+**/~$*.xlsx
+PNIS/data/processed/geographic/ethiopia.gpkg
+PNIS/data/processed/phase2e_vehicle_graph_edges.csv
+PNIS/data/processed/phase2e_vehicle_graph_edges.gpkg
+PNIS/data/raw/public/openstreetmap/ethiopia-latest-free.gpkg.zip

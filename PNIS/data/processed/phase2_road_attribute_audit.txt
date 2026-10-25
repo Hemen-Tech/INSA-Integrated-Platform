@@ -1,0 +1,25 @@
+PNIS PHASE 2A — ROAD ATTRIBUTE VALIDATION
+=======================================================
+Generated UTC: 2026-10-20T20:59:49.852394+00:00
+Source: data\processed\geographic\ethiopia.gpkg
+SQLite quick check: ok
+Road records: 449,581
+
+FIELD COMPLETENESS
+osm_id: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+fclass: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+oneway: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+maxspeed: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+bridge: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+tunnel: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+layer: {'available': True, 'null_count': 0, 'empty_count': 0, 'null_percent': 0.0, 'empty_percent': 0.0}
+name: {'available': True, 'null_count': 0, 'empty_count': 439628, 'null_percent': 0.0, 'empty_percent': 97.7862}
+ref: {'available': True, 'null_count': 0, 'empty_count': 444641, 'null_percent': 0.0, 'empty_percent': 98.9012}
+
+WARNINGS
+No road R-tree spatial-index table was found. Spatial filtering may require a full scan.
+
+LIMITATION
+This audit checks metadata and attributes. It does not
+establish geometric validity, road connectivity, or
+accurate travel times.

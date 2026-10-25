@@ -1,0 +1,146 @@
+{
+  "generated_utc": "2026-10-20T21:25:58.395479+00:00",
+  "source": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\geographic\\ethiopia.gpkg",
+  "software": {
+    "python": "3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)]",
+    "shapely": "2.2.0",
+    "pyogrio": "0.13.0",
+    "pandas": "3.0.6"
+  },
+  "warnings": [],
+  "limitations": [
+    "Geometric intersection does not prove that a road is passable.",
+    "This script does not establish routable network connectivity.",
+    "Roads are selected by intersection with the Sidama polygon; their complete geometries are retained and are not clipped.",
+    "Duplicate or overlapping boundary records are dissolved before the spatial intersection."
+  ],
+  "layers": [
+    "gis_osm_places_free",
+    "gis_osm_traffic_free",
+    "gis_osm_pois_free",
+    "gis_osm_transport_free",
+    "gis_osm_natural_free",
+    "gis_osm_pofw_free",
+    "gis_osm_roads_free",
+    "gis_osm_waterways_free",
+    "gis_osm_pois_a_free",
+    "gis_osm_protected_areas_a_free",
+    "gis_osm_places_a_free",
+    "gis_osm_adminareas_a_free",
+    "gis_osm_landuse_a_free",
+    "gis_osm_water_a_free",
+    "gis_osm_traffic_a_free",
+    "gis_osm_buildings_a_free",
+    "gis_osm_transport_a_free",
+    "gis_osm_natural_a_free",
+    "gis_osm_pofw_a_free",
+    "gis_osm_railways_free"
+  ],
+  "road_metadata": {
+    "feature_count_metadata": 449581,
+    "geometry_type": "LineString",
+    "crs": "GEOGCS[\"WGS 84 (CRS84)\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Longitude\",EAST],AXIS[\"Latitude\",NORTH],AUTHORITY[\"OGC\",\"CRS84\"]]",
+    "fields": [
+      "osm_id",
+      "code",
+      "fclass",
+      "name",
+      "ref",
+      "oneway",
+      "maxspeed",
+      "layer",
+      "bridge",
+      "tunnel"
+    ],
+    "dtypes": [
+      "object",
+      "int32",
+      "object",
+      "object",
+      "object",
+      "object",
+      "int32",
+      "int32",
+      "object",
+      "object"
+    ],
+    "bounds": [
+      32.9787254,
+      3.3653059,
+      48.1040759,
+      14.8946408
+    ]
+  },
+  "admin_metadata": {
+    "feature_count_metadata": 258,
+    "geometry_type": "MultiPolygon",
+    "crs": "GEOGCS[\"WGS 84 (CRS84)\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Longitude\",EAST],AXIS[\"Latitude\",NORTH],AUTHORITY[\"OGC\",\"CRS84\"]]",
+    "fields": [
+      "osm_id",
+      "code",
+      "fclass",
+      "name"
+    ]
+  },
+  "sidama_boundary": {
+    "matching_admin_records": 1,
+    "source_geometry_types": [
+      "MultiPolygon"
+    ],
+    "dissolved_geometry_type": "Polygon",
+    "valid": true,
+    "bounds": [
+      37.906427,
+      6.1387516,
+      39.1327237,
+      7.1656743
+    ],
+    "area_in_layer_units_squared": 0.5620335900761351,
+    "boundary_records": [
+      {
+        "name": "Sidama"
+      }
+    ]
+  },
+  "road_geometry_audit": {
+    "records_read": 449581,
+    "null_geometries": 0,
+    "empty_geometries": 0,
+    "valid_geometries": 449581,
+    "invalid_nonempty_geometries": 0,
+    "geometry_type_counts": {
+      "LineString": 449581
+    },
+    "invalid_geometry_samples": []
+  },
+  "sidama_road_intersection": {
+    "intersecting_road_count": 18574,
+    "percent_of_all_roads": 4.1314,
+    "output_geopackage": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2b_sidama_intersecting_roads.gpkg",
+    "output_csv": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2b_sidama_intersecting_roads.csv",
+    "selection_method": "Exact geometric intersection between each valid, nonempty road geometry and the dissolved Sidama polygon.",
+    "note": "Selected roads retain their original full geometry; they have not been clipped to the boundary.",
+    "road_class_counts": {
+      "residential": 12846,
+      "unclassified": 3020,
+      "path": 989,
+      "service": 482,
+      "tertiary": 465,
+      "track": 389,
+      "footway": 165,
+      "secondary": 136,
+      "trunk": 29,
+      "secondary_link": 22,
+      "primary": 9,
+      "primary_link": 7,
+      "steps": 3,
+      "tertiary_link": 3,
+      "pedestrian": 3,
+      "track_grade3": 3,
+      "track_grade4": 1,
+      "track_grade2": 1,
+      "trunk_link": 1
+    }
+  },
+  "status": "completed"
+}

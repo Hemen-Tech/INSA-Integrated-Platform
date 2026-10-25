@@ -1,0 +1,2028 @@
+PNIS PHASE 1: RESEARCH EXTRACTION
+================================================================================
+
+
+SOURCE: ethiopia_avocado_postharvest_loss_multiregion_2026.pdf
+PAGES: 30
+================================================================================
+
+--- PAGE 1 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29716 
+Afr. J. Food Agric. Nutr. Dev. 2026; 26(5): 29716-29745 https://doi.org/10.18697/ajfand.152.26730 
+Date 
+Submitted Accepted Published 
+13th December 2025 21st May 2026 11th July 2026 
+  
+POSTHARVEST LOSSES IN ETHIOPIA’S AVOCADO VALUE CHAIN: 
+MAGNITUDE, DRIVERS AND IMPLICATIONS FOR FOOD SECURITY, 
+NUTRITION AND ENVIRONMENTAL SUSTAINABILITY 
+Getachew M1*, Fentahun M2, Ermias A2, Edossa I3,  
+Aberash T4, Oumer T4 and T Binyam5 
+ 
+Getachew Minas 
+ 
+ 
+ 
+ 
+ 
+*Corresponding author email: getachew@saa-safe.org 
+ORCiD: https://orcid.org/0009-0003-3799-9313 - Getachew M 
+ORCiD: https://orcid.org/0000-0002-6555-5694 - Fentahun M  
+1Monitoring and Evaluation Department, Sasakawa Africa Association, Addis Ababa, 
+Ethiopia 
+2Director’s Office, Sasakawa Africa Association, Addis Ababa, Ethiopia 
+3Horticulture Division, Melkassa Agricultural Research Center, Ethiopia  
+4Nutrition Department, Sasakawa Africa Association, Addis Ababa, Ethiopia 
+5Communication Department, Sasakawa Africa Association, Addis Ababa, Ethiopia  
+ 
+
+
+--- PAGE 2 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29717 
+ABSTRACT  
+Ethiopia’s avocado sector has expanded rapidly since 2019/20, driven by government 
+prioritization and smallholder-led clustered orchards. However, postharvest losses (PHL) 
+remain a major constraint, reflecting poor harvesting and handling practices, limited cold-
+chain infrastructure, and market inefficiencies. Losses are both quantitative and qualitative- 
+manifesting as physical damage and deterioration in firmness, edibility, and marketability- 
+exacerbated by climacteric ripening under inadequate cooling and storage conditions. This 
+study presents a 2023–2024 multi-region assessment across six major avocado belts 
+(Oromia, Amhara, Sidama, South Ethiopia, Southwest Ethiopia, and Central Ethiopia). 
+Evidence was generated through a 391-household producer survey, 72 key informant 
+interviews, direct field and market observations, and five-stage load tracking from farm to 
+retail. The analysis quantifies PHL, identifies critical loss points and underlying drivers, and 
+proposes actionable interventions aligned with Ethiopia’s avocado development agenda. 
+Production systems differed markedly: unmanaged seedling trees dominated Jimma, 
+Kaffa, Wolaita, and Sidama, whereas government-supported clusters in East Shewa, North 
+Gojjam, and Silte cultivated Hass and Ettinger varieties under comparatively improved 
+management, contributing to better shelf-life performance. Average PHL was estimated at 
+39–43% of total produce, leaving only about six of every ten kilograms available for 
+consumption or sale. Survey-based estimates indicated 38.9% loss (23.2% quantitative, 
+15.7% qualitative), while load tracking confirmed 43.2% (24.5% quantitative , 18.7% 
+qualitative). The largest losses occurred at harvesting (8.9%), wholesale storage (11.2%), 
+and retail markets (12.5%). Using 2020/21 production and prevailing prices, annual 
+economic losses are approximately USD 90 million. The estimated 63.7 million kg of fruit 
+lost (35 million kg pulp) also implies substantial foregone nutrition, avoidable emissions 
+(159,249 t CO₂e), and an effective loss of 7,494 ha of productive land. Key drivers of 
+avocado postharvest loss include inappropriate harvesting tools and practices, rough 
+handling, and inadequate packaging, transport, and storage—particularly within wholesale 
+distribution. Reducing PHL by 25% could recover about Ethiopian Birr (ETB) 1.28 billion 
+annually, avert 40,000 t CO₂e, and free 1,875 ha. Targeted, low-cost innovations in 
+harvesting, grading, packaging, short-term cooling, transport, storage, and market 
+governance could deliver immediate, measurable PHL reductions, while standardized 
+survey and load-tracking protocols offer a practical basis for routine monitoring and 
+accountability. 
+Key words: avocado, postharvest loss, Ethiopia, supply chain, impact, magnitude, drivers  
+Citation: Getachew M, Fentahun M, Ermias A, Edossa I, Aberash T, Oumer T and T 
+Binyam Postharvest Losses in Ethiopia’s Avocado Value Chain: Magnitude, 
+Drivers and Implications for Food Security, Nutrition and Environmental 
+Sustainability. Afr. J. Food Agric. Nutr. Dev.  2026; 26(5): 29716-29745. 
+https://doi.org/10.18697/ajfand.152.26655 
+ 
+
+--- PAGE 3 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29718 
+INTRODUCTION 
+Avocado has become one of Ethiopia’s fastest-growing fruit crops, now covering 
+about 19% of the national fruit-growing area and 17% of total fruit production. It ranks 
+second in cultivated area after banana and third in production volume  [1]. Both 
+acreage and output have grown steadily since 2008/09 [2]. Domestic consumption 
+dominates Ethiopia’s avocado market, with demand rising through urbanization. 
+Export trade, launched in 2020, is expanding toward Gulf and European markets 
+with Hass variety, though strict quality and phytosanitary compliance remain 
+essential. Domestically, avocados are sold ungraded and without cold -chain 
+handling, increasing deterioration risks. Ethiopia has established processing 
+facilities in four Integrated Agro-Industry Parks, including packhouses and crude oil 
+units. Despite strong production potential, inefficiencies such as poor harvesting, 
+weak postharvest handling, and careless practices [3], erode quality and market 
+value. Postharvest loss includes quantitative (volume/weight) and qualitative 
+(damage, firmness, edibility, nutrition, marketability) aspects. As a climacteric fruit, 
+avocados continue ripening after harvest, with respiration and ethylene production 
+spiking to 80–100 µL L⁻¹, thereby accelerating softening, browning, and decay [4]. 
+Data remain fragmented, relying mainly on surveys with limited quality assessment. 
+This study combines surveys and load-tracking for loss quantification with the 
+objective to:  
+i. quantify avocado losses through surveys and load-tracking. 
+ii. identify critical loss points along the avocado value chain. 
+iii. ascertain the key factors contributing to avocado losses. 
+iv. estimate the economic, nutritional, and environmental impacts of these losses. 
+v. support evidence-based decision-making across Ethiopia’s avocado supply 
+chain.  
+MATERIALS AND METHODS 
+Study Area and Production Systems 
+The study was conducted across six major avocado-producing regions of Ethiopia: 
+Oromia (East Shewa, Jimma), Amhara (North Gojjam), Sidama (Central and 
+Northern), South Ethiopia (Wolita), Southwest Ethiopia (Kaffa), and Central Ethiopia 
+(Silte) (Figure 1). Production systems examined included both smallholder cluster 
+commercial orchards, predominantly planted with grafted cultivars such as Hass and 
+Ettinger, and traditional solitary seedling-based orchards, dominated by ungrafted 
+local varieties. 
+
+--- PAGE 4 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29719 
+.  
+Figure 1: Map of the study Areas 
+Research Design and Data Collection 
+Study design 
+This research adopted a cross-sectional design, integrating both quantitative and 
+qualitative approaches to evaluate postharvest losses of avocados from harvest to 
+retail.  
+Sample size and sampling procedure 
+The study population included avocado producers and key value chain actors 
+including wholesalers, retailers, exporters, researchers, extension experts, and 
+representatives from the Ethiopian Horticulture Producer Exporters Association 
+(EHPEA). Avocado producers were selected through a mix of purposive and random 
+sampling procedure. First, six target regions were purposively chosen based on their 
+production and marketing relevance. Next, key avocado -producing zones and 
+woredas were identified within each region. Then, 2–3 kebeles were randomly 
+selected per woreda. Finally, farmers were randomly drawn from kebele producer 
+lists, yielding 391 respondents for the household survey.  Conversely, key 
+value-chain actors were deliberately chosen for their expertise in their respective 
+fields.  
+Since accurate population proportions for the issue of interest (farmers facing 
+significant losses) were unavailable, the default value p = 0.5 (50%) was used to 
+estimate the largest possible sample size. The sample size of individual respondents 
+was calculated using the following formula [5].  
+
+
+--- PAGE 5 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29720 
+𝑛=%𝐷	 𝑍!	𝑃	(1−𝑃)𝑁𝑀𝐸!(	𝑁−1)+	𝑍!	𝑃	(1−𝑃)	 
+Where, D = 1.5 (design effect), Z = 1.96 (95% confidence), P = 0.5 (maximum 
+variability), ME = 0.05 (margin of error), and N = 1100 (avocado producers), and n= 
+391 respondents. 
+Additionally, 72 key informants were purposively selected to provide in-depth value 
+chain insights, comprising wholesalers, retailers, exporters, researchers, extension 
+experts, and representatives from the Ethiopian Horticulture Producer Exporters 
+Association (EHPEA). 
+Data collection methods and tools 
+Data were collected between February 2023 and January 2024 using multiple 
+complementary sources to ensure robustness and triangulation: (i) secondary data 
+from official published and unpublished sources; (ii) a household survey of 391 
+avocado producers selected through a mix of purposive and random sampling 
+procedure; (iii) 72 key informant interviews with value chain actors (wholesalers, 
+retailers, exporters) and support institutions; (iv) direct field observations; and (v) 
+five-stage load tracking (at harvesting, local market aggregation center, wholesale 
+destination point, wholesale market outlet, and retail market outlet)  along two 
+representative market corridors—Bonga (humid climate, thicker skins) and Boditi 
+(drier climate, thinner skins).  
+Document review – Twenty-four studies published between 2014 and 2023 were 
+reviewed to establish baseline knowledge on avocado postharvest losses, determine 
+methodologies, and identify postharvest loss and potential variables that contribute 
+to avocado losses across the value chain. 
+Household survey – Structured and semi-structured questionnaire were 
+administered via Kobo Toolbox to collect demographic, socio -economic, and 
+production data. Interviews were conducted in local languages, audio-recorded, and 
+translated into English. 
+Key informant interviews (KIIs) – Through open-ended interviews with 72 actors, 
+information was collected regarding value -chain practices, constraints, and 
+opportunities for interventions to minimize losses. 
+Direct observation – Field visits to orchards, markets, transport points, and 
+avocado oil processing sites documented handling practices and visible losses. 
+ 
+ 
+
+--- PAGE 6 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29721 
+Postharvest Loss Assessment and Quantification 
+Loss quantification combined survey estimates from farmers, traders, and 
+transporters with direct load-tracking measurements [6] across harvest, transport, 
+unloading, wholesale storage, and retail. This dual approach enabled triangulation: 
+surveys provided breadth and stakeholder insights, while load tracking offered 
+objective, stage-specific validation.  
+Quantity loss referred to measurable reductions in volume or weight from immature, 
+damaged, infected, or dehydrated fruit rendered unfit for sale or consumption. 
+Quality loss referred to the deterioration of the fruit’s condition and the reduction of 
+its marketability, or consumer acceptability due to defects, damages, or physiological 
+disorders that occur during pre-harvest, harvest, or post-harvest handling, which 
+ultimately downgrade the fruit’s value. The value calculated as price differences 
+between downgraded and sound fruit. Total economic loss combined revenue 
+reductions from both quantity and quality losses through discounting. 
+Data quality and analysis  
+Data quality was ensured through Kobo Toolbox features, including skip logic, 
+mandatory records, and error-check functions. Enumerators were selected for 
+relevant experience, trained in survey protocols, and supervised during fieldwork. 
+The questionnaire was pretested at one of the data collection sites in Wolita by 
+interviewing selected avocado producer farmers before the actual data collection 
+began to ensure clarity and flow, while spot-checks verified the consistency and 
+accuracy of the tool. Then, errors identified during pretesting and spot-checks were 
+revised and enumerators briefed on the corrected sections. Data analysis used 
+Statistical Package for the Social Sciences (SPSS) version 26, applying descriptive 
+statistics to summarize postharvest loss levels, practices, and costs. A 25% quantile 
+regression was used to identify determinants of yield and loss, and stage-wise loss 
+tracking using a digital balance at harvesting, local market aggregation center, 
+wholesale destination point, wholesale market outlet, and retail market outlet 
+highlighted the critical loss points. Load tracking validated survey estimates, with 
+results presented through tables, charts, and graphs to enhance clarity and 
+reliability.  
+Quantile Regression Equation 
+Q {0.25} (Y) = B0+B1X1+B2X2 +B3X3+B4X4+B5X5+B6X6+B7X7 
+Variables Fitted with the Model 
+X1: Local Variety – this variable measured the use of local cultivars and was coded 
+as a binary variable in the model (1 = local avocado variety cultivated; 0 = improved 
+variety). 
+
+--- PAGE 7 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29722 
+X2: Avocado Pest Infestations - This variable measured the presence/absence of 
+visible pest damage on fruit or trees and was codded as a binary variable in the 
+model (1 = infestation observed; 0 = no infestation). 
+X3: Grafted Tree – This variable measured whether farmers used grafted trees, and 
+was coded as a binary variable with 1 = orchard established with grafted trees; 0 = 
+non grafted trees). 
+X4: Length of Maturity – This variable measured the average number of months 
+from flowering to harvest, recorded by farmers and cross checked with field 
+observations. 
+X5: Harvesting by Women – This variable measured whether harvesting was 
+conducted by women and was coded as a binary variable in the model (1 = 
+harvesting primarily conducted by women; 0 = otherwise). 
+X6: Harvesting at Any Time of the Day – This variable tracked the time of fruit 
+harvesting during the day and was coded as a binary variable in the model (1 = 
+harvesting conducted without time restriction; 0 = harvesting restricted to morning or 
+evening hours). 
+X7: Harvesting Fruit in Contact with the Ground – This variable tracked whether 
+harvesting was conducted in contact with the ground and was coded as a binary 
+variable (1 = fruit collected after ground contact; 0 = fruit harvested directly from the 
+tree without ground contact). 
+RESULTS AND DISCUSSION  
+Age Category of the Respondents  
+The demographic assessment of Ethiopian avocado producers reveals significant 
+regional variation in age distribution and youth participation. Youth household heads 
+(<25 years) are highly concentrated in the Sidama region, averaging 30% 
+participation (33.3% in Northern and 26.7% in Central Sidama), but account for only 
+10% in Oromia (13.3% in East Shewa, 6.7% in Jimma) and are absent in North 
+Gojjam and Kaffa. Conversely, older cohorts dominate production in the remaining 
+regions. Middle-aged farmers (55–64) comprise 23.6% of producers in North 
+Gojjam, while senior demographics dominate in Jimma and Wolaita; the 55 –64 
+cohort represents 27.3% and 16.4% respectively, and those over 64 account for 25% 
+in both areas.  
+Education Level 
+The study revealed that avocado farmers in Ethiopia generally have low formal 
+educational attainment. Nationally, 41% of growers are illiterate or did not progress 
+beyond grade four, with the highest rate recorded in North Gojjam at 61.2%, followed 
+
+--- PAGE 8 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29723 
+by Sidama at 36%. About 33% of farmers attained upper primary education (grades 
+5–8), while only 25% reached secondary school, college, or university level. This 
+pattern indicates that the majority of avocado production is managed by farmers with 
+limited schooling, which constrains their ability to adopt modern practices. 
+Production Context and Pre-harvest Determinants 
+Results showed that in Jimma, Kaffa, Wolaita, and parts of Sidama, avocado 
+production was dominated by tall (>8 m), seedling (“local”) trees that were 
+unmanaged and genetically diverse, making harvesting difficult and ripening uneven. 
+In contrast, government-supported smallholder clusters in East Shewa, North 
+Gojjam, and Silte grew Hass and Ettinger varieties with lower canopies that eased 
+management; Hass’s thicker skin enhanced transport and shelf life (Table 1). 
+Postharvest outcomes were strongly influenced by preharvest factors such as 
+nutrition (notably N: Ca balance), water status, canopy light (pruning), and 
+pest/disease pressure. Irrigation was common in North Gojjam and Silte but rare in 
+high-rainfall, local-type zones. 
+ 
+Due to avocado’s lack of true dormancy [7, 8], insufficient or disrupted irrigation 
+caused flower and fruit drop, producing small, shriveled fruit and increasing rejection 
+along the chain, consistent with [9, 10]. Consistent nutrient management was 
+essential for stabilizing yield and quality; poor fertilization reduced yields by up to 
+70% [11]. Fertilization, especially organic inputs, was nearly universal: 100% in North 
+Gojjam and Central/Northern Sidama; over 90% in East Shewa, Jimma, Silte, and 
+Wolaita and 64.3% in Kaffa. Organic inputs dominated (compost 66.7%, manure 
+60.1%), while mineral use remained limited (Diammonium Phosphate, DAP 6.0%, 
+urea 6.6%). Strengthening integrated nutrient management balancing mineral and 
+organic sources and tailoring rates to tree age and orchard condition helped stabilize 
+yields and improve marketable quality. 
+According to the key informants, there are eight avocado varieties registered 
+nationally (Hass, Fuerte, Ettinger, Pinkerton, Nabal, Bacon, Avocado-Choquette, 
+Avocado-AL1), with Hass and Ettinger being the most prominent. One respondent 
+explained,” Productivity levels at research centers ranged between 20–32.5 tons per 
+hectare. As one researcher put it, “There is a varietal difference in terms of yield, 
+quality, size, color fruit etcetera.” 
+Harvest practices in time and phenology 
+Time from flowering to harvest varied by genetic background, agroecology, and 
+management: Mexican types matured in 6–9 months, West Indian in 5–9 months, 
+and Guatemalan in 10–16 months [12]. In Ethiopia, most trees were seed-derived 
+and racially mixed, which made fixed maturity dates difficult. Surveyed growers most 
+
+--- PAGE 9 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29724 
+commonly reported intervals of 6–7 months (45%) and 8–9 months (47.6%), with 
+fewer reporting up to one year. Systematic phenology records by variety and location 
+remained lacking and were urgently needed.  
+Maturity indices and harvest readiness 
+To balance quality and early-season pricing, establishing a minimum maturity 
+standard is essential. Key measures included oil content and dry matter. Oil content 
+increased with maturation but varied within fruit and across cultivars and 
+environments [13]. Fruit size and seed coat appearance served as complementary 
+indicators but were less reliable for local types due to high variability. In the study 
+areas, 97.7% of growers assessed maturity by external color and texture, and 56.0% 
+by size (Figure 2).  
+ 
+Figure 2: Maturity indicators of avocado fruits in the sample smallholder 
+producers 
+The key informants from research centers consistently emphasized their institutions’ 
+role in supporting producers, processors, and traders. Variety improvement and pest 
+management emerged as dominant themes. A plant breeder highlighted, “Improving 
+avocado cultivars through selective breeding and genetic modification to enhance 
+productivity, diseases and pest resistance and fruit quality  is our key priority.” 
+Another researcher reinforced this by saying, “Our focus is on variety improvement, 
+promotion and demonstration of improved variety, and grafted avocado seedling 
+multiplication.” Postharvest technologies were also emphasized, with one 
+respondent stressing, “Less research emphasis on appropriate harvesting tools has 
+led to high post-harvest loss.” 
+Methods, tools, and peduncle management 
+Many orchards consisted of tall, seed-origin trees up to 15 m, which made safe 
+harvest challenging. Common practices included hand-picking and dropping to the 
+ground (55.5%), hand-picking into bags (49.1%), and to lesser extents, using poles, 
+0.00%
+20.00%
+40.00%
+60.00%
+80.00%
+100.00%
+East
+Shewa
+JimmaN. GojamC SidamaN SidamaKaffaSilte ZoneWolaita
+100%
+84%
+95% 100% 100% 100% 100% 100%
+46% 48%
+86%
+49%
+38%
+62%
+39%
+94%
+9%
+100%
+86%
+31% 38%
+95%
+3%
+81%
+21% 16%
+0%
+26%
+35%
+19%
+6%
+36%
+Percentage SHF 
+Production zones 
+Size Color Firmness Defects Others
+
+--- PAGE 10 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29725 
+shaking, and sticks. Dropping and shaking caused cracks and invisible bruising, 
+which facilitated pathogen entry (notably Colletotrichum spp.), and this was 
+worsened by rough transport and storage. Variety mattered: ‘Fuerte’ required 
+clipping, while ‘Hass’ could be snap-picked without harm [14]. Best practice involved 
+placing fruit into soft bags or crates and moving them quickly to shade. According to 
+this study, tools used included polypropylene (PP) bags (87.2%), harvesting poles 
+(22.5%), and plastic crates (15.3%), along with wooden crates, secateurs, and 
+ladders. A locally developed picking pole deserved wider on-farm demonstration 
+[15]. Clipping to retain an 8–10 mm peduncle reduced respiration and pathogen entry 
+[16]. In surveyed areas, peduncles were often removed in domestic trade; when 
+retained, average length was 0.77 cm, reaching 1.4 cm in North Gojjam (Figure 3).  
+ 
+Figure 3: Estimated length (cm) of fruit stalk left on the avocado fruits at 
+harvesting 
+Seasons, frequency, household participation, and conditions 
+Commercial varieties are mainly harvested between July–September; for example, 
+‘Hass’ from East Shewa is first picked in late September, with late harvests extending 
+to February. Delayed removal suppresses the next flowering flush. Local types: 
+small-fruited (Mexican-dominant) trees are typically harveste d twice yearly 
+(February–March and July–August), while larger-fruited, racially mixed locals in 
+southwestern Ethiopia are harvested once annually. In areas with near year-round 
+rainfall (example, parts of Kaffa), delayed picking can extend harvests almost year-
+round. However, rainfall just before harvest increases turgidity and vulnerability to 
+mechanical damage [3].  
+Household harvesting participation was broad: children participated at 68.3%, 
+husbands at 61.6%, and wives at 41.7%. In many sites, children climbed trees and 
+used long poles to knock fruits onto bare ground, which caused frequent impact 
+damage and short pedicels. 
+East
+Shewa
+Jimma North
+Gojam
+Northern
+Sidama
+Central
+Sidama
+Kaffa Silte
+Zone
+Wolaita
+1.12
+0.66
+1.41
+1.09
+0.84
+0.12
+0.49 0.42
+Estimated length of fruit stalk (cm)
+Production areas 
+
+--- PAGE 11 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29726 
+Regardless of who harvests, fruit must be protected from cuts and abrasions [4]. 
+Temperature and moisture are critical: exposure to >30°C between picking and 
+cooling increases rots and flesh disorders, while wet weather harvesting raises 
+lenticel damage and vascular browning [16]. The study revealed that harvesting 
+occurred mainly in the morning (87.5%), but also midday (27.6%), evening (24.8%), 
+and “any time” (7.9%). Harvesting was faster in short, grafted commercial trees and 
+slower in tall, seedling-origin trees. The reported harvesting times (mean, min–max) 
+were: East Shewa (22, 0–60), Jimma (53, 5–360), North Gojjam (15, 0–35), Central 
+Sidama (49, 1–120), Northern Sidama (44, 5–120), Kaffa (58, 20–180), Silte (31, 0–
+90), and Wolaita (56, 1–600), (Table 2).  
+According to exporters' key informants, the avocado value chain is highly vulnerable 
+during the transition from farm to packing house. Although exporters use specialized 
+tools for export-grade fruit, such as clippers and plastic crates, nearly 40% of the 
+harvest is rejected at the farm gate due to quality problems, including sunburn or 
+improper sizing. Logistics remain the most critical bottleneck. Because farm-access 
+roads are limited, fruit is often transported over distances of up to 30 km by human 
+labor or animal-drawn carts, locally known as “Gari”. These delays severely affect 
+fruit quality, as avocados should ideally enter cold storage at 5–9°C within one hour 
+of harvest. As a result, an estimated 20% of the product is lost during transport alone 
+due to heat exposure and physical bruising.   
+Econometric Analysis  
+The quantile regression at the 25th percentile highlighted factors that drove lower-
+end economic losses in avocado postharvest handling. Losses increased with local 
+(non-improved) varieties (β = 0.939, p<0.01), pest infestation (β = 1.060, p<0.01), 
+longer maturity duration (β = 2.533, p<0.01), harvesting “any time” (β = 2.865, 
+p<0.05), fruit harvested by wives (β = 3.673, p<0.01), and fruit contacting the ground 
+(β = 4.630, p<0.01) (Table 3).  
+The findings of Muita et al. [17] revealed that avocado losses were significantly 
+influenced by variety type, pest damage, inadequate storage, and transport delays, 
+with average losses of about 30%.  
+In contrast, López et al. [18] emphasized pest infestation, ground contact, and poor 
+harvest timing as the primary drivers of fruit rejection, leading to 20–30% economic 
+losses across different stages of the value chain.  
+Local varieties were more damage-prone than improved types, contributing to higher 
+losses. Pest pressure and extended maturity periods likely reflected delayed harvest 
+and environmental exposure. When women harvested, they used methods such as 
+tree shaking or pulling down fruit with long sticks curved at the end, which resulted 
+
+--- PAGE 12 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29727 
+in more damaged and immature fruit. Harvesting at unspecific times, especially 
+midday, worsened bruising and heat stress. Ground contact further reduced fruit 
+quality and market value. 
+Avocado fruit postharvest management 
+Ground contact was widespread (65.2% overall; up to 86% in some zones) despite 
+recommendations to place fruit directly into clean, protective containers to prevent 
+contamination and mechanical damage [19]. Most growers stored fruit under trees 
+or simple shade, yet sun exposure still occurred, accelerating ripening. Pre-cooling 
+was critical for slowing respiration, ethylene, and fungal growth, and ideally should 
+have occurred within six hours of harvest. However, 93.9% of growers did not pre-
+cool, relying instead on night transport, which served as an inadequate substitute 
+(Figure 4). Only some ‘Hass’ from East Shewa reached packhouses promptly; 
+produce from other zones often traveled to Addis Ababa without temperature 
+management.  
+ 
+Figure 4: Percentage of households harvesting avocado fruits in contact with 
+the ground 
+Sorting, grading, and storage 
+While 68% of growers sorted fruit in the field, grading remained inconsistent. Many 
+defects, especially in ‘Hass’, were not externally visible and appeared after several 
+days. Grading, practiced by 60.1% of respondents, relied mainly on size, maturity, 
+and color but was hindered by genetic variability in seedling-origin trees. Exports 
+followed The United Nations (UN) packhouse guidelines, yet the absence of uniform 
+national grading standards for domestic markets caused inconsistency; fruit from 
+southwestern Ethiopia was often transported ungraded and sorted in Addis Ababa 
+before re-export.  
+East Shewa
+Jimma
+North GojamCentral SidamaNorthern Sidama
+Kefa
+Silte Zone
+WolitaOverall
+46.8
+82.9
+30.6
+81.6 80.0 85.7
+41.0
+66.1 65.2
+% of households harvesting in 
+ground contact
+Avocado Production zones
+No
+Yes
+
+--- PAGE 13 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29728 
+Short-term storage was common when fruit was not sold immediately, but methods 
+often compromised quality. Bulk storage on mud floors (46%) and wooden crates 
+(15.3%) increased contamination and compression risks. Self-reported durations 
+ranged from over 11 days for ‘Hass’ in East Shewa to 1 day for local types in Jimma 
+(not scientifically validated). Simple zero -energy cool chambers extended 
+marketability: fruit remained viable for 12 –13 days, while ambient-stored fruit 
+became unmarketable by day 7 [20].  
+Packaging and first-mile logistics 
+Before temporary storage, 69.8% of growers packaged avocado fruit, with 
+Polypropylene bags being the dominant packaging material (>90%). These limit 
+airflow and contribute to bruising, whereas rigid, vented crates and small retail packs 
+such as, perforated bags or net sleeves help maintain quality and enable higher-
+value urban market access (Figure 5). Strengthening packaging infrastructure near 
+production areas, alongside controlled storage, could significantly reduce losses and 
+improve returns for growers. 
+ 
+Figure 5: Types of avocado fruit packaging used by avocado growers 
+Transportation along the supply chain 
+Avocados, bulky and highly perishable, were marketed far from production zones 
+without adequate control of temperature, humidity, or ventilation. The supply chain 
+moved from farms to collection points, aggregation centers, and finally to local or 
+central markets. In the field, handlers relied heavily on polypropylene sacks and 
+dense stacking, which caused compression damage, heat buildup, and rapid 
+ripening. Night transport reduced heat stress but did not replace cooling. Varietal 
+differences were critical: clonal ‘Hass’ fruit, with thicker skins, endured longer, while 
+seedling types with thinner skins suffered greater moisture loss, bruising, and 
+deterioration. Smallholders typically carried fruit in sacks (89.8%) or bulk loads 
+East
+Shewa
+Jimma North
+Gojam
+Central
+Sidama
+Northern
+Sidama
+Kefa Silte
+Zone
+Wolita Overall
+80.0
+96.7
+45.8
+91.7 95.0 100.0 93.1 100.0 90.5
+% of households using different 
+packaging materials
+Avocado production zones
+ Plastic crates  Wooden crates  Polypropylene bags Others
+
+--- PAGE 14 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29729 
+(37.7%), with limited crate use. Losses were aggravated by poor handling and 
+inspection practices, including workers stepping on sacks and contraband checks 
+piercing loads, damaging up to 200 kg per truck. Transporters reported protective 
+measures such as cleaning floors, avoiding mixed loads, and using canvas covers, 
+but cooling and ventilation remained rare. Longer trips used trucks with floor loading, 
+bruising fruit at the bottom and sides. Surveys showed mixed use of plastic crates 
+(75%), wooden crates (50%), and bulk loading (50%). Typical loads ranged from 1–
+4 tons, with carriers averaging 7–10 trips annually, mostly at night or early morning.  
+Distances, timing, and costs  
+About 50.1% of growers were located 1–5 km from local markets, while 25.6% were 
+within 1 km. Remote producers, especially in parts of Kaffa and Jimma, faced long, 
+costly trips over poor roads. After harvest, 36.1% delivered within one hour and 
+32.5% within 1–2 hours; longer waits increased perishability. Local transport took 1–
+3 hours, and long-distance hauls from Jimma, Kaffa, and Wolaita to Addis Ababa 
+were mostly overnight. Transport costs reflected accessibility: 200–300 ETB per 100 
+kg on poor roads versus 40–100 ETB where access was better. Shipments to Addis 
+Ababa averaged 205–241 ETB per 100 kg. As noted by Selamawit [21], pricing was 
+largely influenced by intermediaries, while wholesalers set prices in 75% of 
+transactions, though negotiation remained relevant. Payments were usually prompt, 
+with 80% of farmers receiving cash at the point of sale.  
+Most of the key informants agreed that downstream actors capture the larger share 
+of the total benefit generated from the sector. One researcher stated, “The most 
+monetary benefit goes to middlemen and wholesalers.” Another indicated “Retailers 
+and wholesalers are making the most monetary benefit from the avocado production 
+system.” 
+Magnitude and pattern of harvest and postharvest losses 
+This study detailed avocado losses in Ethiopia, combining surveys and direct 
+measurements to refine estimates. Losses began at harvest and worsened along 
+the supply chain, especially for seedling-based fruit outside export areas. Compared 
+to clonal ‘Hass’, seedling fruit showed greater maturity variation, thinner skins, and 
+weaker storage potential.  
+Survey-based estimates  
+The avocado value chain incurred substantial postharvest losses, totaling 38.9% 
+(23.2% quantitative and 15.7% qualitative), with the most critical points occurring at 
+harvest, wholesale storage, and retail distribution. These findings are consistent with 
+evidence from comparable avocado and fresh-produce value chain studies [22, 23]. 
+At the farm level, immature picking, fruit dropping, and improper handling accounted 
+
+--- PAGE 15 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29730 
+for 5.0% quantitative and 2.6% qualitative loss, which aligns with earlier reports 
+highlighting similar on-farm loss drivers [24]. Additional deterioration occurred during 
+temporary storage and transport to local markets, corroborating findings reported by 
+Kelikay et al. [25]. Long-distance transport to central markets contributed a further 
+4.5% quality loss, while wholesaler storage resulted in 2.8% quantitative and 4.62% 
+qualitative loss, largely due to heat exposure and poor handling practices, patterns 
+similarly documented elsewhere [26]. Retailing was the most damaging stage, with 
+5.5% quantity and 4.5% quality loss from inappropriate packaging, poor storage, and 
+spoilage, echoing observations from related studies [27]. Overall, these results 
+highlight systemic inefficiencies across the chain and reinforce the need for 
+strengthening harvesting practices, packaging, cooling, transport, storage, and 
+market governance to reduce losses and improve quality (Table 4).   
+Load-tracking (objective) estimates 
+Load tracking estimated postharvest loss points with greater precision [28]. At 
+harvest, supply chain (SC1), total losses averaged 9.5% (4.0% quantitative, 5.5% 
+qualitative), mainly due to maturity errors and mechanical injury from picking and 
+dropping fruit from tall trees. During loading, transport, and unloading to Addis Ababa 
+markets (SC2), losses averaged 7.8% (3.0% quantitative, 4.8% qualitative). Losses 
+at wholesaler intake/storage (SC3) averaged 2.9%, mostly quantitative, but rose 
+sharply during wholesale storage and distribution (SC4) to 11.1% (8.1% quantitative, 
+3.0% qualitative) due to heat buildup and inconsistent sorting. These findings 
+showed that while losses occurred throughout the chain, targeting wholesale 
+distribution offered the greatest potential to reduce overall deterioration.  
+Overall, average harvest and postharvest losses were 41%, comprising 38.9% from 
+survey data (23.2% quantitative and 15.7% qualitative) and 43.2% from 
+load-tracking (24.5% quantitative and 18.7% qualitative). Only six out of every 10 kg 
+harvested reached consumers in acceptable condition. The close alignment 
+between methods, load tracking only 4 percentage points higher than surveys, 
+consistent with the Food and Agriculture Organization (FAO) and Ethiopian Statistics 
+Service [29], built confidence in the magnitude and distribution of losses and 
+highlighted the value of routine, objective measurement for accountability. 
+Critical loss points (CLPs) 
+Critical loss points in the avocado supply chain were severe, affecting food security 
+and economics. Surveys and load tracking revealed postharvest losses of 39–43%, 
+concentrated at retail (12.5%), wholesaler storage/marketing (11.2%), and 
+harvesting (8.9%) (Table 5). These findings aligned with prior Ethiopian studies [23, 
+30]. Critical loss points showed early mechanical damage and temperature defects 
+leading to bruising, infection, and accelerated ripening. Losses were concentrated 
+
+--- PAGE 16 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29731 
+at the harvest, wholesaler storage, and retail stages. Reducing them required 
+standardized Postharvest Loss (PHL) measurement, safe harvest tools, pre-cooling, 
+ventilation, hygienic handling, sorting, and improved logistics with crate-based loads 
+and data systems to track volumes, losses, and accountability across actors.  
+Causes of avocado loss along the chain 
+Evidence from surveys and field observations showed that losses began at orchard 
+level due to poor practices producing undersized, deformed, or pest-damaged fruit. 
+Harvest and postharvest losses were worsened by immature picking, rough 
+handling, inadequate containers, bulk stacking, and lack of pre-cooling or cold chain. 
+Transport and aggregation added mechanical injuries from sack use, poor facilities, 
+and heat buildup during long-distance travel. At wholesale and retail, rough handling, 
+poor packaging, and inadequate ventilation persists at storage. Losses were highest 
+for seedling-based orchards in Jimma, Kaffa, Wolaita, and Sidama, with fragile, 
+unevenly ripening fruit. Logistics challenges, weak infrastructure, and institutional 
+issues such as weight-based payments and destructive inspections discouraged 
+investment in quality-preserving practices, aligning with similar Ethiopian studies [31, 
+32].  
+Impacts of avocado postharvest loss 
+Postharvest Loss wastes embedded labor, land, water, fertilizers, and energy and 
+imposes disposal burdens. When unsold or unused fruit is discarded, it also 
+generates environmental burdens such as collection, transport, and landfill [33, 34]. 
+In this study, with losses on the order of 41%, the foregone economic, nutrition, and 
+environmental benefits were substantial.  
+Monetary impact and household welfare 
+Using Central Statistics Agency (CSA) 2020/21 smallholder output (259.9 million kg 
+from 30,588 ha) and load-tracking losses (18.7% qualitative; 24.5% quantitative), 
+the national losses are estimated at 5.13 billion ETB. Comparable high losses were 
+documented in Tanzania [35]. Qualitative loss is valued at the price gap between 
+sound and low-quality fruit (40 ETB/kg) and quantitative loss at the retail value of 
+sound fruit (50 ETB/kg). These losses fall mainly on smallholders which 94% of 
+growers are “lower income” (≤ $1,135) [36]. Without handling improvements, the 
+burden will rise with area/yield expansion and longer market distances. The evidence 
+implies that lowering PHL can have immediate poverty-reducing effects, as farmers 
+benefit from greater realized sales and improved price premiums (Table 6).  
+Nutrition and food security 
+Based on this survey measured quantitative losses and a conservative pulp yield of 
+55% (reflecting larger seeds in local types), Ethiopia loses about 35.03 million kg of 
+
+--- PAGE 17 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29732 
+avocado pulp annually. At 1,600 kcal/kg of avocado, the loss corresponds to 56.1 
+billion kcal, which is sufficient to meet the annual energy requirements of 61,431 
+adults consuming 2,500 kcal per day. Micronutrients lost are also substantial: the 
+lost pulp could supply the annual folate requirements of 194,371 adults, potassium 
+for 133,009 adults, and magnesium for 66,276 adults [37, 38]. As an opportunity-
+cost benchmark, ETB 5.13 billion could purchase 73,282 t of wheat at prevailing 
+Addis Ababa prices, yielding 249.16 billion kcal- or 99.7 million adult days of dietary 
+energy (halved losses would still equal 136,526 adult-years) (Table 7).  
+Land use and environmental burden 
+The measured 63,699.5 t of quantitative losses corresponded to 7,494 ha of 
+farmland that produced fruit which never reached consumers (at 8,500 kg/ha). 
+Disposing of this volume required 9,800 medium dump-truck loads (6.5 t each). With 
+a lifecycle footprint of 2.5 kg CO₂e per kg of avocados (World Economic Magazine), 
+these losses represented 159,249 t CO₂e greenhouse gas emissions (Table 8), 
+embedded in production and transport that delivered no food, income, or nutrition, 
+consistent with FAO’s carbon/land/water footprint framing [39].  
+Strengths, limitations, and measurement pathway 
+A dual-method design surveys for breadth/perceptions and load tracking for 
+objective, stage-specific estimates offer a practical framework for annual monitoring. 
+A sentinel-corridor design (for example Bonga, Boditi) can track progress against 
+CLPs over time. Two caveats remain: (i) some national extrapolations rely on 
+assumptions (for example 55% pulp yield, nutrient conversions) that should be 
+standardized in a national PHL metrics protocol; and (ii) loss magnitudes vary by 
+season, road conditions, and market dynamics, expanding load tracking across belts 
+and seasons will sharpen estimates and targeting.  
+CONCLUSION AND RECOMMENDATIONS FOR DEVELOPMENT 
+Ethiopia’s avocado postharvest losses are substantial but solvable: about four in ten 
+fruits lose value between orchard and retail, mainly at harvest, wholesaler 
+storage/marketing, and retail. Losses are driven by three critical causes: early injury 
+and temperature abuse at harvest, wholesale storage that amplifies deterioration 
+through stacking and poor ventilation, and retail practices where weak ripeness 
+management, display, and stock rotatio n crystallize systemic weaknesses. 
+Postharvest losses are concentrated at a few critical nodes: retail markets, 
+wholesale storage and marketing, and harvesting stages. Reducing losses by just 
+25% at these points could recover ≈ ETB 1.28 billion annually, avert 40,000 t CO₂e, 
+and free 1,875 ha of land-equivalent output benefits that would disproportionately 
+support the 94% of growers who are low-income. 
+
+--- PAGE 18 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29733 
+Priority interventions should be implemented through clearly assigned stakeholder 
+responsibilities across the avocado value chain. Farmers and producer 
+organizations should apply maturity indexing, harvest with safe tools, clip peduncles 
+correctly, keep fruit shaded and off the ground, reduce dropping and rough handling, 
+progressively adopt grafted shorter trees, and undertake basic field sorting and crate 
+use. Government institutions (MoA/regional bureaus, standards bodies, and 
+research–extension) should standardize and enforce maturity, grading, packaging, 
+hygiene and transport Standard Operating Procedures( SOPs); expand training 
+through Farmers Training Centers (FTCs); regulate and promote certified nurseries 
+for quality planting material; facilitate quality-linked contracting and compliance 
+mechanisms; and invest in enabling infrastructure such as feeder roads, market 
+sheds, power, and cold-chain hubs while creating i ncentives and financing  
+mechanisms for packhouses and logistics. Private sector actors (nurseries, 
+aggregators, wholesalers, logistics providers, exporters and retailers) should replace 
+sacks with rigid crates, palletize and ventilate loads, implement pre-cooling where 
+feasible, strengthen grading, improve airflow and hygienic handling surfaces, 
+upgrade storage and retail display practices (First-In, First-Out , FIFO rotation, 
+limited stacking, rapid removal of damaged fruit), and co-invest in packhouses for 
+sorting, cleaning and pre-cooling supported by crate pooling/return systems and 
+quality-based pricing. Non-Governmental Organizations (NGO)s and development 
+partners should catalyze adoption through training and demonstrations, support 
+producer organization capacity and inclusive business models, co-finance pilots for 
+low-cost handling and cold-chain solutions, and convene stakeholders to strengthen 
+governance and scale proven practices to reduce losses and improve marketable 
+quality.  
+ACKNOWLEDGEMENTS 
+This manuscript synthesizes the findings from the Assessment of Post -harvest 
+Losses across the Avocado Value chain in Ethiopia, a study financed by the Food 
+and Land Use Coalition (FOLU)–Ethiopia and implemented by the Ethiopia Office of 
+the Sasakawa Africa Association (SAA) across six Ethiopian regions. We gratefully 
+acknowledge the valuable time and insights shared by surveyed households, 
+traders, exporters, transporters, and agricultural experts.  The funder had no role in 
+the analysis, interpretation, or decision to publish this work.  
+AUTHORS’ CONTRIBUTIONS 
+Getachew Minas contributed to the study’s tool preparation, conducted data 
+analysis, and participated in report drafting. Dr. Fentahun Mengistu and Dr. Ermias 
+Abate played key roles in drafting the report, editing content, and preparing the final 
+manuscript. Dr. Edossa Itisa was involved in shaping the study design, overseeing 
+
+--- PAGE 19 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29734 
+data collection, and contributed report drafting. Aberash Tsehay and Oumer Taha 
+were responsible for collecting nutrition-specific data. Binyam Tesfaye supported the 
+study by developing and producing the geographic map of the study area. 
+FUNDING 
+This study was supported by funding from the Food and Land Use Coalition (FOLU)–
+Ethiopia through Grant Agreement No. E-0581 
+CONSENT FOR PUBLICATION 
+All individuals who provided information for the study gave their informed consent. 
+COMPETING INTERESTS 
+The authors declare that they have no financial or non-financial competing interests 
+related to the content of this article. 
+ 
+
+--- PAGE 20 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29735 
+Table 1: Local and grafted avocado varieties under production by the 
+smallholder farmers 
+Region Zone 
+Type of varieties (%) 
+Local Hass (A) Fuerte (A) Bacon (B) Ettinger (B) Pinkerton (A) Nabal (B) Others 
+Oromia 
+East 
+Shewa 14.9 80.9 14.9 6.4 72.3 6.4 4.3 17.0 
+Jimma 54.9 14.6 1.2 0.0 7.3 0.0 0.0 40.2 
+Average 34.9 47.7 8.1 3.2 39.8 3.2 2.1 28.6 
+Amhara N.  Gojjam 0.0 100.0 0.0 0.0 98.0 0.0 2.0 0.0 
+Sidama 
+C. 
+Sidama 39.5 94.7 73.7 57.9 97.4 39.5 47.4 0.0 
+N. 
+Sidama 22.9 80.0 22.9 11.4 82.9 8.6 45.7 8.6 
+Average 31.2 87.4 48.3 34.7 90.1 24.0 46.5 4.3 
+SW. 
+Ethiopia Kaffa 50.0 11.9 0.0 0.0 9.5 0.0 0.0 47.6 
+C. 
+Ethiopia Silte 33.3 71.8 0.0 0.0 66.7 0.0 2.6 20.5 
+South 
+Ethiopia Wolaita 47.5 54.2 0.0 0.0 50.8 1.7 0.0 25.4 
+Average 35.0 58.3 11.3 7.4 54.7 5.6 9.7 22.3 
+Source: Computed from Survey Data, 2024 
+ 
+
+--- PAGE 21 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29736 
+Table 2: Harvesting time of avocado fruits by smallholder growers 
+Region Zone 
+Harvesting time (%) 
+Morning Evening Noon Any time 
+Oromia 
+East Shewa 91.5 48.9 29.8 2.1 
+Jimma 97.6 2.4 19.5 2.4 
+Average 94.5 25.7 24.6 2.3 
+Amhara North Gojjam 100.0 57.1 2.0 0.0 
+Sidama 
+Central 
+Sidama 97.4 21.1 23.7 0.0 
+N. Sidama 91.4 42.9 34.3 0.0 
+Average 94.4 32.0 29.0 0.0 
+SW Ethiopia Kaffa 54.8 16.7 9.5 57.1 
+C. Ethiopia Silte Zone 92.3 35.9 25.6 2.6 
+South 
+Ethiopia Wolaita 71.2 0.0 71.2 5.1 
+Average 87.5 24.8 27.6 7.9 
+Source: Computed from Survey Data, 2024 
+Table 3: Determinants of avocado postharvest loss with a 25 -percentile 
+quantile regression 
+Parameter Coefficient Std. Error t Sig. 
+95% Confidence 
+Interval 
+Lower 
+Bound 
+Upper 
+Bound 
+(Intercept) 1.166 2.9343 0.398 0.691 -4.607 6.940 
+Age of respondents -0.004 0.0300 -0.138 0.890 -0.063 0.055 
+Sex of the respondent  1.202 0.9192 1.308 0.192 -0.606 3.011 
+Level of education* -0.458 0.2759 -1.661 0.098 -1.001 0.085 
+Years of experience* -0.793 0.4412 -1.798 0.073 -1.662 0.075 
+Training received 0.181 0.7315 0.247 0.805 -1.259 1.620 
+Variety local 0.939 *** 0.2085 4.504 0.000 0.529 1.349 
+Avocado pest infestations 1.060*** 0.3311 3.200 0.002 0.408 1.711 
+
+--- PAGE 22 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29737 
+Grafted trees -2.593** 1.0911 -2.377 0.018 -4.740 -0.446 
+Length of maturity 2.533*** 0.5747 4.406 0.000 1.402 3.663 
+A person involved in 
+harvesting 
+ 
+Husband -1.030 0.8041 -1.280 0.201 -2.612 0.552 
+Wife 3.673*** 0.8941 4.108 0.000 1.914 5.433 
+Children -1.229 0.7710 -1.594 0.112 -2.746 0.288 
+Hired labor 1.168 0.7552 1.547 0.123 -0.318 2.654 
+Time of harvesting  
+Morning 0.116 1.0823 0.107 0.915 -2.013 2.246 
+Evening 1.323 0.9024 1.466 0.144 -0.452 3.099 
+Noon 0.034 0.8951 0.038 0.969 -1.727 1.795 
+Any time of the day 2.865** 1.4039 2.040 0.042 0.102 5.627 
+Method of harvesting  
+Using harvesting bag 0.703 1.1731 0.599 0.549 -1.605 3.011 
+Dropping Fruits 0.563 1.1152 0.505 0.614 -1.631 2.757 
+Using harvesting poles 1.405 0.8850 1.587 0.113 -0.337 3.146 
+Shaking trees 2.918 2.8992 1.006 0.315 -2.787 8.622 
+Hitting fruits with sticks 0.682 1.0537 0.647 0.518 -1.392 2.755 
+Length of the stalk in cm 0.081 0.3455 0.235 0.814 -0.599 0.761 
+Harvesting fruit in contact 
+with the ground 
+4.630*** 0.7693 6.019 0.000 3.117 6.144 
+***Significant at 1% level of significance, ** Significant effect at 5% level of significance 
+*Significant effect at 10% level of significance 
+ 
+
+--- PAGE 23 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29738 
+Table 4: Summary of estimated avocado postharvest loss and causes along 
+the supply chain  
+ 
+No 
+ 
+Supply chain stage 
+ 
+Causes 
+Percent loss (%) 
+Quantity 
+loss 
+Quality 
+loss 
+1 Harvesting, temporary 
+storage at farmers 
+home (SC1) 
+Fruits fall on the ground, damage, 
+maturity problem, timing of harvest not 
+optimal, harvesting immature fruits, 
+stacking together, use of sacks, removal 
+of fruits stalk, over maturity, deformation 
+and other reasons 
+5.00 2.60 
+Storage loss/ stacking together, animal 
+damage after harvest in the producers’ 
+home 
+2.00 1.81 
+Transportation to the local markets 
+Bruising, loading and unloading on animal 
+backs, damage created during unloading, 
+throw away from animal backs, motor 
+bike, carts, other transportation 
+1.00 2.15 
+Loss encountered by the farmers at 
+market place during selling  
+2.4  
+2 Loading, 
+transportation and 
+unloading to central 
+and distance markets 
+(SC 2) 
+Product disregarded /out-grades in supply 
+chain, damage during loading, stacking, 
+transportation, unloading, high 
+temperatures created in the bulk, some 
+ripened and over ripened fruits damage 
+4.5  
+3 Storage of avocado 
+fruits at the wholesaler 
+when the retailers 
+purchase fruits from 
+the wholesalers (SC 3) 
+Stacking together, use of sacks, removal 
+of fruits stalk, high temperatures in the 
+bulk fasten ripening, some ripened and 
+over ripened fruits damage others 
+2.8 4.62 
+5 Transportation to retail 
+market and retailing, 
+retailers-display, 
+marketing, selling, 
+distribution 
+Inappropriate packaging damages 
+produces; damage during transport; 
+spoilage over ripened fruits; poor 
+handling; losses caused by poor storage, 
+poor storage/ stock management 
+5.50 4.50 
+ Total 23.2 15.7 
+ Grand total 38.9 
+
+--- PAGE 24 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29739 
+Source: Computed from survey data collection  
+Table 5: Summary of avocado fruit critical loss points along the supply chain 
+SC Boditi 
+PH loss (%) Total 
+loss 
+(%) 
+Qualitative 
+loss 
+Quantitative 
+loss 
+1 Harvesting (SC 1) 4.6 4.3 8.9 
+2 Transportation to aggregation place (SC 2) 5.6 5.1 10.7 
+3 Loading-transportation-offloading to central market (SC3) 1.3 2.9 4.2 
+4 Wholesale market storage (SC4) 4.3 10.9 15.3 
+5 Transportation to retailers’ market and at time of retailing (SC5) 4.3 3.5 7.8 
+Sub-Total 20.1 26.7 46.8 
+ Bonga    
+1 Harvesting (SC 1) 5.6 3.2 8.8 
+2 Transportation to aggregation place (SC 2) 4.0 1.0 5.0 
+3 Loading-transportation-offloading to central market (SC3) 0.0 1.7 1.7 
+4 Wholesale market storage (SC4) 1.7 5.3 7.0 
+5 Transportation to retailer markets and at time of retailing (SC5) 6.0 11.2 17.2 
+Sub-Total 17.3 22.4 39.7 
+Cumulative Average  18.7 24.5 43.2 
+Source: Computed from load tracking data collection  
+ 
+
+--- PAGE 25 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29740 
+Table 6: Estimated annual loss of avocado fruits in Ethiopia in monetary terms 
+Description Amount 
+Area of production (CSA, 2020/2021) 30,587.74 ha 
+Productivity (yield, kg/ha), (CSA, 
+2020/2021) 8,500 kg/ha 
+Total production during 2020/2021 year 259,998,000 kg 
+Qualitative loss 18.70% 
+Quantitative loss 24.50% 
+Average value of low-quality fruit at Addis 
+Ababa retail price 10 birr/kg 
+Amount of qualitative loss (kg) 18.7% X 259,998,000 = 48619626 
+Amount of quantitative loss (kg) 24.5% X 259,998,000 = 63,699,510 
+Average value of quality avocado fruit at 
+Addis Ababa retail price 50 birr/kg 
+Value difference of low-quality fruit 40 birr/kg 
+Value of qualitative loss (Birr) 40 X 48619626 = 1,944,785,040 
+Value of quantitative loss (Birr) 50 X 63,699,510 = 3,184,975,500 
+Value of total loss 1,798,146,168 + 2,913,277,590 =5129760540 
+Estimated total loss during the 2020/2021 
+production year in monetary terms 5,129,760,540   Birr 
+Source: Computed from study result  
+ 
+
+--- PAGE 26 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29741 
+Table 7: Food security implications of the avocado postharvest losses 
+Description Unit Quantity 
+Economic loss of Avocado ETB 5,129,760,540 
+Price of Wheat/kg ETB 70 
+Volume of wheat that could be purchased with the 
+lost money Kg 73,282,293 
+Energy content of wheat/kg Kcal 3,400 
+total lost energy Kcal 249,159,797,657 
+Energy requirement of adult person/day Kcal 2,500 
+Number of adults that could be fed/day Person 99,663,919 
+Number of adults that could be fed/year Person 273,052 
+Number of adults that could be food secured/year, if 
+we reduce the loss by 50%, Person 136,526 
+Source: Computed from study result  
+Table 8: Estimated Greenhouse gas emissions from disposal of avocado 
+wastes 
+Types of 
+environment 
+impact 
+Estimated 
+quantitative 
+loss (kg) 
+Municipal 
+Solid waste 
+contribution 
+(tons) 
+Amount of 
+Greenhouse 
+Gas 
+emission/kg 
+Total 
+Greenho
+use Gas 
+emission 
+Volume 
+of land 
+fill dump 
+track 
+Number of 
+land fill 
+dump tracks 
+required for 
+disposal of 
+waste(g) = 
+b/f 
+ (a)  (b)  c=(b/1000)  (d)  (e)= c*d  (f) 
+Solid waste 
+contribution 63,699,510 63,669.5 tons     6.5 ton 63699.5/6.5 ton = 9800 dump trucks 
+Greenhouse 
+gases emission   63,699,510 63,699.5 tons 2.5 kg CO2 e 159248.8 tons of CO2 e     
+Source: Computed from study result  
+ 
+
+--- PAGE 27 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29742 
+REFERENCES  
+1. Asfaw E and Z Nigussie Trends and drivers of avocado production in 
+Ethiopia: a review. World J Food Sci Technol. 2024;8(4):72 78. 
+2. Central Statistical Authority. Report on area and production of crops: 
+Private peasant holdings, Meher season. Agricultural Sample Survey, 
+Statistical Bulletin. Addis Ababa: Federal Democratic Republic of Ethiopia; 
+2004/2005–2017/2018. 
+3. Hofman PJ, Bower JP and A Woolf Harvesting, packing, postharvest 
+technology, transport, and processing. In: Schaffer B, Wolstenholme BN, 
+Whiley AW, editors. The avocado: Botany, production, and uses. 2nd ed. 
+Wallingford: CABI; 2012. p. 490–540. 
+4. Bill M, Sivakumar D, Thompson AK and L Korsten Avocado fruit quality 
+management during the postharvest supply chain. Food Rev Int. 
+2014;30(3):169–202. 
+5. Kish L Survey sampling. New York: John Wiley and Sons; 1965. 
+6. Food and Agriculture Organization (FAO).  Post-harvest fish loss 
+assessment in small-scale fisheries: A guide for the extension officer. FAO 
+Fisheries and Aquaculture Technical Paper 559. Rome: FAO; 2011. 
+7. Whiley AW, Saranah JB, Cull BW and KG Pegg Manage avocado tree 
+growth cycles for productivity gains. Queensl Agric J. 1988; 114:29–36. 
+8. Whiley AW, Schaffer B and BN Wolstenholme The avocado: Botany and 
+production practices. Hortic Rev. 1994; 16:1–97. 
+9. Arpaia ML, Van Rooyen Z, Bower JP, Hofman PJ and AB Woolf Grower 
+practices will influence postharvest fruit quality. In: Proceedings of the 2nd 
+Seminario Internacional de Paltos; 2004 Sep 29 –Oct 1; Quillota, Chile. 
+Sociedad Gardiazabal Magdahl Ltda; 2004. p. 1–8. 
+10. Arpaia ML, Hofshi R and GS Bender Avocado postharvest handling and 
+transport. In: Bender GS, editor. Avocado production in California: A cultural 
+handbook. University of California Cooperative Extension; 2004. p. 145–150. 
+
+--- PAGE 28 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29743 
+11. Dorantes L, Parada L, Ortiz A and H Villegas Avocado: Postharvest 
+physiology and technology. In: Florkowski WJ, Prussia SE, Shewfelt DS, 
+Brueckner B, editors. Postharvest handling: A systems approach. 2nd ed. 
+San Diego: Academic Press; 2004. p. 475–88. 
+12. Paull RE and O Duarte Tropical fruits: Volume 1. Wallingford (UK): CABI; 
+2011. 
+13. Silva AC and RF Lima Changes in lipid composition during the development 
+of avocado fruits. Scientia Plena. 2023;19(3): 1-9.  
+14. Eaks IL Effects of clip vs. snap harvest of avocados on ripening and weight 
+loss. J Am Soc Hortic Sci. 1973;98(1):106-108. 
+15. Alemayehu B, Demissie H and Y Rezene Assessment of the constraints 
+and challenges in avocado ( Persea americana Mill.) production and 
+marketing in southern Ethiopia. Int J Fruit Sci. 2024;24(1):60–72.  
+16. Munhuweyi K, Mpai S and D Sivakumar Extension of avocado fruit 
+postharvest quality using non -chemical treatments. Agronomy. 
+2020;10(2):212. 
+17.  Muita D, Okello D and F Opondo Determinants of post-harvest losses in 
+the avocado value chain: insights from farmers in Murang’a County, Kenya. 
+Discover Food. 2025; 5:62. 
+18. Ramírez Gil JG, López JH and JC Henao Rojas Causes of Hass avocado 
+fruit rejection in preharvest, harvest, and packinghouse: economic losses and 
+associated variables. Agronomy. 2020;10(1):8. 
+19. Food and Agriculture Organization (FAO).  Handling of horticultural 
+produce: Postharvest techniques and practices for fresh fruits and 
+vegetables. Vol. 2. Rome: FAO; 2005. 
+20. Shah GH and G Girma Storage studies of avocado in low-cost cool 
+chambers. Int J Sci. 2020;3(1):19–32.  
+21. Mengesha S, Abate D, Adamu C, Zewde A and Y Addis Value chain 
+analysis of fruits: The case of mango and avocado producing smallholder 
+farmers in Gurage Zone, Ethiopia. J Dev Agric Econ. 2019;11(5):102–9. 
+
+--- PAGE 29 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29744 
+22. Etefa OF, Forsido SF and MT Kebede Postharvest loss, causes, and 
+handling practices of fruits and vegetables in Ethiopia: Scoping review. J 
+Hortic Res. 2022; 30(1): 1–10.  
+23. Geremu MA, Welelaw E, Tamirat S and B Kidane Associated fungal 
+pathogens and causes of postharvest losses in the avocado value chain in 
+Hossana town market, Ethiopia. Afr J Food Agric Nutr Dev. 2022; 22(6): 
+20646–20667. https://doi.org/10.18697/ajfand.111.22015  
+24. Bereda S Evaluating the effect of improved avocado fruit harvesting and 
+post-harvest handling techniques in reducing post-harvest losses in Bensa 
+district, Sidama Zone, SNNP region [thesis]. Hawassa (Ethiopia): Hawassa 
+University; 2016.  
+25. Kelikay GN, Gebreab YT, Melaku ZT, Teferra TF  and A Dzankovic 
+Knowledge, attitude and practices of households on technology adoption and 
+postharvest management of avocado, mango and tomato in Wondo Genet 
+Woreda of Sidama Region. J Food Technol Nutr Sci. 2024;6(3):2–19.  
+26. Bantayehu M, Alemayehu M, Abera M, and S Bizuayehu Postharvest 
+losses assessment of tropical fruits in the market chain of North Western 
+Ethiopia. Food Sci Qual Manag. 2017; 66:13–24.  
+27. Dessalegn Y, Assefa H, Derso T and A Haileslassie Assessment of fruit 
+postharvest handling practices and losses in Bahir Dar, Ethiopia. Afr J Agric 
+Res. 2016;11(52):5209–5214.  
+28. Food and Agriculture Organization (FAO). Food Wastage Footprint: 
+Impacts on Natural Resources. Rome: FAO; 2013 . 
+https://www.fao.org/4/i3347e/i3347e.pdf Accessed July 2025. 
+29. Food and Agriculture Organization (FAO), Ethiopian Statistics Service 
+(ESS). Report on pre- and post-harvest crop losses pilot survey (2021–2022). 
+Rome and Addis Ababa: FAO and ESS; 2023. 
+30. Abebe T and T Tora Assessment of postharvest loss of avocado at 
+producers’ level: Case of Wolaita and Kembata Tembaro Zones, Southern 
+Ethiopia [Internet]. Wolaita Sodo University; 2022. 
+31. Abebe A and B Berhanu Assessment of postharvest loss of avocado at 
+producer’s level: Case of Wolaita and Kembata Tembaro Zones. J Agric 
+Crops. 2022;8(4):364–74. ISSN(e): 2412-6381, ISSN(p): 2413-886X. 
+
+--- PAGE 30 ---
+ 
+ 
+ https://doi.org/10.18697/ajfand.152.26655 
+ 29745 
+32. Snel HJ, Broeze J, Kremer FS and E Osena Opportunities to reduce post-
+harvest losses in the Kenyan avocado sector through agro-processing and 
+agro-logistics. Wageningen University and Research; 2021.  
+33. Kitinoja L and AA Kader Measuring postharvest losses of fresh fruits and 
+vegetables in developing countries. In: Hodges K, Hodges J, Rosegrant DC, 
+editors. Encyclopedia of Food Security and Sustainability. Springer; 2015. p. 
+40–7. 
+34. Hailu B and M Dereje Post-harvest losses and food security nexus: 
+Evidence from Sub-Saharan Africa. Food Sci. Qual. Manag. 2021; 108:1–13. 
+35. Mwasumbi AT and J Makindara Economic implication of avocado fruit 
+rejections in the Southern Highlands of Tanzania: A case of Njombe Region. 
+Afr J Soc Issues (AJOSI). 2024;7(2):87–101. 
+36. World Bank. World Bank country classifications by income level for 2024–
+2025. 2024. 
+37. U.S. Department of Agriculture. Food Data Central: Avocados, raw, all 
+commercial varieties [Internet]. Washington (DC): USDA Agricultural 
+Research Service; 2019. 
+38. FAO/WHO. Vitamin and mineral requirements in human nutrition. 2nd ed. 
+Geneva: World Health Organization and Food and Agriculture Organization 
+of the United Nations; 2004.  
+39. Food and Agriculture Organization (FAO). Food Wastage Footprint: 
+Impacts on Natural Resources. Rome: FAO; 2013  
+
+
+SOURCE: sidama_gedeo_avocado_postharvest_loss_2026.pdf
+PAGES: 7
+================================================================================
+
+--- PAGE 1 ---
+International Journal of Agricultural Research Innovation & Technology  An open access article under  
+ISSN: 2224-0616  
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026     Available online at https://ijarit.online 
+DOI: https://doi.org/10.3329/ijarit.v16i1.92278    https://www.banglajol.info/index.php/IJARIT  
+ 
+ 
+Estimating avocado postharvest loss across its value chains and its 
+determinants in Sidama and Gedeo areas, Southern Ethiopia 
+ 
+Hana Tafesse1* , Mulugeta Fola1 , Tsadiku Alemu1 , Teklu G/Tsadik1 ,  
+Berhanu Yacob2 and Atnafua Bekele3 
+ 
+Received 30 January 2026, Revised 5 May 2026, Accepted 24 June 2026, Published 30 June 2026  
+ 
+A B S T R A C T 
+ 
+Fruit plays a vital role in enhancing nutrition security; however, it faces persistent 
+postharvest losses due to socioeconomic, institutional, and biological factors. To 
+reduce these losses, it is essential to identify the major causes and estimate the 
+magnitude of loss to inform policy strategies. This study assessed the primary 
+causes of avocado postharvest losses across the avocado value chain. A two -stage 
+stratified sampling technique was employed to select sample respondents. 
+Accordingly, a total of 21 2 producers were randomly selected from avocado -
+producing districts in the Sidama region and Gedeo zone. The results indicate that, 
+on average, postharvest loss accounts for 19.02 percent of the total avocado 
+harvest, despite avocados contributing 24.09 percent of the producers’ total annual 
+income. Across the value chain, collectors and retailers experienced losses 
+exceeding 50 percent, whereas processors had losses below five percent. A multiple 
+linear regression model was used to identify the determinant s of postharvest 
+avocado losses . The results show that harvesting with traditional sticks, 
+unfavorable weather conditions, the use of soft storage materials, the presence of 
+disease, and low frequency of extension contacts were significant factors 
+contributing to postharvest loss es. Therefore, the dissemination of improved 
+harvesting and storage materials, combined with expanded extension support, is 
+essential to minimizing postharvest losses in the area. 
+ 
+Keywords: Avocado, Gedeo, Multiple linear regression, Post-harvest Losses, Sidama 
+ 
+ 
+ 
+ 
+ 
+ 
+1Department of Agricultural Economics, Sidama Agricultural Research Institute, Hawassa, Ethiopia 
+2Department of Food Science, Sidama Agricultural Research Institute, Hawassa, Ethiopia 
+3Department of Horticulture, Sidama Agricultural Research Institute, Hawassa, Ethiopia 
+ 
+*Corresponding author’s email: hanatafese2018@gmail.com (Hana Tafesse)    
+ 
+Cite this article as:  Tafesse, H., Fola, M., Alemu, T., Tsadik, T.G., Yacob,  B.  and Bekele, A. 2026. 
+Estimating avocado postharvest loss across its value chains and its determinants in Sidama and 
+Gedeo areas, Southern Ethiopia.  Int. J. Agril. Res. Innov.  Tech. 16(1): 73-79. 
+https://doi.org/10.3329/ijarit.v16i1.92278 
+Introduction 
+ 
+Ethiopia has a comparative advantage in 
+horticultural crop production due to its 
+favorable climate, high domestic demand, 
+and relatively low labor costs. Among these 
+crops, fruits and vegetables are abundant 
+sources of dietary fiber, vitamins, and 
+minerals, and they also contribute 
+significantly to economic growth and 
+promote food and nutrition security 
+(Banjaw, 2017) . Across Ethiopia, a total of 
+116,284.63 hectares are dedicated to fruit 
+cultivation. In this area, bananas account 
+for approximately 59.95 pe rcent of the 
+cultivated area, followed by avocados at 
+17.98 percent (CSA, 2020) . Most of these 
+crops are produced by smallholder farmers 
+and supplied to nearby markets. Although a 
+wide variety of horticultural crops are 
+cultivated, not all outputs reach co nsumers 
+due to environmental, technical, and 
+economic challenges that hinder harvesting, 
+handling, and the effective distribution of 
+produce from growers to consumers (Gebru 
+and Belew, 2015). 
+ 
+  
+ 
+
+
+--- PAGE 2 ---
+Tafesse et al. (2026)            Estimating avocado postharvest loss in Sidama and Gedeo areas 
+ 
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026 
+In addition, most fruits are highly 
+susceptible to persistent po stharvest losses, 
+which exacerbate declines in output, limit 
+food availability, and adversely affect the 
+economy at both the household and national 
+levels (Banjaw, 2017). Compared with other 
+crops, the magnitude of fruit loss is 
+particularly high due to th eir perishable 
+nature, inadequate sorting to remove defects 
+before storage, use of insufficient packaging 
+materials, rough handling, poor cooling and 
+temperature management, and 
+contamination by pathogens (Kitinoja and 
+Kader, 2002; Atanda et al ., 2011) . As  a 
+result, an estimated 15-70% of horticultural 
+crops incur postharvest losses (Misrak et al., 
+2014). Practices that significantly contribute 
+to these losses include improper harvesting 
+and handling, inadequate storage facilities, 
+insufficient transportation, poor packaging, 
+and weak marketing systems (Banjaw, 
+2017). 
+ 
+However, postharvest management of most 
+horticultural crops in Ethiopia has received 
+inadequate attention, making it difficult to 
+accurately account for losses during harvest 
+and postharvest (Adugna et al ., 2011) . 
+Although the horticultural sector is growing, 
+support for reducing postharvest loss and 
+improving crop quality remains insufficient 
+(Mohammed and Afework, 2016). To address 
+this, since 2010, the Government of 
+Ethiopia has been expanding mega and 
+medium agro -industries to promote value 
+addition through processing of agricultural 
+outputs, aiming to boost foreign earnings 
+and enhance economic growth under the 
+Growth and Transformation Plan (GTP) 
+(MoA, 2015) . In southern Ethiopia, Sidama 
+and Gedeo together account for 
+approximately 29.6 percent of total avocado 
+production (CSA, 2020) . Among agro -
+industries, one mega and one medium 
+industry were established in Sidama a nd 
+Gedeo, respectively, and are currently 
+processing avocado oil. The primary source 
+of inputs for these industries is smallholder 
+farmers’ production. However, these 
+industries face shortages in raw avocado 
+supply in both quality and quantity due to 
+production constraints, postharvest losses, 
+and other socioeconomic and institutional 
+factors. 
+ 
+Among the few studies on the determinants 
+of avocado cultivation in Ethiopia, Benta et 
+al. (2024) investigated the constraints of 
+avocado production and marketing in  
+southern Ethiopia using descriptive 
+analysis. To the best of our knowledge, no 
+studies have conducted a parametric 
+analysis of the factors affecting avocado 
+postharvest losses across its value chain in 
+the area. Consequently, this study estimates 
+avocado losses across the value chain and 
+identifies their determinants using a robust 
+multiple linear regression model. In doing 
+so, the study contributes to identifying key 
+intervention areas across the value chain to 
+enhance sustainable productivity, value 
+addition, and marketing of avocados. 
+ 
+Research Methodology  
+ 
+Method of data collection and sampling 
+techniques 
+  
+The study used primary data collected from 
+avocado producers, traders, and processors 
+during 2022. Before collecting household -
+level data, key informant interviews and 
+focus group discussions were conducted to 
+identify constraints in avocado production, 
+including postharvest losses , and to 
+understand the role of local institutions in 
+its management. A two -stage sampling 
+technique was then employed to select the 
+sample respondents. In the first stage, 
+districts with high avocado production 
+potential were selected. In the second stage, 
+two kebeles from each district were chosen 
+based on their relative production potential. 
+A total of 212 respondents were selected 
+from both study areas, with 107 from the 
+Sidama region and 105 from the Gedeo 
+zone, using random s ampling. The 
+distribution of samples across the respective 
+districts is presented in Table 1. 
+Table 1. Sample sizes from selected districts 
+ 
+Region/Zone Sample districts Sample size Frequency 
+ 
+Sidama Region 
+Aleta wondo 35 16.51 
+Wondo Genet 35 16.51 
+Dale 37 17.45 
+ 
+Gedeo Zone 
+Yirgachefe 32 15.09 
+Dilla zuria 39 18.40 
+Wonago 34 16.04 
+  
+74 
+
+--- PAGE 3 ---
+Tafesse et al. (2026)            Estimating avocado postharvest loss in Sidama and Gedeo areas 
+ 
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026 
+Method of data analysis 
+ 
+The collected data were analyzed using both 
+non-parametric (descriptive) and parametric 
+(econometric) methods. Descriptive statistics 
+included the mean, percentage, frequency 
+distribution, and standard deviation. A 
+multiple linear regression model was 
+employed to estimate population parameters 
+and identify the causes of postharvest 
+avocado loss. 
+ 
+The MLR model was employed to identify the 
+causes of avocado postharvest loss (PHL) 
+because the dependent variable, the amount 
+of postharvest loss, is continuous a nd 
+measured in kilograms. Twelve explanatory 
+variables were considered as potential 
+factors influencing PHL. The nature of these 
+variables varies. Sex, storing materials, 
+weather conditions, and disease are dummy 
+variables, while harvest, education, age, 
+family size, extension contact, distance to 
+the nearest market, tropical livestock unit 
+(TLU), and annual income of the 
+respondents are continuous or discrete 
+variables, depending on their 
+characteristics. To overcome the estimation 
+failure of ordinary leas t squares, robust 
+estimation was employed.  
+ 
+Yi = f (xi, β) + ϵi ------------ (1) 
+ 
+Where, 
+ 
+Yi is the amount of avocado PHL in 
+kilograms, and xi is a vector of independent 
+variables. These are harvest, sex, storage 
+materials, weather conditions, disease, 
+education, age, family size, extension 
+contact, distance to the nearest market, 
+tropical livest ock unit (TLU), and annual 
+income of the respondents; ϵi is the error 
+term.  
+ 
+Results and Discussion  
+ 
+Socioeconomic characteristics of sample 
+households   
+ 
+The average postharvest loss (PHL) of 
+avocados is 309.79 kilograms per year, with 
+a range of  1 to 2,600 kilograms per year. 
+The mean harvested amount of avocado fruit 
+is 1,939.58 kilograms, with a range of 32 to 
+63,300 kilograms. This indicates that the 
+area has high potential for avocado 
+production, with postharvest loss 
+representing a significa nt production 
+constraint. Among the total sample, 83 
+percent of respondents were male, and 17 
+percent were female. The mean educational 
+level of respondents is approximately seven 
+grades. The average age and family size of 
+respondents are 42.41 years and s even 
+persons, respectively. Regarding storage 
+practices, 34 percent of respondents used 
+wooden hard -covered materials, while the 
+remainder used jute sacks or baskets, 
+indicating that only a minority of producers 
+employ materials that protect avocados from 
+damage. 
+ 
+Regarding production challenges, 87 percent 
+of respondents reported that last year’s 
+weather conditions were unfavorable for 
+avocado production, contributing to 
+postharvest losses. Similarly, 45 percent of 
+respondents reported that the disease 
+affected avocado crops, resulting in 
+additional postharvest losses . The average 
+extension contact is 2.52 days per year, the 
+average distance to the market is 3 
+kilometers, and the mean tropical livestock 
+unit (TLU) is 1.44. The average annual 
+income of respondents, derived from sources 
+such as annual and perennial crop sales, 
+livestock and livestock product sales, and 
+other on -farm and off -farm activities, is 
+24,310 Birr. 
+ 
+Table 2. Socioeconomic and institutional variables of sample respondents. 
+ 
+Variables  Mean St.Dev Min Max 
+PHL in kilograms 309.79 480.15 1 2600 
+Harvested amount in kilograms 1939.58 4850.07 32 63300 
+Sex  0.83 0.37 0 1 
+Education in grades completed 6.53 3.60 0 15 
+Age  42.41 14.54 14 85 
+Family size  6.58 2.53 0 12 
+Storing materials  0.34 0.48 0 1 
+Weather condition 0.87 0.34 0 1 
+Disease  0.45 0.49 0 1 
+Extension contacts  2.52 2.73 0 20 
+Market distance  3.003 3.12 0.1 15 
+TLU  1.44 1.48 0 6.88 
+Income in 1000’s Birr 24.31 40.93 0 355.6 
+75 
+
+--- PAGE 4 ---
+Tafesse et al. (2026)            Estimating avocado postharvest loss in Sidama and Gedeo areas 
+ 
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026 
+Economic role of avocado fruit and its 
+post-harvest losses 
+ 
+According to the data, the average avocado 
+production in the study area is estimated at 
+1,939 kilograms per year. By region, 
+production in the Gedeo zone is higher than 
+in the Sidama region, with averages of 2,042 
+and 1,839 kilograms, respectively. This 
+difference may be attributed to the 
+agricultural system in the Gedeo zone, 
+which is predominantly agroforestry, with 
+avocado as a major intercropped fruit. The 
+harvested amou nt is further classified into 
+sale, consumption, and postharvest loss. On 
+average, postharvest loss accounts for 
+approximately 19.03 percent of total 
+avocado production. Despite this loss, 
+avocados contribute significantly to farmers’ 
+annual income. The av erage annual income 
+of avocado-producing farmers in the area is 
+about 29.13 thousand Birr, with avocados 
+contributing, on average, 24.09 percent of 
+this income. This indicates that roughly one-
+fourth of farmers’ income depends on 
+avocados, highlighting the fruit’s importance 
+as both a source of income and a food. 
+Across the study areas, the income share 
+from avocados ranges from 22.66 to 25.51 
+percent. 
+ 
+ 
+Table 3. Avocado production, PHL, and income share of avocado production. 
+ 
+Roles Sidama Region Gedeo Zone Total 
+Mean  St.Err Mean  St.Err Mean  St.Err 
+Avocado produced in kilograms 1839 295 2042 603 1939 333 
+Avocado PHL share in percent 19.03 1.52 19.01 1.17 19.02 0.96 
+Annual income in 1000 Birr 32.44 42.18 25.76 44.31 29.13 30.59 
+Avocado income shares in 
+percent  
+25.51 2.31 22.66 2.52 24.09 1.71 
+ 
+All of the factors described above have either 
+a positive or negative relationship with the 
+amount of postharvest loss (PHL). Therefore, 
+conducting a multiple linear regression 
+model is necessary to quantify the 
+relationship and determine the magnitude of 
+their effects on avocado postharvest loss. 
+ 
+ 
+Table 4. Avocado amount collected and loss across its value chains.  
+ 
+Roles Retailers Collector Processors 
+Mean St.Err Mean St.Err Mean St.Err 
+Avocado collected in kg 5328.94 1837.79 9100 7100 2790 1710 
+Avocado loss shares in 
+percent 
+55.39 11.89 60.5 20.5 4.8 3.8 
+ 
+Retailers: These are village -level buyers who 
+purchase avocados primarily from 
+producers. Due to the use of inappropriate 
+harvesting materials at the farm level, the 
+farm experiences significant avocado losses. 
+The average loss at the retail stage is 55.39 
+percent, indicating that over half of the total 
+amount purchased was lost. 
+ 
+Collectors: These are local assemblers who 
+collect avocados from producers and 
+retailers, then sell them to traders in  other 
+areas, such as Addis Ababa, Adama, and 
+Jijiga, as shown in Figure 1. The average 
+loss at the collector stage is 60.5 percent of 
+the total collection. 
+Processors: These are small-scale processors 
+who mainly produce juice. The average los s 
+at this stage is about 4.8 percent, which is 
+lower than  the losses experienced by 
+collectors and retailers. This relatively small 
+loss occurs because processors purchase 
+already ripe, high -quality fruit and process 
+it daily. There is also a considerable amount 
+of loss after collectors gather avocados from 
+the locality. Before transporting them to the 
+central market in Addis Ababa, collectors 
+sort out damaged avocados, and these 
+discarded fruits represent a loss for the 
+collectors. 
+ 
+76 
+
+--- PAGE 5 ---
+Tafesse et al. (2026)            Estimating avocado postharvest loss in Sidama and Gedeo areas 
+ 
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026 
+   
+ 
+Fig. 1. Collector sorting damaged avocado at Aleta Wondo, Sidama. 
+ 
+Multiple linear regression model results 
+ 
+Twelve variables were used to identify the 
+causes of postharvest avocado losses . 
+Among them, five variables were found to 
+significantly affect postharvest avocado 
+losses. These are the amounts of avocados 
+harvested, handling and storage materials, 
+weather conditions, diseases , and the 
+frequency of extension contacts. Among 
+these vari ables, storage or handling 
+materials and the frequency of extension 
+contact have negative and significant effects, 
+while the remaining variables have positive 
+and significant effects. These results are 
+consistent with prior expectations. 
+Regarding model fi tness, the R² is 78.39 
+percent, indicating that 78.39 percent of the 
+variation in postharvest loss is explained by 
+the explanatory variables included in the 
+model. 
+ 
+ 
+Table 5. Multiple linear regression model result. 
+ 
+Variables  Coefficients Standard Error 
+Harvest 17.41*** 3.22 
+Sex of the respondent  -10.01 31.38 
+Educational status of the respondent -0.52 2.85 
+Age of the respondent  0.059 0.63 
+Family size of the respondent  3.55 3.75 
+Storing materials for avocado -56.68*** 16.39 
+Weather conditions  48.63** 23.07 
+Disease of the avocado 73.59*** 28.15 
+Extension contact frequency  -6.19* 3.26 
+Market distance  5.58 4.99 
+Tropical livestock unit 2.56 7.18 
+Income of respondent per year -0.0004 0.0003 
+Constant  -26.63 42.98 
+R2 
+Observations  
+78.39 
+212 
+ 
+Harvest: Farmers in the study area use 
+locally available materials to harvest 
+avocados. These materials often result in 
+mechanical damage to the fruit. During 
+harvesting, most farmers use sticks that 
+damage both immature and mature 
+avocados. Damaged avocad os tend to decay 
+quickly or are lost within a short period after 
+harvest. This implies that postharvest 
+avocado loss is expected to increase with the 
+amount harvested; that is, the higher the 
+harvest, the greater the loss. Among the 
+total sample, none of t he farmers used 
+improved harvesting sticks or technologies 
+to reduce postharvest loss. Therefore, the 
+amount of avocado harvested using locally 
+available materials was used to evaluate the 
+relationship between production levels and 
+postharvest loss. The re sults indicate that 
+postharvest avocado losses are  strongly 
+associated with harvested volume. According 
+to the results presented in the table, 
+avocado harvest is positively associated with 
+postharvest loss. Specifically, for each 
+additional 100 kilograms harvested, 
+postharvest loss increases by an average of 
+77 
+
+--- PAGE 6 ---
+Tafesse et al. (2026)            Estimating avocado postharvest loss in Sidama and Gedeo areas 
+ 
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026 
+17.41 kilograms . This finding, which 
+highlights the contribution of improper 
+harvesting materials to postharvest fruit 
+losses during harvesting, is consistent with 
+prior studies (Obse et al., 2021; Yebirzaf and 
+Esubalew, 2021; Solomon, 2019; Seble, 
+2016; Humbe and Reneby, 2014; Victor, 
+2014). 
+ 
+Storing materials: In the study area, farmers 
+use two types of storage materials after 
+harvest. These are locally prepared wooden 
+containers (such as kircho 1) and jute sacks 
+or baskets. The study evaluated which 
+materials significantly reduce postharvest 
+losses in avocado fruit. This evaluation was 
+based on the premise that, compared with 
+jute sacks or baskets used to store avocados 
+after harvest, wooden conta iners have a 
+hard shell  that protects the fruit from 
+mechanical damage during transportation 
+and storage. Based on the results presented 
+in the table, compared with jute sack users, 
+farmers who use wooden materials 
+experience, on average, 56.68 kilograms less 
+postharvest avocado loss , holding other 
+variables constant. This finding, which 
+shows that hard-covered wooden and plastic 
+materials help prevent postharvest loss of 
+avocado, is consistent with prior studies 
+(Obse et al., 2021; Yebirzaf and Esubalew, 
+2021; Solomon, 2019; Seble, 2016; Victor, 
+2014; Humbe and Reneby, 2014). 
+ 
+Weather conditions: Weather can have both 
+favorable and unfavorable effects on crop 
+production, including fruit production. 
+Unfavorable weather conditions that 
+contribute to postharve st loss of avocado 
+fruits include extreme temperature, relative 
+humidity, air velocity, and atmospheric 
+composition. Deviations in these conditions 
+from normal levels can increase postharvest 
+losses. According to the results, compared 
+with respondents who reported favorable 
+weather conditions for avocado production, 
+those who reported unfavorable weather 
+conditions experienced an average reduction 
+of 48.63 kilograms of avocado due to 
+postharvest loss. This finding is consistent 
+with the studies conducted by  Obse et al.  
+(2021) and Victor (2014). 
+ 
+Disease: Disease is a major cause of 
+postharvest avocado losses, leading to fruit 
+decay and the discarding of damaged 
+produce. Disease is a location -specific 
+                                                
+1Kircho is a locally prepared wooden storage 
+material made from bamboo. 
+problem, and it was included to evaluate the 
+magnitude of its effect on postharvest loss. 
+Based on the results, sample respondents 
+who reported that disease is a problem for 
+avocado production experienced, on average, 
+73.53 kilograms more in postharvest lo ss 
+than those who reported that it is not a 
+problem. This finding is consistent with the 
+results reported by Solomon (2019)  and 
+Victor (2014). 
+ 
+Extension contacts: The provision of 
+extension support improves agricultural 
+production by providing information  on 
+managing avocados during both preharvest 
+and postharvest stages and by helping  
+identify potential markets with higher 
+demand for avocados. Thus, it is 
+hypothesized to reduce postharvest losses. It 
+is measured by the number of contacts with 
+extension pe rsonnel per year regarding 
+avocado production and marketing . 
+According to the results, for each additional 
+day of extension contacts , the postharvest 
+loss of avocado decreases by an average of 
+6.19 kilograms, holding other factors 
+constant. 
+ 
+Conclusion and Recommendation  
+ 
+The results of the study reveal that 
+postharvest loss is a major production 
+constraint for avocado in the area. It 
+accounts for about 19.02 percent of total 
+harvest loss, despite avocado contributing 
+24.09 percent of the annual income of 
+producer farmers. A robust multiple linear 
+regression model was employed to identify 
+the causes of postharvest loss. Accordingly, 
+harvesting practices, storage materials, 
+weather conditions, disease, and extension 
+contact were identified as significant 
+contributors to postharvest loss. Among 
+these factors, disease and unfavorable 
+weather conditions contribute to increased 
+postharvest losses . In addition, due to the 
+use of traditional harvesting materials, every 
+one-hundred-kilogram increase in harvest 
+results, on average, in a loss of 17.41 
+kilograms. On the other hand, increased 
+extension contact and the use of hard -
+covered storage materials reduce 
+postharvest loss. 
+ 
+Consequently, a greater emphasis on 
+improving avocado production is highly 
+needed. Due to the lack of improved 
+harvesting tools or methods, increased 
+harvest has led to higher losses. Therefore, 
+the dissemination of improved harvesting 
+materials, such as tools that collect fruits in 
+small bags, is necessary. In addition, 
+78 
+
+--- PAGE 7 ---
+Tafesse et al. (2026)            Estimating avocado postharvest loss in Sidama and Gedeo areas 
+ 
+Int. J. Agril. Res. Innov. Tech. 16(1): 73-79, June 2026 
+introducing i mproved varieties with shorter 
+tree heights and fruits that can be easily 
+collected manually would have an advantage 
+over the tall local varieties. Although the use 
+of soft storage materials increases 
+postharvest loss, the popularization of 
+wooden storage materials and the 
+introduction of plastic materials for 
+improved storage and packing are 
+important. Furthermore, to reduce disease-
+related losses, strengthening research and 
+development of disease control mechanisms 
+is essential to minimize avocado losses in 
+the area. Finally, expanding the reach of 
+extension services to ensure effective 
+dissemination of information  on avocado 
+production and marketing is crucial. 
+ 
+Acknowledgement 
+ 
+This study was funded by the Inclusive and 
+Sustainable Value Chain Developmen t 
+(ISVCD) project, and we thank the project 
+for financing the data collection. Our 
+gratitude also goes to the experts at the 
+woreda and kebele levels for their support in 
+facilitating data collection. 
+ 
+References 
+  
+Adugna, D., Gerba, D., Diriba , B. and 
+Kassaye, T. 2011. Identification of major 
+causes of postharvest losses among 
+selected fruits in Jimma zone for 
+proffering veritable solutions. Int. J. 
+Curr. Res. 3(11): 40–43. 
+Atanda, S.A., Pessu, P.O., Agoda, S., Isong, 
+I. and Ikotun, I. 2011. The concepts and 
+problems of post –harvest food losses in 
+perishable crops. African J. Food Sci . 
+5(11): 603–613. 
+Banjaw, T.D. 2017. Review of post -harvest 
+loss of horticultural crops in Ethiopia, 
+its causes and mitigation strategies. J. 
+Plant Sci. Agril. Res. 2(1): 1–12. 
+Benta, S., Hewan, D. and Yayis, R. 2024. 
+Assessment of the constraints and 
+challenges in avocado ( Persea 
+americana Mill.) production and 
+marketing in Southern Ethiopia. Int. J. 
+Fruit Sci. 24(1): 60–72. 
+https://doi.org/10.1080/15538362.202
+4.2317775   
+ CSA. 2020. Agricultural Sample Survey 
+Volume 1: Report on Area and 
+Production of Major Crops. Central 
+Statistical Agency, The Federal 
+Democratic Republic of Ethiopia.  
+Gebru, H. and Bele w, D. 2015. Extent, 
+causes and reduction strategies of 
+postharvest losses of fresh fruits and 
+vegetables – A review. J. Biol. Agric. 
+Healthcare 5(5): 49–64. 
+Humbe, S. and Reneby, A. 2014. Post -
+harvest losses in fruit supply chains – A 
+case study of mango a nd avocado in 
+Ethiopia. Master’s thesis. Advanced -
+level Agricultural Programme - 
+Economics and Management Degree 
+thesis No. 899 Uppsala University, 
+Sweden. 69p. 
+Kitinoja, L. and Kader, A.A. 2002. Small -
+scale postharvest handling practices: a 
+manual for horticultural crops (4th edn). 
+Woodland: University of California, 
+Davis. 260p. 
+Misrak, U., Mulugeta, N., Thangavel, S. and 
+Girma, G. 2014. Assessment of post -
+harvest losses of ware potatoes 
+(Solanum tuberosum  L.) in Chelia and 
+Jeldu districts of West Shewa, Ethiopia. 
+Int. J. Res. Sci. 1(1): 16-29. 
+https://doi.org/10.15613/sijrs/2014/v
+1i1/53853 
+MoA. 2015.  Agricultural Growth Program II. 
+Program design document II, Ministry of 
+Agriculture, The Federal Democratic 
+Republic of Ethiopia.  
+Mohammed, K. and Afework, B. 2016.  Post-
+harvest loss and quality deterioration of 
+horticultural crops in Dire Dawa 
+Region, Ethiopia. J. Saudi Soc. Agril. Sci. 
+17(1): 88–96. 
+https://doi.org/10.1016/j.jssas.2016.0
+1.005 
+Obse, F.E., Sirawdink, F.F. and Mathewos, 
+T.K. 2021. Postharvest loss, causes, 
+and handling practices of fruits and 
+vegetables in Ethiopia: Scoping review. 
+J. Hort. Res. 30(1): 1–10. 
+https://doi.org/10.2478/johr-2022-0002  
+Seble, B. 2016. Effect of harvesting, 
+handling and storage techniques on 
+quality and shelf life of avocado fruits in 
+Sidama, Ethiopia. MSc Thesis, Hawassa 
+University, Ethiopia. 72p. 
+Solomon, A.G. 2019. Assessment of post -
+harvest losses of major fruit crops at 
+East Gojjam Zone, Amhara region. J. 
+Boil. Agric. Healthcare 9(1): 6-15. 
+https://doi.org/10.7176/jbah/9-1-02  
+Victor, K. 2014. Post -harvest losses and 
+strategies to reduce them. Technical 
+paper on Post -Harvest Losses. Action 
+Contre la Faim (ACF), member of ACF 
+International, pp. 2–25. 
+Yebirzaf, Y. and Esubalew, T. 2021. An 
+investigation into majo r causes for 
+postharvest losses of horticultural crops 
+and their handling practice in Debre 
+Markos, North -Western Ethiopia. 
+Hindawi Adv. Agric. 2021: 1985303. 
+https://doi.org/10.1155/2021/1985303
+ 
+79 

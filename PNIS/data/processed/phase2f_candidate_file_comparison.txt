@@ -1,0 +1,18 @@
+﻿
+============================================================================
+FILE: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_osm_facility_candidates.csv
+ROWS: 497
+COLUMNS: ['osm_id', 'code', 'fclass', 'population', 'name', 'source_layer', 'candidate_match_text', 'candidate_status', 'geometry_wkt']
+MARKETPLACE ROWS: 23
+FIRST MARKETPLACE RECORD:
+{'osm_id': '1969968438', 'code': '2016', 'fclass': 'marketplace', 'population': 'Saturday Market', 'name': 'gis_osm_pois_free', 'source_layer': '1969968438 marketplace saturday market', 'candidate_match_text': 'unverified_osm_candidate_requires_review', 'candidate_status': 'POINT (39.182905 6.972412)', 'geometry_wkt': ''}
+
+============================================================================
+FILE: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f_candidate_review_register.csv
+ROWS: 497
+COLUMNS: ['candidate_record_id', 'osm_id', 'code', 'fclass', 'population', 'name', 'source_layer', 'candidate_match_text', 'candidate_status', 'geometry_wkt', 'duplicate_osm_id', 'duplicate_layer_and_osm_id', 'review_group', 'review_guidance', 'verification_status', 'operational_facility_confirmed', 'verification_source', 'reviewer_notes', 'coordinate_review_status', 'routing_eligibility']
+MARKETPLACE ROWS: 23
+FIRST MARKETPLACE RECORD:
+{'candidate_record_id': 'PNIS2F-00315', 'osm_id': '12463790297', 'code': '2016', 'fclass': 'marketplace', 'population': '', 'name': 'gis_osm_pois_free', 'source_layer': '12463790297 marketplace', 'candidate_match_text': 'unverified_osm_candidate_requires_review', 'candidate_status': 'POINT (38.71313 6.528783)', 'geometry_wkt': '', 'duplicate_osm_id': 'False', 'duplicate_layer_and_osm_id': 'False', 'review_group': 'MARKET_CANDIDATE', 'review_guidance': 'Review market identity, activity, and exact operating location.', 'verification_status': 'UNVERIFIED', 'operational_facility_confirmed': 'NO', 'verification_source': '', 'reviewer_notes': '', 'coordinate_review_status': 'NOT_YET_REVIEWED', 'routing_eligibility': 'NOT_APPROVED_FOR_OPERATIONAL_ROUTING'}
+
+Diagnostic complete. No files were changed.

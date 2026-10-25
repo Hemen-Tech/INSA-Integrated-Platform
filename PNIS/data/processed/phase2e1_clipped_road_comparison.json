@@ -1,0 +1,111 @@
+{
+  "osm_id": "620921089",
+  "analysis_crs": "EPSG:32637",
+  "buffer_m": 5000.0,
+  "route_origin_xy": [
+    474953.3436867579,
+    699988.2860505662
+  ],
+  "source_road": {
+    "label": "original_source_road",
+    "geometry_type": "LineString",
+    "empty": false,
+    "length_m": 11789.510869171198,
+    "bounds": [
+      474909.140694661,
+      696131.0088237142,
+      479670.3417677026,
+      700283.1577895924
+    ],
+    "origin_distance_m": 4.084256061403652e-12,
+    "parts": [
+      {
+        "part": 1,
+        "vertices": 225,
+        "length_m": 11789.510869171198,
+        "start_xy": [
+          476966.600717004,
+          696247.4470710038
+        ],
+        "end_xy": [
+          474909.140694661,
+          699957.984643828
+        ],
+        "start_to_origin_m": 4248.185511585939,
+        "end_to_origin_m": 53.591788182833675
+      }
+    ]
+  },
+  "stored_phase2c_v2_road": {
+    "label": "stored_phase2c_v2_road",
+    "geometry_type": "MultiLineString",
+    "empty": false,
+    "length_m": 9386.639173602722,
+    "bounds": [
+      474953.3436867579,
+      697197.5420688081,
+      479670.3417677026,
+      700283.1577895924
+    ],
+    "origin_distance_m": 0.0,
+    "parts": [
+      {
+        "part": 1,
+        "vertices": 199,
+        "length_m": 9386.639173602722,
+        "start_xy": [
+          478471.7291081304,
+          697197.5420688081
+        ],
+        "end_xy": [
+          474953.3436867579,
+          699988.2860505662
+        ],
+        "start_to_origin_m": 4490.800367979596,
+        "end_to_origin_m": 0.0
+      }
+    ]
+  },
+  "recreated_clipped_road": {
+    "label": "recreated_original_road_intersection_buffer",
+    "geometry_type": "LineString",
+    "empty": false,
+    "length_m": 9386.639173602722,
+    "bounds": [
+      474953.3436867579,
+      697197.5420688081,
+      479670.3417677026,
+      700283.1577895924
+    ],
+    "origin_distance_m": 0.0,
+    "parts": [
+      {
+        "part": 1,
+        "vertices": 199,
+        "length_m": 9386.639173602722,
+        "start_xy": [
+          478471.7291081304,
+          697197.5420688081
+        ],
+        "end_xy": [
+          474953.3436867579,
+          699988.2860505662
+        ],
+        "start_to_origin_m": 4490.800367979596,
+        "end_to_origin_m": 0.0
+      }
+    ]
+  },
+  "origin_to_buffer_boundary_m": 5.559533676822206e-12,
+  "source_road_to_buffer_boundary_m": 0.0,
+  "stored_clipped_road_to_buffer_boundary_m": 5.559533676822206e-12,
+  "origin_covered_by_buffer": true,
+  "origin_covered_by_stored_road": true,
+  "expected_clip_length_m": 9386.639173602722,
+  "stored_clip_length_m": 9386.639173602722,
+  "symmetric_difference_length_m": 0.0,
+  "symmetric_difference_area_m2": 0.0,
+  "stored_clip_equals_recreated_clip": true,
+  "source_start_to_buffer_boundary_m": 1699.7448194921262,
+  "source_end_to_buffer_boundary_m": 52.681344018582614
+}

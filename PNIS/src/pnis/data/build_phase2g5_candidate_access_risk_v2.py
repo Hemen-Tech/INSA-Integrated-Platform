@@ -1,0 +1,274 @@
+﻿from pathlib import Path
+from datetime import datetime, timezone
+import sys
+import pandas as pd
+
+ROOT = Path.cwd()
+DATA = ROOT / "data" / "processed"
+
+G2 = DATA / "phase2g2_access_review_register.csv"
+G4 = DATA / "phase2g4_candidate_road_access_review_register_v2.csv"
+
+OUT = DATA / "phase2g5_candidate_access_risk_register_v2.csv"
+AUDIT = DATA / "phase2g5_candidate_access_risk_audit_v2.txt"
+
+def stop(message):
+    print("ERROR:", message)
+    sys.exit(1)
+
+def find_col(df, names, description):
+    for name in names:
+        if name in df.columns:
+            return name
+    stop(
+        f"Could not find {description}. Tried {names}. "
+        f"Available columns: {list(df.columns)}"
+    )
+
+def main():
+    for p in (G2, G4):
+        if not p.exists():
+            stop(f"Missing input: {p}")
+
+    g2 = pd.read_csv(G2, low_memory=False)
+    g4 = pd.read_csv(G4, low_memory=False)
+
+    id2 = find_col(g2, ["candidate_record_id", "candidate_id"], "Phase 2G.2 candidate ID")
+    id4 = find_col(g4, ["candidate_record_id", "candidate_id"], "Phase 2G.4 v2 candidate ID")
+    priority_col = find_col(
+        g2,
+        ["phase2g2_review_priority", "access_review_priority", "review_priority"],
+        "Phase 2G.2 priority LABEL"
+    )
+    distance_col = find_col(
+        g4,
+        ["recalculated_nearest_road_distance_m", "nearest_mapped_road_distance_m"],
+        "nearest-road distance"
+    )
+    class_col = find_col(
+        g4,
+        ["nearest_road_fclass", "nearest_road_class"],
+        "nearest-road class"
+    )
+
+    if g2[id2].isna().any() or g2[id2].duplicated().any():
+        stop("Phase 2G.2 candidate IDs are missing or duplicated.")
+    if g4[id4].isna().any() or g4[id4].duplicated().any():
+        stop("Phase 2G.4 v2 candidate IDs are missing or duplicated.")
+
+    g2["_candidate_key"] = g2[id2].astype(str).str.strip()
+    g4["_candidate_key"] = g4[id4].astype(str).str.strip()
+
+    if set(g2["_candidate_key"]) != set(g4["_candidate_key"]):
+        stop("Candidate ID sets differ between Phase 2G.2 and Phase 2G.4 v2.")
+
+    priority_map = {
+        "P1_FAR_FROM_MAPPED_ROAD": ("P1", 1),
+        "P2_MODERATE_DISTANCE": ("P2", 2),
+        "P3_PROXIMITY_REVIEW": ("P3", 3),
+        "P4_NEAR_ROAD_STILL_REQUIRES_ACCESS_CHECK": ("P4", 4),
+    }
+
+    g2["_priority_label_raw"] = g2[priority_col].fillna("").astype(str).str.strip().str.upper()
+    unknown = sorted(set(g2["_priority_label_raw"]) - set(priority_map))
+    if unknown:
+        stop(
+            f"Unrecognized Phase 2G.2 priority labels: {unknown}. "
+            "No priority meanings will be guessed."
+        )
+
+    priority_lookup = g2[
+        ["_candidate_key", "_priority_label_raw"]
+    ].copy()
+    priority_lookup["phase2g2_distance_priority"] = priority_lookup[
+        "_priority_label_raw"
+    ].map(lambda x: priority_map[x][0])
+    priority_lookup["phase2g2_priority_order"] = priority_lookup[
+        "_priority_label_raw"
+    ].map(lambda x: priority_map[x][1])
+
+    df = g4.merge(
+        priority_lookup[[
+            "_candidate_key",
+            "phase2g2_distance_priority",
+            "phase2g2_priority_order"
+        ]],
+        on="_candidate_key",
+        how="left",
+        validate="one_to_one"
+    )
+
+    if len(df) != len(g4):
+        stop("Candidate row count changed during the join.")
+    if df["phase2g2_distance_priority"].isna().any():
+        stop("One or more candidates did not receive a Phase 2G.2 priority.")
+
+    distance = pd.to_numeric(df[distance_col], errors="coerce")
+    if distance.isna().any() or (distance < 0).any():
+        stop("Nearest-road distances contain missing or negative values.")
+
+    road_class = df[class_col].fillna("unknown").astype(str).str.strip().str.lower()
+
+    restrictive_classes = {
+        "track", "path", "footway", "pedestrian", "steps", "cycleway"
+    }
+    restrictive = road_class.isin(restrictive_classes)
+    over_500 = distance > 500
+    over_250 = distance > 250
+
+    df["phase2g5_distance_band_v2"] = pd.cut(
+        distance,
+        bins=[-0.001, 25, 50, 100, 250, 500, float("inf")],
+        labels=["0-25m", "25-50m", "50-100m", "100-250m", "250-500m", ">500m"],
+        right=True
+    ).astype(str)
+
+    # Independent overlay: this does not replace the original distance priority.
+    df["phase2g5_access_risk_screen_v2"] = "STANDARD_REVIEW"
+    df["phase2g5_access_risk_reason_v2"] = (
+        "Standard screening; physical access still requires verification"
+    )
+
+    elevated = over_250 & ~over_500
+    df.loc[elevated, "phase2g5_access_risk_screen_v2"] = "ELEVATED_REVIEW"
+    df.loc[elevated, "phase2g5_access_risk_reason_v2"] = (
+        "Nearest mapped road is more than 250 m and no more than 500 m away"
+    )
+
+    df.loc[over_500, "phase2g5_access_risk_screen_v2"] = "HIGH_REVIEW"
+    df.loc[over_500, "phase2g5_access_risk_reason_v2"] = (
+        "Nearest mapped road is more than 500 m away"
+    )
+
+    df.loc[restrictive, "phase2g5_access_risk_screen_v2"] = "HIGH_REVIEW"
+    df.loc[restrictive, "phase2g5_access_risk_reason_v2"] = (
+        "Nearest road class requires specific vehicle-access scrutiny"
+    )
+
+    both = over_500 & restrictive
+    df.loc[both, "phase2g5_access_risk_reason_v2"] = (
+        "More than 500 m from mapped road and nearest road class requires scrutiny"
+    )
+
+    # Review queue tier is distinct from the original Phase 2G.2 distance priority.
+    risk_order = {
+        "HIGH_REVIEW": 1,
+        "ELEVATED_REVIEW": 2,
+        "STANDARD_REVIEW": 3
+    }
+    df["phase2g5_risk_queue_order_v2"] = df[
+        "phase2g5_access_risk_screen_v2"
+    ].map(risk_order)
+
+    # Order: access-risk tier, original distance priority, then longer distance first.
+    df = df.sort_values(
+        [
+            "phase2g5_risk_queue_order_v2",
+            "phase2g2_priority_order",
+            distance_col
+        ],
+        ascending=[True, True, False],
+        kind="stable"
+    ).reset_index(drop=True)
+
+    df["phase2g5_queue_position_v2"] = range(1, len(df) + 1)
+
+    # Never infer access confirmation from mapped-road evidence.
+    df["physical_vehicle_access_confirmed"] = "NO"
+    df["operational_facility_verified"] = "NO"
+    df["routing_eligible"] = "NO"
+    df["phase2g5_access_decision_v2"] = "PENDING_FIELD_VERIFICATION"
+
+    df["phase2g5_recommended_action_v2"] = (
+        "Verify facility location, physical entrance, and vehicle access in the field"
+    )
+    df.loc[restrictive, "phase2g5_recommended_action_v2"] = (
+        "Inspect the final approach and confirm that the road is suitable for the intended vehicle"
+    )
+    df.loc[over_500, "phase2g5_recommended_action_v2"] = (
+        "Verify coordinates and determine the actual physical access route in the field"
+    )
+    df.loc[both, "phase2g5_recommended_action_v2"] = (
+        "Verify coordinates, inspect the final approach, and confirm vehicle access in the field"
+    )
+
+    checks = {
+        "Candidate row count preserved": len(df) == len(g4),
+        "Candidate IDs unique": df[id4].is_unique,
+        "All candidates matched to original distance priority": df["phase2g2_distance_priority"].notna().all(),
+        "All distances valid": pd.to_numeric(df[distance_col], errors="coerce").notna().all(),
+        "All queue positions unique": df["phase2g5_queue_position_v2"].is_unique,
+        "All original priority labels valid": df["phase2g2_distance_priority"].isin(["P1", "P2", "P3", "P4"]).all(),
+        "All access remains unconfirmed": (df["physical_vehicle_access_confirmed"] == "NO").all(),
+        "All facilities remain unverified": (df["operational_facility_verified"] == "NO").all(),
+        "All candidates remain routing-ineligible": (df["routing_eligible"] == "NO").all(),
+        "All decisions remain pending": (df["phase2g5_access_decision_v2"] == "PENDING_FIELD_VERIFICATION").all(),
+    }
+
+    df = df.drop(columns=["_candidate_key"], errors="ignore")
+    df.to_csv(OUT, index=False, encoding="utf-8-sig")
+
+    lines = [
+        "PHASE 2G.5 V2 — CANDIDATE ACCESS RISK PRIORITIZATION AUDIT",
+        "=" * 72,
+        f"Generated UTC: {datetime.now(timezone.utc).isoformat()}",
+        "Status: " + ("completed" if all(checks.values()) else "failed"),
+        "",
+        "INPUTS",
+        f"Phase 2G.2: {G2.relative_to(ROOT)}",
+        f"Phase 2G.4 v2: {G4.relative_to(ROOT)}",
+        f"Phase 2G.2 priority label field: {priority_col}",
+        "",
+        "METHOD",
+        "Original Phase 2G.2 priority is preserved as a distance-only priority.",
+        "A separate access-risk screen flags candidates over 500 m from mapped roads",
+        "and candidates whose nearest road class is potentially restrictive.",
+        "Candidates 250–500 m from mapped roads receive elevated review unless",
+        "a higher-risk condition applies.",
+        "No road or facility is declared passable, physically accessible, or operational.",
+        "",
+        "RESULTS",
+        f"Candidate rows: {len(g4)}",
+        f"Output rows: {len(df)}",
+        f"Candidates over 250 m: {int(over_250.sum())}",
+        f"Candidates over 500 m: {int(over_500.sum())}",
+        f"Candidates nearest to potentially restrictive classes: {int(restrictive.sum())}",
+        "",
+        "ORIGINAL PHASE 2G.2 DISTANCE PRIORITIES",
+        df["phase2g2_distance_priority"].value_counts().sort_index().to_string(),
+        "",
+        "INDEPENDENT ACCESS-RISK SCREEN",
+        df["phase2g5_access_risk_screen_v2"].value_counts().to_string(),
+        "",
+        "NEAREST ROAD CLASSES",
+        road_class.value_counts().to_string(),
+        "",
+        "SAFETY",
+        "Physical vehicle access confirmed: 0",
+        "Operational facility verified: 0",
+        "Routing eligible: 0",
+        "All candidates remain pending field verification.",
+        "",
+        "OUTPUT",
+        str(OUT.relative_to(ROOT)),
+        "",
+        "VALIDATION"
+    ]
+    lines.extend(
+        f"{'PASS' if passed else 'FAIL'}: {name}"
+        for name, passed in checks.items()
+    )
+    lines.extend([
+        "",
+        "Original Phase 2G.5 and earlier phase outputs were not modified."
+    ])
+    AUDIT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    print("\n".join(lines))
+    if not all(checks.values()):
+        stop("One or more validation checks failed.")
+    print("\nPhase 2G.5 v2 completed successfully.")
+
+if __name__ == "__main__":
+    main()
+

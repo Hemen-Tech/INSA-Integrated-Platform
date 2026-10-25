@@ -1,0 +1,117 @@
+============================================================================
+PHASE 2F.1 — CANDIDATE SOURCE REBUILD AUDIT
+============================================================================
+Original candidate rows: 497
+Reconstructed rows: 355
+Source layers referenced: 83
+Unresolved source records: 82
+Corrected candidate CSV: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f1_osm_facility_candidates_corrected.csv
+Corrected review register: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2f1_candidate_review_register_corrected.csv
+
+RECONSTRUCTED RECORDS BY SOURCE LAYER
+gis_osm_landuse_a_free: 298
+gis_osm_pois_free: 43
+gis_osm_pois_a_free: 14
+
+REVIEW GROUP COUNTS
+AGRICULTURAL_LAND_ONLY: 136
+INDUSTRIAL_SITE_CANDIDATE: 161
+MARKET_CANDIDATE: 22
+OTHER_LANDUSE_REVIEW: 1
+OTHER_POI_REVIEW: 25
+RETAIL_OR_FOOD_MARKET_CANDIDATE: 10
+
+GEOMETRY TYPES
+MultiPolygon: 312
+Point: 43
+
+SAFETY CHECKS
+Duplicate source-layer + OSM ID rows: 0
+Missing names: 316
+Missing coordinates: 0
+All remain unverified: True
+All remain routing-ineligible: True
+
+UNRESOLVED RECORDS
+Missing source layer: Abala Qolshobo
+Missing source layer: Abela Lida
+Missing source layer: Adilo
+Missing source layer: Afarara
+Missing source layer: Afele Kola
+Missing source layer: Agre Salam
+Missing source layer: Anka Oruwa
+Missing source layer: Aposto
+Missing source layer: Arbe Gona
+Missing source layer: Ashoka Velag
+Missing source layer: Basha
+Missing source layer: Bilate
+Missing source layer: Bitana
+Missing source layer: Bode Ameda
+Missing source layer: Bona
+Missing source layer: Bona Qabelanka
+Missing source layer: Bore
+Missing source layer: Borja
+Missing source layer: Buge
+Missing source layer: Bule
+Missing source layer: Bura
+Missing source layer: Busa
+Missing source layer: Chire
+Missing source layer: Chucko
+Missing source layer: Dembara
+Missing source layer: Deneba
+Missing source layer: Deneba (Upper)
+Missing source layer: Dore
+Missing source layer: Edo
+Missing source layer: Fisiha Gennet
+Missing source layer: Gacheno
+Missing source layer: Galcha
+Missing source layer: Giraara
+Missing source layer: Girja
+Missing source layer: Gorche
+Missing source layer: Guguma
+Missing source layer: Hantate
+Missing source layer: Haranfema
+Missing source layer: Haweela Tula
+Missing source layer: Hobicha Bada
+Missing source layer: Hoghiso
+Missing source layer: Holota
+Missing source layer: K'Ore / Qoree
+Missing source layer: Kala
+Missing source layer: Kefole
+Missing source layer: Keramo
+Missing source layer: Kercheche
+Missing source layer: Kokosa
+Missing source layer: Leera
+Missing source layer: Leku
+Missing source layer: Lok'E
+Missing source layer: Magaalaa Dodola/ዶዶላ
+Missing source layer: Mazoriya
+Missing source layer: Mejo
+Missing source layer: Midre Ganet
+Missing source layer: Morocho
+Missing source layer: Ropi
+Missing source layer: Senteriya
+Missing source layer: Shamena
+Missing source layer: Teferi Kela
+Missing source layer: Tula
+Missing source layer: Uolabo
+Missing source layer: Wabe
+Missing source layer: Wajira Hudo
+Missing source layer: Wenago
+Missing source layer: Werka
+Missing source layer: Woncho
+Missing source layer: Worancha Dela
+Missing source layer: Worqicha
+Missing source layer: Yiriga Cheffe
+gis_osm_pois_a_free / 328833279: expected exactly 1 source match, got 2
+gis_osm_pois_a_free / 328833279: expected exactly 1 source match, got 2
+Missing source layer: warehouse
+Missing source layer: ሃራበት ሹምባ / Harabet Shumba
+Missing source layer: ሌንዳ / Lenda
+Missing source layer: ሾኔ / Shone
+Missing source layer: አለታ ወንዶ / Aleta Wondo
+Missing source layer: ወንዶ ገነት / Wondo Genet
+Missing source layer: ይርጋለም / Yirgalem
+Missing source layer: ጋዶ / Gado
+Missing source layer: ጥቁር ውሃ / Biishaan Gurachaa
+Missing source layer: ጨፌ/ Cheffe

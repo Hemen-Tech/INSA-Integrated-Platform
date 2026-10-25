@@ -1,0 +1,22 @@
+﻿metric,value
+workbook,C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g14_fieldwork_visit_workbook.xlsx
+worksheet,All Candidates
+candidate_rows_read,255
+expected_candidate_rows,255
+candidate_row_count_matches_expected,True
+unique_candidate_ids,255
+missing_candidate_id_rows,0
+duplicate_candidate_id_values,0
+visited_rows,0
+awaiting_fieldwork_rows,255
+rows_with_non_pending_review_decisions,0
+source_routing_eligible_yes_rows,0
+ready_for_manual_routing_review_rows,0
+review_required_rows,0
+incomplete_evidence_or_review_rows,0
+rows_with_validation_issues,0
+total_validation_issues,0
+missing_expected_columns,
+routing_approval_granted_by_script,NO
+
+issue_type,count

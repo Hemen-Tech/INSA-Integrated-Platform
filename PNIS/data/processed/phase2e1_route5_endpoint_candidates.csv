@@ -1,0 +1,3 @@
+route_id,endpoint,route_endpoint_node,candidate_osm_id,candidate_road_class,distance_to_route_endpoint_m,nearest_source_line_endpoint_m,feature_length_m,bridge,tunnel,layer,oneway,geometry_type,endpoint_node_graph_degree,candidate_osm_is_route_endpoint_feature,review_status
+5,route_end,N50091508_68964365,627851551,unclassified,5.59687249909977e-11,7027.224889085873,20015.281141192405,F,F,0,B,MultiLineString,2,True,GEOMETRY_TOUCHES_ENDPOINT_REVIEW_TOPOLOGY
+5,route_start,N47495334_69998829,620921089,tertiary,0.0,0.0,9386.639173602722,F,F,0,B,MultiLineString,1,True,GEOMETRY_TOUCHES_ENDPOINT_REVIEW_TOPOLOGY

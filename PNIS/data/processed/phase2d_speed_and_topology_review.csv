@@ -1,0 +1,191 @@
+osm_id,code,fclass,name,ref,oneway,maxspeed,layer,bridge,tunnel
+27759558,5114,secondary,,,F,56,0,F,F
+99468577,5141,service,,,B,56,0,F,F
+99468578,5114,secondary,,,F,93,0,F,F
+99468579,5114,secondary,,,F,56,0,F,F
+99468580,5114,secondary,,,F,93,0,F,F
+99468582,5114,secondary,,,F,56,0,F,F
+99468585,5114,secondary,,,B,93,0,F,F
+99468586,5114,secondary,,,F,93,0,F,F
+99468587,5122,residential,,,B,56,0,F,F
+99468588,5114,secondary,,,F,56,0,F,F
+109022351,5114,secondary,Yirgalem-Negele Road,B82,B,90,0,F,F
+110198339,5122,residential,,,B,56,0,F,F
+131291507,5121,unclassified,,,F,56,0,F,F
+131291517,5121,unclassified,,,B,56,0,F,F
+131291521,5122,residential,,,F,56,0,F,F
+131291524,5114,secondary,,,F,93,0,F,F
+131291526,5114,secondary,,,F,56,0,F,F
+131292578,5114,secondary,,,F,56,0,F,F
+131292597,5114,secondary,,,F,56,0,F,F
+131292613,5114,secondary,,,F,56,0,F,F
+131296660,5114,secondary,,,F,56,0,F,F
+231155669,5112,trunk,,A8,B,0,1,T,F
+238033088,5114,secondary,,,F,56,0,F,F
+238033093,5115,tertiary,,,B,56,0,F,F
+389459982,5112,trunk,Addis Ababa to Nairobi road,A8,B,0,1,T,F
+390840046,5114,secondary,,,B,0,1,T,F
+392815257,5121,unclassified,,,B,56,0,F,F
+444329860,5153,footway,,,B,0,1,T,F
+444329861,5153,footway,,,B,0,1,T,F
+455957341,5154,path,,,B,0,1,T,F
+455957343,5154,path,,,B,0,1,T,F
+455957347,5154,path,,,B,0,1,T,F
+465001191,5112,trunk,Addis Ababa to Nairobi road,A8,F,0,1,T,F
+477310705,5115,tertiary,,,F,0,1,T,F
+477310708,5115,tertiary,,,F,0,1,T,F
+477310722,5115,tertiary,Road to Woncho,,B,0,1,T,F
+477810853,5114,secondary,Wolayta Sodo - Bilate - Dilla,,B,0,1,T,F
+478439999,5121,unclassified,,,B,0,1,T,F
+478440002,5121,unclassified,,,B,0,1,T,F
+478440006,5114,secondary,Yirgalem-Negele Road,B82,B,90,1,T,F
+478440007,5114,secondary,Yirgalem-Negele Road,B82,B,90,0,F,F
+478442952,5121,unclassified,,,B,0,1,T,F
+478776172,5114,secondary,,,B,0,1,T,F
+480809231,5112,trunk,Addis Ababa to Nairobi road,A8,B,0,1,T,F
+503520005,5115,tertiary,,,B,0,1,T,F
+504428717,5121,unclassified,,,B,0,1,T,F
+504938199,5121,unclassified,,,B,0,1,T,F
+507976491,5114,secondary,Wondo Genet - Shashamene road,,B,0,1,T,F
+515004031,5112,trunk,Addis Ababa to Nairobi road,A8,F,0,1,T,F
+515004061,5115,tertiary,,,B,0,1,T,F
+519983490,5114,secondary,Wolayta Sodo - Bilate - Dilla,,B,0,1,T,F
+519983501,5121,unclassified,,,B,0,1,T,F
+528730592,5121,unclassified,,,B,0,1,T,F
+547070738,5115,tertiary,,,B,0,1,T,F
+547070741,5122,residential,,,B,0,1,T,F
+547070744,5121,unclassified,,,B,0,1,T,F
+547677689,5115,tertiary,,,B,0,1,T,F
+552660872,5121,unclassified,,,B,0,1,T,F
+552853407,5115,tertiary,,,B,0,1,T,F
+552865566,5121,unclassified,,,B,0,1,T,F
+552871425,5115,tertiary,,,B,0,1,T,F
+553367566,5154,path,,,B,0,1,T,F
+553367579,5121,unclassified,,,B,0,1,T,F
+553367593,5115,tertiary,,,B,0,1,T,F
+553373634,5121,unclassified,,,B,0,1,T,F
+564338962,5122,residential,,,B,56,0,F,F
+564378866,5122,residential,,,B,56,0,F,F
+564378877,5122,residential,,,B,56,0,F,F
+564378894,5121,unclassified,,,F,56,0,F,F
+564378904,5121,unclassified,,,F,56,0,F,F
+564656415,5114,secondary,Yirgalem/Negele Road,B82,B,90,1,T,F
+564656419,5114,secondary,Yirgalem-Negele Road,B82,B,90,0,F,F
+565367727,5121,unclassified,,,B,0,1,T,F
+566766111,5122,residential,,,B,50,0,F,F
+569040625,5114,secondary,,,F,56,0,F,F
+583613755,5122,residential,,,B,0,1,T,F
+583655230,5122,residential,,,B,50,0,F,F
+583665585,5122,residential,,,F,50,0,F,F
+586152002,5115,tertiary,,,B,0,1,T,F
+586152005,5153,footway,,,B,0,1,T,F
+586152006,5153,footway,,,B,0,1,T,F
+601849898,5115,tertiary,,,B,0,1,T,F
+604104160,5114,secondary,,,F,56,0,F,F
+608776850,5115,tertiary,,,B,0,1,T,F
+620903337,5115,tertiary,,,B,0,1,T,F
+624741612,5124,pedestrian,,,B,0,1,T,F
+626967935,5121,unclassified,,,B,0,1,T,F
+626970889,5114,secondary,,,B,0,1,T,F
+627833624,5115,tertiary,,,B,0,1,T,F
+627836644,5115,tertiary,,,B,0,1,T,F
+627838458,5115,tertiary,,,B,0,1,T,F
+649907377,5114,secondary,Yirgalem-Negele Road,B82,F,90,0,F,F
+649907381,5114,secondary,Yirgalem-Negele Road,B82,F,90,0,F,F
+649907384,5114,secondary,Yirgalem-Negele Road,B82,B,90,0,F,F
+668868237,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,0,F,F
+668948648,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,0,F,F
+668948649,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,1,T,F
+669511123,5121,unclassified,,,B,0,1,T,F
+673772237,5113,primary,Hawassa - Wolayta Sodo,E83,F,56,0,F,F
+673772238,5113,primary,Hawassa - Wolayta Sodo,E83,F,56,0,F,F
+673772239,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,0,F,F
+705124665,5115,tertiary,,,B,0,1,T,F
+705124666,5115,tertiary,,,B,0,1,T,F
+724444384,5121,unclassified,,,B,0,1,T,F
+738355049,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,0,F,F
+738355050,5121,unclassified,,,B,56,0,F,F
+767445569,5115,tertiary,,,B,0,1,T,F
+786369265,5121,unclassified,,,B,0,1,T,F
+890209529,5115,tertiary,,,B,0,1,T,F
+905100412,5122,residential,Chefe massejida rabbi,,B,251,0,F,F
+918660627,5121,unclassified,,,B,0,0,T,F
+976477581,5115,tertiary,,,B,0,1,T,F
+976477583,5121,unclassified,,,B,0,0,T,F
+976481887,5115,tertiary,,,B,0,1,T,F
+976481889,5115,tertiary,,,B,0,0,T,F
+977068952,5121,unclassified,,,B,0,1,T,F
+982095917,5115,tertiary,,,B,0,1,T,F
+983016430,5115,tertiary,,,B,0,1,T,F
+990872064,5115,tertiary,,,B,0,1,T,F
+990878277,5114,secondary,,,B,0,1,T,F
+992044520,5112,trunk,Addis Ababa to Nairobi road,A8,B,0,1,T,F
+992044522,5113,primary,,,F,0,1,T,F
+992044524,5113,primary,,,F,0,1,T,F
+995935955,5141,service,,,B,0,1,T,F
+996115645,5115,tertiary,,,B,0,1,T,F
+1035421916,5115,tertiary,,,B,0,1,T,F
+1035429421,5121,unclassified,,,B,0,1,T,F
+1035429424,5154,path,,,B,0,1,T,F
+1036083544,5115,tertiary,,,B,0,1,T,F
+1036362049,5114,secondary,Wolayta Sodo - Bilate - Dilla,,B,0,1,T,F
+1036373291,5115,tertiary,,,B,0,1,T,F
+1036375870,5121,unclassified,Humble,,B,0,0,T,F
+1036375873,5121,unclassified,,,B,0,0,T,F
+1036896848,5141,service,,,B,0,1,T,F
+1036947627,5121,unclassified,,,B,0,1,T,F
+1047868537,5153,footway,,,B,0,-1,F,F
+1056475813,5112,trunk,Addis Ababa to Nairobi road,A8,F,0,1,T,F
+1058673796,5114,secondary,,,B,0,1,T,F
+1058913581,5114,secondary,,,B,0,1,T,F
+1069920608,5114,secondary,,,B,0,1,T,F
+1074379658,5115,tertiary,,,B,0,1,T,F
+1082439366,5115,tertiary,,,B,0,1,T,F
+1082439371,5121,unclassified,,,B,0,1,T,F
+1082532976,5121,unclassified,,,B,0,1,T,F
+1082532978,5121,unclassified,,,B,0,1,T,F
+1082533088,5115,tertiary,,,B,0,1,T,F
+1082533089,5122,residential,,,B,0,1,T,F
+1082533092,5115,tertiary,,,B,0,1,T,F
+1083022210,5115,tertiary,,,B,0,1,T,F
+1083022212,5115,tertiary,,,B,0,1,T,F
+1083050964,5121,unclassified,,,B,0,1,T,F
+1083051071,5122,residential,,,B,0,1,T,F
+1083051093,5115,tertiary,,,B,0,1,T,F
+1083344865,5121,unclassified,,,B,0,1,T,F
+1096104905,5121,unclassified,,,B,0,1,T,F
+1120435159,5115,tertiary,,,B,0,1,T,F
+1120436339,5115,tertiary,,,B,0,1,T,F
+1121138177,5121,unclassified,,,B,0,0,T,F
+1252774218,5115,tertiary,,,B,0,1,T,F
+1252774225,5115,tertiary,Bilate Ankka Oruwa,,B,0,1,T,F
+1252847973,5113,primary,Hawassa - Wolayta Sodo,E83,F,56,0,F,F
+1253508274,5113,primary,Hawassa - Wolayta Sodo,E83,F,56,0,F,F
+1253583413,5121,unclassified,,,B,0,1,T,F
+1257455508,5121,unclassified,,,B,0,1,T,F
+1257455509,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,0,F,F
+1257455510,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,1,T,F
+1257455512,5121,unclassified,,,B,0,1,T,F
+1258957224,5113,primary,Hawassa - Wolayta Sodo,E83,B,56,0,F,F
+1265545533,5115,tertiary,Dimtu - Worqicha - Dendo,,B,0,1,T,F
+1306341899,5114,secondary,,,B,0,1,T,F
+1319668183,5115,tertiary,,,B,0,0,T,F
+1319668187,5121,unclassified,,,B,0,0,T,F
+1319745888,5114,secondary,,,B,0,1,T,F
+1319934064,5114,secondary,,,B,0,0,T,F
+1319963200,5121,unclassified,,,B,0,0,T,F
+1319963208,5121,unclassified,,,B,0,1,T,F
+1319963235,5121,unclassified,,,B,0,0,T,F
+1320134005,5121,unclassified,,,B,0,0,T,F
+1320134015,5115,tertiary,,,B,0,1,T,F
+1320231524,5121,unclassified,,,B,0,0,T,F
+1320231542,5121,unclassified,,,B,0,1,T,F
+1320425971,5121,unclassified,,,B,0,0,T,F
+1330696505,5121,unclassified,,,B,0,1,T,F
+1347364577,5115,tertiary,,,B,0,1,T,F
+1347364580,5115,tertiary,,,B,0,1,T,F
+1517557141,5122,residential,,,B,0,-1,F,F
+1530073992,5113,primary,Hawassa - Wolayta Sodo,E83,F,56,0,F,F
+1533216456,5112,trunk,Addis Ababa to Nairobi road,A8,F,0,1,T,F
+1546252283,5114,secondary,,,B,93,0,F,F
+1566584097,5122,residential,,,B,0,1,T,F

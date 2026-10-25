@@ -1,0 +1,45 @@
+============================================================================
+PHASE 2F.2 — ADMINISTRATIVE BOUNDARY INVENTORY
+============================================================================
+GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Exists: True
+
+Total layers: 20
+
+LAYERS MATCHING ADMINISTRATIVE / PLACE TERMS
+
+Layer: gis_osm_places_free
+Geometry type: Point
+Feature count: 24839
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'population' 'name']
+Loaded rows: 24839
+Geometry types: {'Point': 24839}
+Null/empty geometries: 0
+Values in name: ['አዲስ አበባ', 'Moyale', 'Hara Hurile', 'ላሊበላ', 'ጎንደር', 'አዘዞ', 'ባሕር-ዳር', 'Moojoo', 'Adaamaa', 'ይርጋለም / Yirgalem', 'Pochalla', 'አርባ ምንጭ / Arba Minch', 'አምቦ / Ambo', 'አራት ኪሎ', 'ጥስ እሳት', 'የካ', 'አቃቂ ቃሊቲ / Akaki Kaliti Factory', 'ንፋስ ስልክ ላፍቶ', 'ኮልፌ ቀራኒዎ', 'ልደታ ክፍለ ከተማ Lideta', 'ቂርቆስ ክፍለ ከተማ Kirkos', 'ደሴ / Dessie', 'Waliso', 'ወልቂጤ / Wolkite', 'ሰኮሩ / Sokoru', 'Shebe', 'ቦንጋ / Bonga', 'Bendi', 'Tepi', 'Mizan Aman']
+Bounds: [33.0005572, 3.4170067, 47.9421607, 14.8088861]
+
+Layer: gis_osm_places_a_free
+Geometry type: MultiPolygon
+Feature count: 1853
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'population' 'name']
+Loaded rows: 1853
+Geometry types: {'MultiPolygon': 1853}
+Null/empty geometries: 0
+Values in name: ['Hifadhi ya Taifa ya Kisiwa cha Kusini', '', 'Tadecha', 'Hifadhi ya Taifa ya Kisiwa cha Kati', 'Edo Lake Island', "Hara Ch'Aka", 'Endorro', 'Koye', 'Jerer', 'Bulbula', 'Serbo', 'ሜጢ', 'Asgory', 'አሰላ', 'Higo Tulla Wells', 'Web Tulla Wells', 'Tulla Wells', 'Melbana Tulla Wells', 'Shewa Robit', 'Mandera', 'Menangasha', 'Galma Town', 'Addis Alem', 'Woqoro', 'Adamitulu', 'ደቅ ደሴት / Dek Island', 'Burebiey', 'Buur Cukur', 'Guelile', 'Dalota']
+Bounds: [33.1690971, 2.5861683, 46.8462825, 14.731529]
+
+Layer: gis_osm_adminareas_a_free
+Geometry type: MultiPolygon
+Feature count: 258
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'name']
+Loaded rows: 258
+Geometry types: {'MultiPolygon': 258}
+Null/empty geometries: 0
+Values in name: ['Adama Special Zone', 'As-Eyla ايلى', 'Galdogob جلدجب', 'Mekelle', 'Zone 4', 'Zone 5', 'Dollo', 'Fafan', 'Yem Zone', 'Sheka', 'Zone 3', 'Zone 1', 'Zone 2', 'አፋር ክልል Afar عفر', 'Yemezegn Kebele', 'Naannoo Hararii / ሐረሪ ሕዝብ ክልል', 'Hareri', 'East Harerghe', 'Dirree Dhawaa / Dir Dhabe / ድሬዳዋ', 'Siti', 'Chelya', 'Jimma Rare', 'Sibu Sire', 'Gobu Seyo', 'Boneya Boshe', 'Adda Berga', 'Ifata', 'Dendi', 'Ejere', 'Mulo']
+Bounds: [32.9975838, 3.397448, 47.9823797, 15.1558022]
+
+============================================================================
+IMPORTANT: This inventory does not yet certify any layer as the Sidama boundary.

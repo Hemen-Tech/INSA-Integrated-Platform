@@ -1,0 +1,203 @@
+{
+  "origin": "N47495334_69998829",
+  "destination": "N50091508_68964365",
+  "pair_result_rows": [
+    {
+      "pair_id": 5,
+      "origin_node": "N47495334_69998829",
+      "destination_node": "N50091508_68964365",
+      "reachable_by_directed_edges": true,
+      "straight_line_distance_m": 27946.797095429178,
+      "shortest_path_distance_m": 101750.97548422584,
+      "shortest_path_distance_km": 101.75097548422583,
+      "detour_ratio": 3.6408814626155377,
+      "detour_warning": true,
+      "test_node_type": "existing_network_nodes_not_real_facilities",
+      "track_distance_m": 0.0,
+      "track_distance_share": 0.0,
+      "track_dependent_route_warning": false
+    }
+  ],
+  "reverse_pair_result_rows": [
+    {
+      "pair_id": 45,
+      "origin_node": "N50091508_68964365",
+      "destination_node": "N47495334_69998829",
+      "reachable_by_directed_edges": true,
+      "straight_line_distance_m": 27946.797095429178,
+      "shortest_path_distance_m": 101750.97548422572,
+      "shortest_path_distance_km": 101.7509754842257,
+      "detour_ratio": 3.640881462615533,
+      "detour_warning": true,
+      "test_node_type": "existing_network_nodes_not_real_facilities",
+      "track_distance_m": NaN,
+      "track_distance_share": NaN,
+      "track_dependent_route_warning": NaN
+    }
+  ],
+  "detailed_route_id": "5",
+  "detailed_route_first_node": "N47495334_69998829",
+  "detailed_route_last_node": "N50091508_68964365",
+  "detailed_route_matches_pair": true,
+  "detailed_route_segment_rows": 2261,
+  "detailed_route_distance_km": 101.751,
+  "detailed_route_continuity_error_count": 0,
+  "detailed_route_continuity_errors_first_10": [],
+  "road_class_summary": [],
+  "graph_reachable": true,
+  "graph_shortest_path_distance_km": 101.751,
+  "graph_error": null,
+  "endpoint_neighborhoods_500m": {
+    "N47495334_69998829": {
+      "found": true,
+      "x_utm_m": 474953.3436867579,
+      "y_utm_m": 699988.2860505662,
+      "in_degree": 1,
+      "out_degree": 1,
+      "nodes_within_500m": [
+        {
+          "node_id": "N47495334_69998829",
+          "distance_m": 0.0,
+          "in_degree": 1,
+          "out_degree": 1
+        },
+        {
+          "node_id": "N47496415_69998903",
+          "distance_m": 10.83,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N47502527_69993531",
+          "distance_m": 89.34,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N47510250_69990431",
+          "distance_m": 171.18,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N47522464_69995409",
+          "distance_m": 273.44,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N47527587_69997720",
+          "distance_m": 322.72,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N47536645_69996286",
+          "distance_m": 413.88,
+          "in_degree": 2,
+          "out_degree": 2
+        }
+      ]
+    },
+    "N50091508_68964365": {
+      "found": true,
+      "x_utm_m": 500915.0838337297,
+      "y_utm_m": 689643.648964897,
+      "in_degree": 2,
+      "out_degree": 2,
+      "nodes_within_500m": [
+        {
+          "node_id": "N50091508_68964365",
+          "distance_m": 0.0,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50092517_68961770",
+          "distance_m": 27.84,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50091627_68957055",
+          "distance_m": 73.11,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50090618_68949332",
+          "distance_m": 150.59,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50087295_68979101",
+          "distance_m": 153.27,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50089075_68945796",
+          "distance_m": 187.28,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50084150_68981813",
+          "distance_m": 189.36,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50088482_68943438",
+          "distance_m": 211.45,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50079818_68982992",
+          "distance_m": 219.92,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50075960_68983109",
+          "distance_m": 243.54,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50089669_68939783",
+          "distance_m": 246.5,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50091331_68936954",
+          "distance_m": 274.12,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50070085_68984820",
+          "distance_m": 296.2,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50097799_68931884",
+          "distance_m": 330.84,
+          "in_degree": 2,
+          "out_degree": 2
+        },
+        {
+          "node_id": "N50063494_68988194",
+          "distance_m": 367.79,
+          "in_degree": 2,
+          "out_degree": 2
+        }
+      ]
+    }
+  },
+  "interpretation": "Diagnostic evidence only. Nearby nodes and graph topology do not by themselves establish real-world road passability."
+}

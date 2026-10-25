@@ -1,0 +1,12 @@
+metric,value
+Phase 2F.5 evidence register rows,255
+Phase 2F.6 queue rows,255
+Phase 2F.6 nearby pairs,53
+Phase 2F.7/2F.8 identity pairs,53
+Spatial candidates total,497
+Spatial candidates inside Sidama,255
+Spatial candidates outside Sidama,239
+Spatial candidates boundary review,3
+Candidates flagged for proximity review,57
+Candidates still unverified,255
+Same-OSM-ID pairs in identity register,2

@@ -1,0 +1,20 @@
+﻿check,status,details
+Candidate ID column exists in all files,PASS,Required column: candidate_record_id
+Source row count and IDs,PASS,Rows=255; nonblank unique IDs=True.
+Plan row count and IDs,PASS,Rows=255; source rows=255; nonblank unique IDs=True.
+Form row count and IDs,PASS,Rows=255; source rows=255; nonblank unique IDs=True.
+Plan ID set matches source,PASS,Missing=0; unexpected=0.
+Form ID set matches source,PASS,Missing=0; unexpected=0.
+Plan and form candidate order matches,PASS,IDs appear in the same order.
+Planned coordinates match source,PASS,Missing/unparseable=0; mismatches=0; columns=longitude/latitude.
+Required field evidence columns present,PASS,Missing columns: none
+All form candidates remain routing-ineligible,PASS,NO=255 of 255 form rows.
+Plan safeguard: routing_eligibility,PASS,Unexpected or blank values=0 of 255.
+Plan safeguard: operational_facility_confirmed,PASS,Unexpected or blank values=0 of 255.
+Plan safeguard: physical_vehicle_access_confirmed,PASS,Unexpected or blank values=0 of 255.
+No fabricated field observations detected,PASS,Populated fields: none
+Plan follows Phase 2G.5/2G.6 priority keys,PASS,"Checked keys: phase2g5_risk_queue_order_v2, phase2g6_review_sequence; candidate ID used as final tie-breaker."
+Fieldwork protocol exists,PASS,C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_fieldwork_protocol.txt
+Protocol describes key safeguards,PASS,Missing terms: none
+Phase 2G.10 preparation audit exists,PASS,C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g10_preparation_audit.txt
+Preparation audit reports zero issues,PASS,Exact zero-issues marker found.

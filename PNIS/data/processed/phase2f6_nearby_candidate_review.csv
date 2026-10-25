@@ -1,0 +1,54 @@
+﻿candidate_record_id_a,candidate_record_id_b,distance_m,name_a,name_b,fclass_a,fclass_b,source_layer_a,source_layer_b,manual_review_required,decision,note
+PH2F1V2-0159,PH2F1V2-0160,0.0,Fish Market,Fish Market,marketplace,attraction,gis_osm_pois_a_free,gis_osm_pois_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0162,PH2F1V2-0118,34.32,nan,Hawassa Open Market,marketplace,marketplace,gis_osm_pois_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0167,PH2F1V2-0093,231.57,nan,ጋዶ / Gado,marketplace,town,gis_osm_pois_a_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0170,PH2F1V2-0074,146.31,nan,Tula,marketplace,village,gis_osm_pois_a_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0128,PH2F1V2-0040,26.59,nan,Shamena,marketplace,village,gis_osm_pois_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0135,PH2F1V2-0091,7.89,nan,Gorche,marketplace,village,gis_osm_pois_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0140,PH2F1V2-0152,101.03,nan,nan,marketplace,marketplace,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0140,PH2F1V2-0010,36.68,nan,Bona Qabelanka,marketplace,town,gis_osm_pois_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0142,PH2F1V2-0097,168.33,nan,Worancha Dela,marketplace,village,gis_osm_pois_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0152,PH2F1V2-0010,113.55,nan,Bona Qabelanka,marketplace,town,gis_osm_pois_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0163,PH2F1V2-0481,10.27,Mini Shop,Food store,convenience,building,gis_osm_pois_a_free,gis_osm_buildings_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0163,PH2F1V2-0483,0.0,Mini Shop,Mini Shop,convenience,building,gis_osm_pois_a_free,gis_osm_buildings_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0143,PH2F1V2-0146,85.62,አበዚር ሱፔርማ,Wedding dress shop,supermarket,clothes,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0143,PH2F1V2-0121,71.72,አበዚር ሱፔርማ,nan,supermarket,gift_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0143,PH2F1V2-0122,87.55,አበዚር ሱፔርማ,nan,supermarket,gift_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0148,PH2F1V2-0484,235.65,ሴፍ ዌይ ሱፐር ማርኬት,Sidama Coffee Producers,supermarket,building,gis_osm_pois_free,gis_osm_buildings_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0148,PH2F1V2-0129,242.81,ሴፍ ዌይ ሱፐር ማርኬት,ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና,supermarket,computer_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0148,PH2F1V2-0150,7.05,ሴፍ ዌይ ሱፐር ማርኬት,ኢትዮ ኮምፒውተር እስኩል,supermarket,computer_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0148,PH2F1V2-0126,68.24,ሴፍ ዌይ ሱፐር ማርኬት,Fruit Market,supermarket,kiosk,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0148,PH2F1V2-0134,109.88,ሴፍ ዌይ ሱፐር ማርኬት,ዴቭ ሞባይል ጥገና እና አክሰሰሪ,supermarket,mobile_phone_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0357,PH2F1V2-0153,151.76,nan,Sida Hall,industrial,town_hall,gis_osm_landuse_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0357,PH2F1V2-0154,147.16,nan,Sida Hall,industrial,town_hall,gis_osm_landuse_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0357,PH2F1V2-0155,143.58,nan,Sida hall,industrial,town_hall,gis_osm_landuse_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0434,PH2F1V2-0435,206.34,nan,nan,industrial,industrial,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0481,PH2F1V2-0483,10.27,Food store,Mini Shop,building,building,gis_osm_buildings_a_free,gis_osm_buildings_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0484,PH2F1V2-0129,17.12,Sidama Coffee Producers,ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና,building,computer_shop,gis_osm_buildings_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0484,PH2F1V2-0150,242.7,Sidama Coffee Producers,ኢትዮ ኮምፒውተር እስኩል,building,computer_shop,gis_osm_buildings_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0484,PH2F1V2-0126,215.26,Sidama Coffee Producers,Fruit Market,building,kiosk,gis_osm_buildings_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0484,PH2F1V2-0134,134.51,Sidama Coffee Producers,ዴቭ ሞባይል ጥገና እና አክሰሰሪ,building,mobile_phone_shop,gis_osm_buildings_a_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0485,PH2F1V2-0486,42.73,work shop lab 2,workshop lab 2,building,building,gis_osm_buildings_a_free,gis_osm_buildings_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0358,PH2F1V2-0480,237.23,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0359,PH2F1V2-0376,183.82,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0360,PH2F1V2-0361,205.87,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0363,PH2F1V2-0369,157.01,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0363,PH2F1V2-0373,168.75,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0366,PH2F1V2-0377,144.23,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0367,PH2F1V2-0480,232.63,nan,nan,farmland,farmland,gis_osm_landuse_a_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0178,PH2F1V2-0045,129.66,nan,nan,village,village,gis_osm_places_a_free,gis_osm_places_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0020,PH2F1V2-0145,204.52,አለታ ወንዶ / Aleta Wondo,nan,town,mobile_phone_shop,gis_osm_places_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0082,PH2F1V2-0186,239.01,Kala,kela town,village,residential,gis_osm_places_free,gis_osm_landuse_a_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0144,PH2F1V2-0145,64.92,nan,nan,bookshop,mobile_phone_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0146,PH2F1V2-0121,120.88,Wedding dress shop,nan,clothes,gift_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0146,PH2F1V2-0122,120.75,Wedding dress shop,nan,clothes,gift_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0129,PH2F1V2-0150,249.86,ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና,ኢትዮ ኮምፒውተር እስኩል,computer_shop,computer_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0129,PH2F1V2-0126,217.78,ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና,Fruit Market,computer_shop,kiosk,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0129,PH2F1V2-0134,145.39,ኒው-ቴክ የኮምፒውተርና የሞባይል ጥገና,ዴቭ ሞባይል ጥገና እና አክሰሰሪ,computer_shop,mobile_phone_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0150,PH2F1V2-0126,71.77,ኢትዮ ኮምፒውተር እስኩል,Fruit Market,computer_shop,kiosk,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0150,PH2F1V2-0134,116.57,ኢትዮ ኮምፒውተር እስኩል,ዴቭ ሞባይል ጥገና እና አክሰሰሪ,computer_shop,mobile_phone_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0121,PH2F1V2-0122,22.53,nan,nan,gift_shop,gift_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0126,PH2F1V2-0134,120.51,Fruit Market,ዴቭ ሞባይል ጥገና እና አክሰሰሪ,kiosk,mobile_phone_shop,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0153,PH2F1V2-0154,4.66,Sida Hall,Sida Hall,town_hall,town_hall,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0153,PH2F1V2-0155,8.21,Sida Hall,Sida hall,town_hall,town_hall,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete
+PH2F1V2-0154,PH2F1V2-0155,3.87,Sida Hall,Sida hall,town_hall,town_hall,gis_osm_pois_free,gis_osm_pois_free,YES,NOT_REVIEWED,Proximity only; do not automatically merge or delete

@@ -1,0 +1,16 @@
+﻿metric,value
+priority_plan_rows,255
+risk_register_rows,255
+progress_report_rows,255
+expected_candidate_rows,255
+unique_candidate_ids_in_each_source,255
+candidate_id_sets_match,True
+risk_classification_mismatches,0
+routing_eligible_in_priority_plan_yes,0
+routing_approval_granted_by_phase2g18,NO
+output_candidate_rows,255
+risk_class_ELEVATED_REVIEW,13
+risk_class_HIGH_REVIEW,25
+risk_class_STANDARD_REVIEW,217
+visit_status_AWAITING_FIELDWORK,255
+readiness_AWAITING_FIELDWORK,255

@@ -1,0 +1,371 @@
+============================================================================
+PHASE 2F.2 — SIDAMA POLYGON SEARCH
+============================================================================
+Layer: gis_osm_adminareas_a_free
+Rows: 258
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id', 'code', 'fclass', 'name', 'geometry']
+
+Records with 'Sidama' in any text attribute: 2
+
+MATCH
+  osm_id: 3306775
+  code: 1204
+  fclass: admin_level4
+  name: ሲዳማ ክልል Sidama سيداما
+  geometry_type: MultiPolygon
+  bounds: [37.906427, 6.1387516, 39.1327237, 7.1656743]
+  valid: True
+
+MATCH
+  osm_id: 13422229
+  code: 1205
+  fclass: admin_level5
+  name: Sidama
+  geometry_type: MultiPolygon
+  bounds: [37.906427, 6.1387516, 39.1327237, 7.1656743]
+  valid: True
+
+Administrative polygons intersecting diagnostic window: 63
+osm_id=20682848 | code=1206 | fclass=admin_level6 | name=Boditi | bounds=[37.83095, 6.926533, 37.88895, 6.980994] | valid=True
+osm_id=20698572 | code=1206 | fclass=admin_level6 | name=Shanto | bounds=[37.830255, 6.991758, 37.878533, 7.056799] | valid=True
+osm_id=20736497 | code=1207 | fclass=admin_level7 | name=Kercheche | bounds=[37.976312, 6.937562, 37.998458, 6.962726] | valid=True
+osm_id=20683279 | code=1206 | fclass=admin_level6 | name=Dimtu | bounds=[38.041072, 6.872347, 38.138897, 6.969619] | valid=True
+osm_id=20811316 | code=1206 | fclass=admin_level6 | name=Damota Pulasa | bounds=[37.785332, 6.97462, 37.940474, 7.114063] | valid=True
+osm_id=3306769 | code=1205 | fclass=admin_level5 | name=Hadiya | bounds=[37.331984, 7.058284, 38.121877, 7.916385] | valid=True
+osm_id=3306771 | code=1205 | fclass=admin_level5 | name=Kembata | bounds=[37.571086, 7.154494, 38.058968, 7.474992] | valid=True
+osm_id=20798379 | code=1206 | fclass=admin_level6 | name=Damota Gale | bounds=[37.747755, 6.897048, 37.999708, 7.112223] | valid=True
+osm_id=20690914 | code=1206 | fclass=admin_level6 | name=Badessa | bounds=[37.904574, 6.852676, 37.970582, 6.912601] | valid=True
+osm_id=20798378 | code=1206 | fclass=admin_level6 | name=Damota Woyde | bounds=[37.833198, 6.80425, 38.022376, 6.959705] | valid=True
+osm_id=20822665 | code=1206 | fclass=admin_level6 | name=Sodo Zuria | bounds=[37.598359, 6.723892, 37.864817, 7.00011] | valid=True
+osm_id=20798380 | code=1206 | fclass=admin_level6 | name=Hobicha | bounds=[37.813378, 6.710786, 38.042376, 6.847654] | valid=True
+osm_id=21302067 | code=1206 | fclass=admin_level6 | name=Gedeb Asasa | bounds=[38.956662, 7.022805, 39.394923, 7.34803] | valid=True
+osm_id=21302065 | code=1206 | fclass=admin_level6 | name=Dodola | bounds=[38.854748, 6.693729, 39.387581, 7.11104] | valid=True
+osm_id=16827893 | code=1204 | fclass=admin_level4 | name=ማዕከላዊ ኢትዮጵያ ክልላዊ መንግስት Central Ethiopia Regional State ولا | bounds=[37.331984, 7.058284, 38.716877, 8.458726] | valid=True
+osm_id=13422217 | code=1205 | fclass=admin_level5 | name=Alaba | bounds=[37.985909, 7.208314, 38.430394, 7.611463] | valid=True
+osm_id=21302070 | code=1206 | fclass=admin_level6 | name=Arsi Negele | bounds=[38.407736, 7.16048, 38.918834, 7.706963] | valid=True
+osm_id=21302069 | code=1206 | fclass=admin_level6 | name=Kore | bounds=[38.799878, 7.059199, 39.151486, 7.36431] | valid=True
+osm_id=21302068 | code=1206 | fclass=admin_level6 | name=Kofele | bounds=[38.637806, 6.861826, 39.028913, 7.16048] | valid=True
+osm_id=21303738 | code=1206 | fclass=admin_level6 | name=Malga | bounds=[38.516997, 6.833527, 38.715237, 7.015065] | valid=True
+osm_id=21302071 | code=1206 | fclass=admin_level6 | name=Shashemene Zuria | bounds=[38.408068, 7.089067, 38.815519, 7.366826] | valid=True
+osm_id=21303740 | code=1206 | fclass=admin_level6 | name=Wondo-Genet | bounds=[38.516997, 6.945408, 38.685306, 7.127515] | valid=True
+osm_id=21302072 | code=1206 | fclass=admin_level6 | name=Shalla | bounds=[38.193886, 7.122696, 38.608334, 7.504652] | valid=True
+osm_id=21303741 | code=1206 | fclass=admin_level6 | name=Hawasa Town | bounds=[38.3871, 6.908986, 38.55081, 7.128038] | valid=True
+osm_id=21302073 | code=1206 | fclass=admin_level6 | name=Siraro | bounds=[38.066587, 6.977766, 38.322743, 7.266693] | valid=True
+osm_id=20798377 | code=1206 | fclass=admin_level6 | name=Duguna Pango | bounds=[37.964729, 6.68184, 38.133388, 7.076266] | valid=True
+osm_id=20818526 | code=1206 | fclass=admin_level6 | name=Abala Abaya | bounds=[37.76143, 6.50912, 38.041653, 6.748883] | valid=True
+osm_id=3306777 | code=1205 | fclass=admin_level5 | name=Wolayita | bounds=[37.225032, 6.50912, 38.138897, 7.19194] | valid=True
+osm_id=21303735 | code=1206 | fclass=admin_level6 | name=Aleta Wendo | bounds=[38.349405, 6.519808, 38.529425, 6.675673] | valid=True
+osm_id=21303739 | code=1206 | fclass=admin_level6 | name=Gorche | bounds=[38.510875, 6.735371, 38.668453, 6.910328] | valid=True
+osm_id=21302066 | code=1206 | fclass=admin_level6 | name=Kokosa | bounds=[38.636525, 6.656878, 38.972301, 6.954012] | valid=True
+osm_id=21303748 | code=1206 | fclass=admin_level6 | name=Bursa | bounds=[38.510938, 6.52768, 38.667712, 6.729134] | valid=True
+osm_id=21303750 | code=1206 | fclass=admin_level6 | name=Arbe Gonna | bounds=[38.591908, 6.600438, 38.838609, 6.786829] | valid=True
+osm_id=21302063 | code=1206 | fclass=admin_level6 | name=Nenesebo (Wereka) | bounds=[38.935285, 6.29214, 39.505494, 6.796235] | valid=True
+osm_id=13422228 | code=1205 | fclass=admin_level5 | name=West Arsi | bounds=[38.066587, 6.29214, 39.771532, 7.706963] | valid=True
+osm_id=21303753 | code=1206 | fclass=admin_level6 | name=Bensa | bounds=[38.728331, 6.344511, 38.960501, 6.676181] | valid=True
+osm_id=21303751 | code=1206 | fclass=admin_level6 | name=Bona Zuria | bounds=[38.63404, 6.393742, 38.77825, 6.641125] | valid=True
+osm_id=21303737 | code=1206 | fclass=admin_level6 | name=Wonosho | bounds=[38.415278, 6.656418, 38.595164, 6.801296] | valid=True
+osm_id=21303744 | code=1206 | fclass=admin_level6 | name=Boricha | bounds=[38.078489, 6.759669, 38.393486, 7.029483] | valid=True
+osm_id=21303742 | code=1206 | fclass=admin_level6 | name=Hawassa Zuria | bounds=[38.242401, 6.942691, 38.423675, 7.165674] | valid=True
+osm_id=21303752 | code=1206 | fclass=admin_level6 | name=Chire | bounds=[38.905245, 6.272103, 39.128251, 6.613077] | valid=True
+osm_id=21303743 | code=1206 | fclass=admin_level6 | name=Shebedino | bounds=[38.344379, 6.796568, 38.557177, 6.972237] | valid=True
+osm_id=21303736 | code=1206 | fclass=admin_level6 | name=Dale | bounds=[38.300612, 6.658785, 38.517023, 6.840524] | valid=True
+osm_id=21303745 | code=1206 | fclass=admin_level6 | name=Loka Abaya | bounds=[37.906427, 6.440543, 38.348432, 6.819023] | valid=True
+osm_id=21303746 | code=1206 | fclass=admin_level6 | name=Chuko | bounds=[38.215469, 6.461124, 38.416973, 6.664626] | valid=True
+osm_id=21303747 | code=1206 | fclass=admin_level6 | name=Dara | bounds=[38.254501, 6.346845, 38.503231, 6.527779] | valid=True
+osm_id=21303749 | code=1206 | fclass=admin_level6 | name=Hulla | bounds=[38.445968, 6.417725, 38.695461, 6.607918] | valid=True
+osm_id=21303754 | code=1206 | fclass=admin_level6 | name=Aroresa | bounds=[38.832883, 6.138752, 39.132724, 6.515159] | valid=True
+osm_id=3306775 | code=1204 | fclass=admin_level4 | name=ሲዳማ ክልል Sidama سيداما | bounds=[37.906427, 6.138752, 39.132724, 7.165674] | valid=True
+osm_id=13422229 | code=1205 | fclass=admin_level5 | name=Sidama | bounds=[37.906427, 6.138752, 39.132724, 7.165674] | valid=True
+osm_id=21303835 | code=1206 | fclass=admin_level6 | name=Girja (Harenfema) | bounds=[39.045896, 5.969846, 39.381697, 6.337365] | valid=True
+osm_id=21303837 | code=1206 | fclass=admin_level6 | name=Wadera | bounds=[39.08319, 5.69954, 39.469696, 6.109264] | valid=True
+osm_id=21303828 | code=1206 | fclass=admin_level6 | name=Bore | bounds=[38.422624, 6.236603, 38.832883, 6.441743] | valid=True
+osm_id=21303827 | code=1206 | fclass=admin_level6 | name=Ana Sora | bounds=[38.637327, 5.961754, 38.929854, 6.344511] | valid=True
+osm_id=21303834 | code=1206 | fclass=admin_level6 | name=Adola | bounds=[38.746125, 5.72729, 39.115277, 6.215246] | valid=True
+osm_id=21303830 | code=1206 | fclass=admin_level6 | name=Uraga | bounds=[38.328907, 5.884046, 38.716181, 6.236603] | valid=True
+osm_id=21303829 | code=1206 | fclass=admin_level6 | name=Afele Kola (Dima) | bounds=[38.36613, 6.13447, 38.637327, 6.350645] | valid=True
+osm_id=3306767 | code=1205 | fclass=admin_level5 | name=Gedeo | bounds=[38.080705, 5.839953, 38.439821, 6.41699] | valid=True
+osm_id=3306766 | code=1205 | fclass=admin_level5 | name=Gamo | bounds=[36.968439, 5.618673, 37.852992, 6.701645] | valid=True
+osm_id=16827894 | code=1204 | fclass=admin_level4 | name=ደቡብ ኢትዮጵያ ክልላዊ መንግስት South Ethiopia Regional State ولاية جن | bounds=[35.73659, 4.43883, 38.439821, 7.19194] | valid=True
+osm_id=21304125 | code=1206 | fclass=admin_level6 | name=Abaya | bounds=[37.797122, 6.155769, 38.297426, 6.595127] | valid=True
+osm_id=21304124 | code=1206 | fclass=admin_level6 | name=Gelana | bounds=[37.775531, 5.757334, 38.215655, 6.300768] | valid=True
+osm_id=13422221 | code=1205 | fclass=admin_level5 | name=Guji | bounds=[38.272555, 4.656955, 40.034563, 6.441743] | valid=True
+
+EXISTING BOUNDARY-RELATED ARTIFACTS
+phase2c_road_connectivity_audit.json | 5060 bytes
+  --- file preview ---
+{
+  "generated_utc": "2026-10-20T21:34:32.182173+00:00",
+  "status": "completed",
+  "source_roads": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\phase2b_sidama_intersecting_roads.gpkg",
+  "source_boundary": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\geographic\\ethiopia.gpkg",
+  "projected_crs": "EPSG:32637",
+  "buffer_meters": 5000,
+  "coordinate_precision_meters": 1,
+  "software": {
+    "python": "3.13.16 (tags/v3.13.16:cbc944f, Sep 30 2026, 19:17:50) [MSC v.1944 64 bit (AMD64)]",
+    "geopandas": "1.2.0",
+    "pyogrio": "0.13.0",
+    "shapely": "2.2.0",
+    "networkx": "3.7",
+    "pandas": "3.0.6"
+  },
+  "input_and_clipping": {
+    "phase2b_input_road_features": 18574,
+    "null_or_empty_input_geometries_skipped": 0,
+    "input_features_not_intersecting_buffer": 0,
+    "clipped_line_features": 18590,
+    "clipped_total_length_km": 12628.7,
+    "noded_network_total_length_km": 12628.7,
+    "road_class_counts": {
+      "secondary": 136,
+      "residential": 12855,
+      "tertiary": 467,
+      "unclassified": 3022,
+      "service": 483,
+      "footway": 166,
+      "track": 390,
+      "trunk": 29,
+      "secondary_link": 22,
+      "path": 989,
+      "steps": 3,
+  --- end preview ---
+phase2c_road_connectivity_audit.txt | 3526 bytes
+  --- file preview ---
+PNIS PHASE 2C — ROAD CONNECTIVITY AND TOPOLOGY AUDIT
+==============================================================
+Generated UTC: 2026-10-20T21:34:32.182173+00:00
+Source roads: C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2b_sidama_intersecting_roads.gpkg
+Source boundary: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Projected CRS: EPSG:32637
+Buffer outside Sidama: 5000 metres
+
+INPUT AND CLIPPING
+------------------------------
+phase2b_input_road_features: 18,574
+null_or_empty_input_geometries_skipped: 0
+input_features_not_intersecting_buffer: 0
+clipped_line_features: 18,590
+clipped_total_length_km: 12628.7
+noded_network_total_length_km: 12628.7
+road_class_counts: {'secondary': 136, 'residential': 12855, 'tertiary': 467, 'unclassified': 3022, 'service': 483, 'footway': 166, 'track': 390, 'trunk': 29, 'secondary_link': 22, 'path': 989, 'steps': 3, 'tertiary_link': 3, 'pedestrian': 3, 'primary': 9, 'primary_link': 7, 'track_grade4': 1, 'track_grade3': 3, 'track_grade2': 1, 'trunk_link': 1}
+
+NETWORK TOPOLOGY
+------------------------------
+nodes: 266,499
+edges: 277,836
+connected_components: 34
+degree_1_endpoints: 5,492
+degree_0_isolated_nodes: 0
+degree_2_nodes: 236,573
+degree_3_nodes: 20,732
+degree_4_or_more_nodes: 3,702
+largest_component_nodes: 264,756
+largest_component_node_share: 0.99346
+
+CONNECTED COMPONENTS
+------------------------------
+top_20_component_node_counts: [{'rank': 1, 'node_count': 264756}, {'rank': 2, 'node_count': 373}, {'rank': 3, 'node_count': 313}, {'rank': 4, 'node_count': 293}, {'rank': 5, 'node_count': 252}, {'rank': 6, 'node_count': 126}, {'rank': 7, 'node_count': 46}, {'rank': 8, 'node_count': 41}, {'rank': 9, 'node_count': 32}, {'rank': 10, 'node_count': 27}, {'rank': 11, 'node_count': 24}, {'rank': 12, 'node_count': 23}, {'rank': 13, 'node_count': 18}, {'rank': 14, 'node_count': 17}, {'rank': 15, 'node_count': 17}, {'rank': 16, 'node_count': 14}, {'rank': 17, 'node_count': 13}, {'rank': 18, 'node_count': 12}, {'rank': 19, 'node_count': 12}, {'rank': 20, 'node_count': 12}]
+components_with_1_node: 0
+  --- end preview ---
+phase2c_road_edges.csv | 17217840 bytes
+phase2c_road_nodes.csv | 7723298 bytes
+phase2c_sidama_buffered_roads.gpkg | 8515584 bytes
+phase2c_v2_road_connectivity_audit.json | 3522 bytes
+  --- file preview ---
+{
+  "status": "completed",
+  "generated_utc": "2026-10-20T21:42:16.875611+00:00",
+  "source_gpkg": "C:\\Users\\tadesse.yilma\\projects\\PNIS\\data\\processed\\geographic\\ethiopia.gpkg",
+  "admin_layer": "gis_osm_adminareas_a_free",
+  "road_layer": "gis_osm_roads_free",
+  "admin_name_field": "name",
+  "analysis_crs": "EPSG:32637",
+  "buffer_metres": 5000,
+  "road_selection": {
+    "selection_method": "Full road layer spatial bounding-box prefilter followed by exact intersection with the Sidama buffer",
+    "bbox_candidate_features": 32841,
+    "features_intersecting_buffer": 21626,
+    "clipped_line_features": 21626,
+    "clipped_total_length_km": 14714.7437,
+    "noded_linework_length_km": 14714.7437
+  },
+  "road_class_counts": {
+    "residential": 14628,
+    "unclassified": 3691,
+    "path": 1230,
+    "tertiary": 585,
+    "service": 519,
+    "track": 513,
+    "footway": 165,
+    "secondary": 161,
+    "trunk": 45,
+    "secondary_link": 22,
+    "primary": 21,
+    "primary_link": 11,
+    "track_grade3": 10,
+    "track_grade4": 9,
+    "tertiary_link": 5,
+    "steps": 3,
+    "trunk_link": 3,
+  --- end preview ---
+phase2c_v2_road_connectivity_audit.txt | 3609 bytes
+  --- file preview ---
+PHASE 2C V2 — SIDAMA BUFFERED ROAD CONNECTIVITY AUDIT
+================================================================
+Generated UTC: 2026-10-20T21:42:16.875611+00:00
+Status: completed
+
+METHOD
+----------------------------------------------------------------
+Source GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Road layer: gis_osm_roads_free
+Administrative layer: gis_osm_adminareas_a_free
+Analysis CRS: EPSG:32637
+Buffer distance: 5000 metres
+Road selection: full road layer, bounding-box prefilter,
+then exact intersection with the projected buffer.
+
+ROAD SELECTION AND CLIPPING
+----------------------------------------------------------------
+selection_method: Full road layer spatial bounding-box prefilter followed by exact intersection with the Sidama buffer
+bbox_candidate_features: 32841
+features_intersecting_buffer: 21626
+clipped_line_features: 21626
+clipped_total_length_km: 14714.7437
+noded_linework_length_km: 14714.7437
+
+ROAD CLASS COUNTS (clipped features)
+----------------------------------------------------------------
+residential: 14628
+unclassified: 3691
+path: 1230
+tertiary: 585
+service: 519
+track: 513
+footway: 165
+secondary: 161
+trunk: 45
+  --- end preview ---
+phase2c_v2_road_edges.csv | 28235715 bytes
+phase2c_v2_road_nodes.csv | 9446790 bytes
+phase2c_v2_sidama_buffered_roads.gpkg | 9678848 bytes
+phase2e1_buffer_boundary_check.json | 1619 bytes
+  --- file preview ---
+[
+  {
+    "candidate_number": 1,
+    "osm_id": "3306775",
+    "name": "ሲዳማ ክልል Sidama سيداما",
+    "fclass": "admin_level4",
+    "projected_bounds": [
+      379108.8528982146,
+      678542.6390090717,
+      514684.1275785108,
+      792115.5255750809
+    ],
+    "boundary_area_km2": 6867.679859995752,
+    "origin_inside_buffer": true,
+    "origin_to_buffer_boundary_m": 5.559533676822206e-12,
+    "origin_to_sidama_polygon_m": 5000.000000000011,
+    "original_road_start_inside_buffer": false,
+    "original_road_end_inside_buffer": false,
+    "original_road_start_to_buffer_boundary_m": 1699.7448194921262,
+    "original_road_end_to_buffer_boundary_m": 52.681344018582614,
+    "original_road_intersects_buffer": true,
+    "original_road_length_inside_buffer_m": 9386.639173602722
+  },
+  {
+    "candidate_number": 2,
+    "osm_id": "13422229",
+    "name": "Sidama",
+    "fclass": "admin_level5",
+    "projected_bounds": [
+      379108.8528982146,
+      678542.6390090717,
+      514684.1275785108,
+      792115.5255750809
+    ],
+    "boundary_area_km2": 6867.679859995752,
+  --- end preview ---
+phase2e1_buffer_boundary_check.txt | 2823 bytes
+  --- file preview ---
+============================================================================
+PHASE 2E.1 — BUFFER BOUNDARY CHECK
+============================================================================
+Source: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Analysis CRS: EPSG:32637
+Buffer distance: 5000 m
+Route origin: (474953.344, 699988.286)
+
+No existing road, graph, or Phase 2C output is modified.
+
+BOUNDARY CANDIDATES
+----------------------------------------------------------------------------
+Candidates found: 2
+
+CANDIDATE 1
+  OSM ID: 3306775
+  Name: ሲዳማ ክልል Sidama سيداما
+  Administrative class: admin_level4
+  Projected bounds: (379108.8528982146, 678542.6390090717, 514684.1275785108, 792115.5255750809)
+  Boundary area: 6867.680 km2
+  Origin inside 5 km buffer: True
+  Origin to buffer boundary: 0.000 m
+  Origin to Sidama polygon: 5000.000 m
+  Original road first coordinate inside buffer: False
+  Original road last coordinate inside buffer: False
+  First coordinate to buffer boundary: 1699.745 m
+  Last coordinate to buffer boundary: 52.681 m
+  Original road intersects buffer: True
+  Road length inside buffer: 9386.639 m
+
+CANDIDATE 2
+  OSM ID: 13422229
+  Name: Sidama
+  Administrative class: admin_level5
+  Projected bounds: (379108.8528982146, 678542.6390090717, 514684.1275785108, 792115.5255750809)
+  --- end preview ---
+phase2e1_sidama_boundary_candidates.csv | 130 bytes
+phase2f2_boundary_inventory.txt | 3663 bytes
+  --- file preview ---
+============================================================================
+PHASE 2F.2 — ADMINISTRATIVE BOUNDARY INVENTORY
+============================================================================
+GeoPackage: C:\Users\tadesse.yilma\projects\PNIS\data\processed\geographic\ethiopia.gpkg
+Exists: True
+
+Total layers: 20
+
+LAYERS MATCHING ADMINISTRATIVE / PLACE TERMS
+
+Layer: gis_osm_places_free
+Geometry type: Point
+Feature count: 24839
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'population' 'name']
+Loaded rows: 24839
+Geometry types: {'Point': 24839}
+Null/empty geometries: 0
+Values in name: ['አዲስ አበባ', 'Moyale', 'Hara Hurile', 'ላሊበላ', 'ጎንደር', 'አዘዞ', 'ባሕር-ዳር', 'Moojoo', 'Adaamaa', 'ይርጋለም / Yirgalem', 'Pochalla', 'አርባ ምንጭ / Arba Minch', 'አምቦ / Ambo', 'አራት ኪሎ', 'ጥስ እሳት', 'የካ', 'አቃቂ ቃሊቲ / Akaki Kaliti Factory', 'ንፋስ ስልክ ላፍቶ', 'ኮልፌ ቀራኒዎ', 'ልደታ ክፍለ ከተማ Lideta', 'ቂርቆስ ክፍለ ከተማ Kirkos', 'ደሴ / Dessie', 'Waliso', 'ወልቂጤ / Wolkite', 'ሰኮሩ / Sokoru', 'Shebe', 'ቦንጋ / Bonga', 'Bendi', 'Tepi', 'Mizan Aman']
+Bounds: [33.0005572, 3.4170067, 47.9421607, 14.8088861]
+
+Layer: gis_osm_places_a_free
+Geometry type: MultiPolygon
+Feature count: 1853
+CRS: GEOGCS["WGS 84 (CRS84)",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Longitude",EAST],AXIS["Latitude",NORTH],AUTHORITY["OGC","CRS84"]]
+Fields: ['osm_id' 'code' 'fclass' 'population' 'name']
+Loaded rows: 1853
+Geometry types: {'MultiPolygon': 1853}
+Null/empty geometries: 0
+Values in name: ['Hifadhi ya Taifa ya Kisiwa cha Kusini', '', 'Tadecha', 'Hifadhi ya Taifa ya Kisiwa cha Kati', 'Edo Lake Island', "Hara Ch'Aka", 'Endorro', 'Koye', 'Jerer', 'Bulbula', 'Serbo', 'ሜጢ', 'Asgory', 'አሰላ', 'Higo Tulla Wells', 'Web Tulla Wells', 'Tulla Wells', 'Melbana Tulla Wells', 'Shewa Robit', 'Mandera', 'Menangasha', 'Galma Town', 'Addis Alem', 'Woqoro', 'Adamitulu', 'ደቅ ደሴት / Dek Island', 'Burebiey', 'Buur Cukur', 'Guelile', 'Dalota']
+Bounds: [33.1690971, 2.5861683, 46.8462825, 14.731529]
+
+Layer: gis_osm_adminareas_a_free
+Geometry type: MultiPolygon
+Feature count: 258
+  --- end preview ---
+
+INTERPRETATION
+A matching name or intersecting polygon is a lead, not proof of the official region boundary.
+Do not use the diagnostic window as the final geographic inclusion test.

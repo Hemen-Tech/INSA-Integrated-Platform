@@ -1,0 +1,17 @@
+﻿metric,value
+candidate_rows_read,255
+expected_candidate_rows,255
+candidate_row_count_matches_expected,True
+unique_candidate_ids,255
+duplicate_candidate_id_values,0
+visited_rows,0
+awaiting_fieldwork_rows,255
+fieldwork_evidence_incomplete_rows,0
+awaiting_manual_review_rows,0
+review_evidence_incomplete_rows,0
+manual_review_recorded_rows,0
+total_phase2g16_issues,0
+source_routing_eligible_yes_rows,0
+routing_approval_granted_by_phase2g16,NO
+phase2g15_candidate_count_matches_expected,True
+readiness_AWAITING_FIELDWORK,255

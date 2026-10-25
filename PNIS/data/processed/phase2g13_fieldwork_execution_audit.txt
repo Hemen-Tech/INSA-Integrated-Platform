@@ -1,0 +1,45 @@
+PNIS PHASE 2G.13 - FIELDWORK EXECUTION TRACKER AUDIT
+========================================================================
+Generated UTC: 2026-10-24T12:09:48.764776+00:00
+Plan rows: 255
+Collection form rows: 255
+Readiness register rows: 255
+Tracker rows: 255
+
+CHECK RESULTS
+------------------------------------------------------------------------
+PASS: All three input files loaded
+PASS: Candidate IDs are unique and nonblank in all inputs
+PASS: Candidate ID sets match across all inputs
+PASS: Tracker has one row per planned candidate
+PASS: Tracker candidate IDs are unique
+PASS: All tracker statuses start as NOT_VISITED
+PASS: All candidates remain routing-ineligible
+PASS: Access and operation are not pre-approved
+
+INITIAL FIELDWORK STATUS
+------------------------------------------------------------------------
+Not visited: 255
+Visit scheduled: 0
+Visit completed: 0
+Follow-up required: 0
+Routing-eligible candidates: 0
+
+OUTPUT FILES
+------------------------------------------------------------------------
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g13_fieldwork_execution_tracker.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g13_fieldwork_execution_summary.csv
+C:\Users\tadesse.yilma\projects\PNIS\data\processed\phase2g13_fieldwork_execution_audit.txt
+
+IMPORTANT LIMITATIONS
+------------------------------------------------------------------------
+This script creates a blank execution tracker; it does not record field visits.
+Only enter observations actually collected in the field.
+A mapped road or short road distance does not prove physical access.
+Do not mark a candidate routing-eligible until required evidence is reviewed and approval is explicitly documented.
+This script does not modify Phase 2C, Phase 2E, or Phase 2G source files.
+
+Checks passed: 8/8
+Checks failed: 0/8
+Issues recorded: 0
+Status: PASS

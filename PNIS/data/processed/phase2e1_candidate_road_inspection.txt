@@ -1,0 +1,154 @@
+============================================================================
+PHASE 2E.1 — CANDIDATE ROAD INSPECTION
+============================================================================
+Study buffer: 5000 m
+Route origin: {'x': 474953.3436867579, 'y': 699988.2860505662}
+
+ROAD A — ROUTE-ORIGIN ROAD
+----------------------------------------------------------------------------
+{
+  "osm_id": "620921089",
+  "fclass": "tertiary",
+  "geometry_type": "LineString",
+  "length_m": 11789.510869171198,
+  "distance_to_route_origin_m": 4.084256061403652e-12,
+  "distance_to_buffer_boundary_m": 0.0,
+  "inside_buffer_length_m": 9386.639173602722,
+  "present_in_phase2c_v2": true,
+  "parts": [
+    {
+      "part": 1,
+      "vertices": 225,
+      "length_m": 11789.510869171198,
+      "start": {
+        "x": 476966.600717004,
+        "y": 696247.4470710038
+      },
+      "end": {
+        "x": 474909.140694661,
+        "y": 699957.984643828
+      },
+      "start_to_origin_m": 4248.185511585939,
+      "end_to_origin_m": 53.591788182833675
+    }
+  ]
+}
+
+ROAD B — CANDIDATE ROAD
+----------------------------------------------------------------------------
+{
+  "osm_id": "620913992",
+  "fclass": "tertiary",
+  "geometry_type": "LineString",
+  "length_m": 2418.7039815579888,
+  "distance_to_route_origin_m": 53.591788182833675,
+  "distance_to_buffer_boundary_m": 52.681344018582614,
+  "inside_buffer_length_m": 0.0,
+  "present_in_phase2c_v2": false,
+  "parts": [
+    {
+      "part": 1,
+      "vertices": 33,
+      "length_m": 2418.7039815579888,
+      "start": {
+        "x": 472743.28431874485,
+        "y": 699532.6893601116
+      },
+      "end": {
+        "x": 474909.140694661,
+        "y": 699957.984643828
+      },
+      "start_to_origin_m": 2256.530689907736,
+      "end_to_origin_m": 53.591788182833675
+    }
+  ]
+}
+
+ROAD-TO-ROAD GEOMETRY COMPARISON
+----------------------------------------------------------------------------
+{
+  "geometry_distance_m": 0.0,
+  "intersects": true,
+  "intersection_type": "Point",
+  "intersection_empty": false,
+  "nearest_point_on_road_a": {
+    "x": 474909.140694661,
+    "y": 699957.984643828
+  },
+  "nearest_point_on_road_b": {
+    "x": 474909.140694661,
+    "y": 699957.984643828
+  },
+  "nearest_point_a_to_origin_m": 53.591788182833675,
+  "nearest_point_b_to_origin_m": 53.591788182833675,
+  "endpoint_pairs_sorted_by_distance": [
+    {
+      "road_a_part": 1,
+      "road_a_endpoint": "end",
+      "road_b_part": 1,
+      "road_b_endpoint": "end",
+      "distance_m": 0.0,
+      "road_a_xy": {
+        "x": 474909.140694661,
+        "y": 699957.984643828
+      },
+      "road_b_xy": {
+        "x": 474909.140694661,
+        "y": 699957.984643828
+      }
+    },
+    {
+      "road_a_part": 1,
+      "road_a_endpoint": "end",
+      "road_b_part": 1,
+      "road_b_endpoint": "start",
+      "distance_m": 2207.2176873720705,
+      "road_a_xy": {
+        "x": 474909.140694661,
+        "y": 699957.984643828
+      },
+      "road_b_xy": {
+        "x": 472743.28431874485,
+        "y": 699532.6893601116
+      }
+    },
+    {
+      "road_a_part": 1,
+      "road_a_endpoint": "start",
+      "road_b_part": 1,
+      "road_b_endpoint": "end",
+      "distance_m": 4242.785738507117,
+      "road_a_xy": {
+        "x": 476966.600717004,
+        "y": 696247.4470710038
+      },
+      "road_b_xy": {
+        "x": 474909.140694661,
+        "y": 699957.984643828
+      }
+    },
+    {
+      "road_a_part": 1,
+      "road_a_endpoint": "start",
+      "road_b_part": 1,
+      "road_b_endpoint": "start",
+      "distance_m": 5350.627841473046,
+      "road_a_xy": {
+        "x": 476966.600717004,
+        "y": 696247.4470710038
+      },
+      "road_b_xy": {
+        "x": 472743.28431874485,
+        "y": 699532.6893601116
+      }
+    }
+  ]
+}
+
+INTERPRETATION
+----------------------------------------------------------------------------
+A small geometry distance does not establish a valid junction.
+Check intersection status, nearest-point locations, endpoint
+distances, and whether the candidate lies inside the study buffer.
+No automatic snapping or graph modification was performed.
+No Phase 2C or Phase 2E input was modified.

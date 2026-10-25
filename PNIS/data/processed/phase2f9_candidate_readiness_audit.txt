@@ -1,0 +1,46 @@
+PNIS PHASE 2F.9 - CANDIDATE READINESS AUDIT
+====================================================================
+Generated UTC: 2026-10-23T17:03:54.506695+00:00
+
+CORRECTED SPATIAL VALIDATION
+- Compare evidence-register IDs against only INSIDE_SIDAMA spatial IDs.
+- Do not compare the 255-row evidence register against all 497 spatial candidates.
+
+SUMMARY
+- Phase 2F.5 evidence register rows: 255
+- Phase 2F.6 queue rows: 255
+- Phase 2F.6 nearby pairs: 53
+- Phase 2F.7/2F.8 identity pairs: 53
+- Spatial candidates total: 497
+- Spatial candidates inside Sidama: 255
+- Spatial candidates outside Sidama: 239
+- Spatial candidates boundary review: 3
+- Candidates flagged for proximity review: 57
+- Candidates still unverified: 255
+- Same-OSM-ID pairs in identity register: 2
+
+VALIDATION CHECKS
+PASS - evidence_rows_255: rows=255
+PASS - queue_rows_match_evidence: queue=255, evidence=255
+PASS - evidence_ids_unique: unique=255
+PASS - queue_ids_unique: unique=255
+PASS - evidence_queue_ids_match: evidence-only=0, queue-only=0
+PASS - spatial_ids_match_evidence: inside=255, evidence=255, evidence-missing-inside=0, inside-missing-evidence=0, outside_or_boundary_in_evidence=0
+PASS - nearby_pair_count_53: pairs=53
+PASS - identity_pair_count_matches_nearby: identity_pairs=53, nearby_pairs=53
+PASS - identity_pairs_not_auto_verified: column=identity_verified
+PASS - no_merge_authorized: column=merge_or_delete_authorized
+PASS - no_delete_authorized: column=merge_or_delete_authorized
+PASS - no_identity_pair_routing_approved: column=routing_approved
+PASS - all_candidate_verification_pending: column=verification_status
+PASS - same_osm_id_pairs_detected: same_osm_id_pairs=2
+
+Checks passed: 14
+Checks failed: 0
+Overall status: PASS
+
+SAFETY NOTES
+- Candidate records remain unverified pending evidence collection.
+- Nearby-pair review does not prove duplicate identity.
+- Matching OSM IDs do not verify operational facility function.
+- No candidate is approved for operational routing by this audit.
