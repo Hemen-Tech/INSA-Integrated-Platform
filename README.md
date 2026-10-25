@@ -148,8 +148,8 @@ Want to explore the projects in action? Start here.
 
 | System | Guide |
 |---|---|
-| 🔎 **Probe** | [Explore the Probe platform]([PROBE_GUIDE_URL](https://www.youtube.com/watch?v=Kd4aaC-Hlsw)) |
-| 🌦️ **Drought Intelligence** | [Explore the Drought Prediction Website]([DROUGHT_GUIDE_URL](https://drive.google.com/file/d/1zgeFUIbkRm4Vrrsn9SgZ-OgYag9sP4tC/view?usp=sharing)) |
+| 🔎 **Probe** | (https://www.youtube.com/watch?v=Kd4aaC-Hlsw) |
+| 🌦️ **Drought Intelligence** | (https://drive.google.com/file/d/1zgeFUIbkRm4Vrrsn9SgZ-OgYag9sP4tC/view?usp=sharing) |
 
 *These guides introduce each system and explain how to get started.*
 
