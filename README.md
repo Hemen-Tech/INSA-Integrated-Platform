@@ -11,7 +11,7 @@ An evolving portfolio of AI engineering projects exploring research intelligence
 
 | System | Focus | Status |
 |---|---|---|
-| **[Probe](#-probe)** | AI research and evidence intelligence | MVP preparation |
+| **[Probe](#-probe)** | AI research and evidence intelligence | MVP  |
 | **[Drought Intelligence](#-drought-intelligence)** | Drought analysis and multilingual access | Simulation-based development |
 | **[PNIS](#-perishable-network-intelligence-system-pnis)** | Avocado supply-chain intelligence | Under development |
 
