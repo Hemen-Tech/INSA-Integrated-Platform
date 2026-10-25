@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admas AI - Explainable AI</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <style>
+    /* Your existing CSS styles */
+    .chat-interface {
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 120px);
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 5px 16px;
+      position: relative;
+    }
+
+    .chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary) transparent;
+    }
+
+    .chat-messages::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .chat-messages::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .chat-messages::-webkit-scrollbar-thumb {
+      background-color: var(--primary);
+      border-radius: 3px;
+    }
+
+    .message {
+      display: flex;
+      align-items: top;
+      gap: 12px;
+      max-width: 85%;
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .message.user {
+      align-self: flex-end;
+      flex-direction: row-reverse;
+      gap: 10px;
+      margin-right: 10px;
+    }
+
+    .message .message-content {
+      padding: 10px 16px;
+      border-radius: 18px;
+      font-size: 15px;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+
+    .message.user .message-content {
+      background-color: #027334;
+      color: white;
+      border-bottom-right-radius: 4px;
+    }
+
+    .message.ai .message-content {
+      background-color: white;
+      color: var(--dark);
+      border: 1px solid #e2e8f0;
+      border-bottom-left-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+      flex-shrink: 0;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    }
+
+    .ai-avatar {
+      background: linear-gradient(135deg, var(--primary) 0%, #027334 100%);
+      color: white;
+    }
+
+    .user-avatar {
+      background: var(--gray);
+      color: white;
+    }
+
+    .ai-avatar i {
+      font-size: 14px;
+    }
+
+    .chat-input-container {
+      display: flex;
+      gap: 10px;
+      padding: 12px 0;
+      margin-top: auto;
+    }
+
+    .chat-input {
+      flex: 1;
+      padding: 12px 16px;
+      border: 1px solid #d1d5db;
+      border-radius: 24px;
+      font-size: 15px;
+      outline: none;
+      background-color: #f8fafc;
+      color: var(--dark);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .chat-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(1, 74, 36, 0.1);
+    }
+
+    .send-btn {
+      width: 48px;
+      height: 48px;
+      border: none;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary) 0%, #027334 100%);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .send-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(1, 74, 36, 0.2);
+    }
+
+    .send-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Additional styles for the chat functionality */
+    .typing-indicator {
+      display: flex;
+      align-items: center;
+      padding: 8px 16px;
+      color: #6c757d;
+      font-style: italic;
+      font-size: 14px;
+    }
+
+    .typing-dots {
+      display: flex;
+      margin-left: 8px;
+    }
+
+    .typing-dot {
+      width: 4px;
+      height: 4px;
+      background: #6c757d;
+      border-radius: 50%;
+      margin: 0 2px;
+      animation: typing 1.4s infinite;
+    }
+
+    .typing-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    .references {
+      margin-top: 12px;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      border-left: 3px solid #027334;
+      font-size: 12px;
+      color: #6c757d;
+    }
+
+    .reference-item {
+      margin-bottom: 4px;
+      padding: 2px 0;
+    }
+
+    .reference-item:not(:last-child) {
+      border-bottom: 1px solid #e9ecef;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes typing {
+      0%, 60%, 100% { transform: translateY(0); }
+      30% { transform: translateY(-4px); }
+    }
+
+    .example-questions {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-radius: 12px;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #dee2e6;
+    }
+
+    .example-question {
+      display: inline-block;
+      background: white;
+      border: 1px solid #027334;
+      color: #027334;
+      padding: 6px 12px;
+      margin: 4px;
+      border-radius: 16px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .example-question:hover {
+      background: #027334;
+      color: white;
+      transform: translateY(-1px);
+    }
+    .message-content ul {
+      list-style: none;        /* remove default bullets */
+      padding-left: 1rem;      /* indent from bubble edge */
+      margin: 0.5rem 0;
+    }
+
+    .message-content ul li {
+      position: relative;
+      margin: 0.3rem 0;
+      padding-left: 1rem;      /* space for custom bullet */
+      line-height: 1.5;        /* makes it consistent */
+    }
+
+    .message-content ul li::before {
+      content: "•";
+      color: #027334;          /* your green */
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      top: 0;                  /* start at top of the line */
+      line-height: 1.5;        /* aligns with text baseline */
+    }
+
+  </style>
+</head>
+<body data-page="xai">
+
+    <header class="header">
+      <div class="logo">
+        <span>Admas AI</span>
+      </div>
+      <div class="menu-lang" style="display: flex; align-items: center; gap: 15px;">
+        <a href="http://localhost:3000/" class="platform-return" data-probe-home data-i18n="back_to_probe">Back to PROBE</a>
+        <select id="languageSwitcher">
+          <option value="en">English</option>
+          <option value="am">አማርኛ</option>
+          <option value="om">Oromiffa</option>
+        </select>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <a href="index.html" class="nav-link"><i class="fas fa-th"></i> <span data-i18n="dashboard">Dashboard</span></a>
+        <a href="forecast.html" class="nav-link"><i class="fas fa-forward"></i> <span data-i18n="forecast">Multi-Horizon Forecast</span></a>
+        <a href="xai.html" class="nav-link active"><i class="fas fa-magnifying-glass-chart"></i> <span data-i18n="xai">Explainable AI</span></a>
+        <a href="policy.html" class="nav-link"><i class="fas fa-gavel"></i> <span data-i18n="adaptive_policy">Adaptive Policy</span></a>
+      </nav>
+      <div class="status">
+        <p><i class="fas fa-sync-alt"></i> <span data-i18n="last_update">Last update:</span> <span id="updateTime">Aug 15, 2025</span></p>
+        <p><span class="sensor-dot"></span> <span data-i18n="system_online">System Online</span></p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="chat-interface">
+        <div class="chat-messages" id="chatMessages">
+          <div class="message ai">
+            <div class="avatar ai-avatar"><i class="fas fa-leaf"></i></div>
+            <div class="message-content">
+              <strong>Admas AI</strong> is online and ready.<br>
+              Ask me about Ethiopian agriculture:<br>
+              • Crop production and yields<br>
+              • Regional agricultural data<br>
+              • Climate impact on farming<br>
+              • Investment opportunities<br>
+              • Economic development
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-container">
+          <input
+            type="text"
+            id="userInput"
+            class="chat-input"
+            placeholder="Ask about Ethiopian agriculture..."
+          />
+          <button id="sendBtn" class="send-btn">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="https://apifreellm.com/apifree.min.js"></script>
+  <script src="js/platform-config.js"></script>
+  <script src="js/i18n.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const userInput = document.getElementById("userInput");
+  const sendBtn = document.getElementById("sendBtn");
+  const chatMessages = document.getElementById("chatMessages");
+
+  const SYSTEM_PROMPT = `
+You are Admas AI, an intelligent assistant specialized in Ethiopian agriculture, drought forecasting, and climate resilience.
+
+Instructions:
+- Only answer questions in the context of Ethiopia.
+- Always provide clear, concise, and structured answers.
+- Use sections, bullet points, and numbered lists for clarity.
+- Focus exclusively on Ethiopian regions (Amhara, Oromia, Tigray, Somali, Afar, SNNPR, Gambela, Borena, etc.).
+- Cover topics like crops, livestock, irrigation, soil management, climate adaptation, and agricultural research in Ethiopia.
+- For forecasts, explain results across horizons (0–3m, 3–6m, 6–12m, 12–18m).
+- When explaining AI predictions, highlight Ethiopian-specific factors (rainfall variability, soil moisture, NDVI, temperature anomalies, local farming practices).
+- Provide adaptive policy recommendations and actionable advice tailored to Ethiopian farmers, researchers, and policymakers.
+- Do not answer general/global agriculture questions unless tied back to Ethiopia.
+- Never include disclaimers or mention being a free AI model.
+- Stay neutral, unbiased, and content-focused.
+`;
+
+
+  const showTypingIndicator = () => {
+    const typingIndicator = document.createElement('div');
+    typingIndicator.className = 'message ai';
+    typingIndicator.id = 'typingIndicator';
+    typingIndicator.innerHTML = `
+      <div class="avatar ai-avatar"><i class="fas fa-leaf"></i></div>
+      <div class="typing-indicator">
+        Admas AI is thinking
+        <div class="typing-dots">
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+        </div>
+      </div>
+    `;
+    chatMessages.appendChild(typingIndicator);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  };
+
+  const removeTypingIndicator = () => {
+    const el = document.getElementById('typingIndicator');
+    if (el) el.remove();
+  };
+
+ const addMessage = (text, isUser=false) => {
+  const messageDiv = document.createElement('div');
+  messageDiv.className = `message ${isUser ? 'user' : 'ai'}`;
+  chatMessages.appendChild(messageDiv);
+
+  if(isUser){
+    messageDiv.innerHTML = `
+      <div class="message-content">${text}</div>
+      <div class="avatar user-avatar">You</div>
+    `;
+  } else {
+    messageDiv.innerHTML = `
+      <div class="avatar ai-avatar"><i class="fas fa-leaf"></i></div>
+      <div class="message-content"></div>
+    `;
+    const contentDiv = messageDiv.querySelector(".message-content");
+    const html = marked.parse(text);
+
+    // Split by paragraphs
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    const paragraphs = Array.from(temp.children);
+
+    let i = 0;
+    const typeParagraph = () => {
+      if(i >= paragraphs.length) return;
+      contentDiv.appendChild(paragraphs[i]);
+      i++;
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      setTimeout(typeParagraph, 50); // 50ms delay between paragraphs
+    };
+    typeParagraph();
+  }
+
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+};
+
+
+  const sendMessage = async () => {
+    const text = userInput.value.trim();
+    if(!text) return;
+    userInput.value = '';
+    addMessage(text, true);
+
+    showTypingIndicator();
+
+    try {
+      const guidedQuery = SYSTEM_PROMPT + "\n\nUser question: " + text;
+      const response = await apifree.chat(guidedQuery, { temperature: 0.2, max_tokens: 500 });
+      removeTypingIndicator();
+      addMessage(response);
+    } catch(err) {
+      removeTypingIndicator();
+      addMessage("❌ Error: Failed to get response from AI.", false);
+      console.error(err);
+    }
+  };
+
+  sendBtn.addEventListener('click', sendMessage);
+  userInput.addEventListener('keypress', e => { if(e.key==='Enter') sendMessage(); });
+  userInput.focus();
+});
+</script>
+
+
+
+</body>
+</html>

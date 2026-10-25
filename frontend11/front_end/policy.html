@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admas AI - Adaptive Policy</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body data-page="policy">
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">
+        <i class="fas fa-network-wired"></i>
+        <span>Admas AI</span>
+      </div>
+      <div class="menu-lang" style="display: flex; align-items: center; gap: 15px;">
+        <a href="http://localhost:3000/" class="platform-return" data-probe-home data-i18n="back_to_probe">Back to PROBE</a>
+        <select id="languageSwitcher">
+          <option value="en">English</option>
+          <option value="am">አማርኛ</option>
+          <option value="om">Oromiffa</option>
+        </select>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <a href="index.html" class="nav-link"><i class="fas fa-th"></i> <span data-i18n="dashboard">Dashboard</span></a>
+        <a href="forecast.html" class="nav-link"><i class="fas fa-forward"></i> <span data-i18n="forecast">Multi-Horizon Forecast</span></a>
+        <a href="xai.html" class="nav-link"><i class="fas fa-magnifying-glass-chart"></i> <span data-i18n="xai">Explainable AI</span></a>
+        <a href="policy.html" class="nav-link active"><i class="fas fa-gavel"></i> <span data-i18n="adaptive_policy">Adaptive Policy</span></a>
+      </nav>
+      <div class="status">
+        <p><i class="fas fa-sync-alt"></i> <span data-i18n="last_update">Last update:</span> <span id="updateTime">Aug 31, 2025</span></p>
+        <p><span class="sensor-dot"></span> <span data-i18n="system_online">System Online</span></p>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <section id="policy" class="section">
+        <div class="card">
+          <h2 class="card-title" data-i18n="adaptive_policy_engine">(Test App ) Adaptive Policy Engine</h2>
+          <p class="subtitle" data-i18n="policy_intro">
+            Admas AI generates actionable policies for multiple horizons (0–18 months) using ensemble models (Random Forest, XGBoost, LSTM).
+          </p>
+
+          <h3 class="card-title" data-i18n="policy_recommendations">AI-Driven Policy Recommendations</h3>
+          <ul class="list">
+            <li><strong data-i18n="horizon_0_3">Horizon 0–3M:</strong> 
+              <span data-i18n="policy_0_3">
+                Deploy rapid drought contingency plans in Afar, Somali, and Oromia. Restrict non-essential water usage, regulate dam releases weekly, and provide targeted emergency food aid. Early warning SMS alerts to farmers.
+              </span>
+            </li>
+            <li><strong data-i18n="horizon_3_6">Horizon 3–6M:</strong> 
+              <span data-i18n="policy_3_6">
+                Expand irrigation coverage with solar-powered pumps, subsidize drought-resistant seeds, and establish regional grain reserves. Coordinate hydropower production with rainfall outlook.
+              </span>
+            </li>
+            <li><strong data-i18n="horizon_6_12">Horizon 6–12M:</strong> 
+              <span data-i18n="policy_6_12">
+                Scale up community water harvesting projects, diversify energy mix (hydro + solar + wind), and strengthen regional food trade agreements. Train farmers in conservation agriculture practices.
+              </span>
+            </li>
+            <li><strong data-i18n="horizon_12_18">Horizon 12–18M:</strong> 
+              <span data-i18n="policy_12_18">
+                Invest in long-term resilience: large-scale reservoir expansion, reforestation, and cross-border water-sharing treaties. Integrate carbon credit programs to fund climate-smart agriculture.
+              </span>
+            </li>
+          </ul>
+
+          <h3 class="card-title" data-i18n="governance_rules">Governance & Rules</h3>
+          <ul class="list">
+            <li data-i18n="rule_1">Policies must adapt dynamically as new model forecasts (0–18M) are updated every month.</li>
+            <li data-i18n="rule_2">Short-horizon (0–6M) actions always take priority over long-horizon plans.</li>
+            <li data-i18n="rule_3">Decisions are based on ensemble confidence: if Random Forest, XGBoost, and LSTM disagree, human expert validation is required.</li>
+            <li data-i18n="rule_4">Water allocation follows basin-level hydrological balance and AI-simulated scenarios.</li>
+            <li data-i18n="rule_5">Energy planning must ensure hydropower reliability under predicted drought stress.</li>
+            <li data-i18n="rule_6">All AI outputs are explainable (via SHAP/XAI), ensuring transparency for policymakers.</li>
+          </ul>
+
+          <p class="subtitle" data-i18n="policy_sources">
+            Generated by Admas AI ensemble, trained on FAO, WFP, IPCC, and Ethiopian MoA guidelines.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p data-i18n="footer">© 2025 Admas AI | Drought Intelligence Platform for Climate Resilience in Africa</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/platform-config.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admas AI - Forecast</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body data-page="forecast">
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <i class="fas fa-network-wired"></i>
+        <span>Admas AI</span>
+      </div>
+      <div class="menu-lang" style="display: flex; align-items: center; gap: 15px;">
+        <a href="http://localhost:3000/" class="platform-return" data-probe-home data-i18n="back_to_probe">Back to PROBE</a>
+        <!-- Language Switcher -->
+        <select id="languageSwitcher" style="">
+          <option value="en">English</option>
+          <option value="am">አማርኛ</option>
+          <option value="om">Oromiffa</option>
+        </select>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <a href="index.html" class="nav-link"><i class="fas fa-th"></i> <span data-i18n="dashboard">Dashboard</span></a>
+        <a href="forecast.html" class="nav-link active"><i class="fas fa-forward"></i> <span data-i18n="forecast">Multi-Horizon Forecast</span></a>
+        <a href="xai.html" class="nav-link"><i class="fas fa-magnifying-glass-chart"></i> <span data-i18n="xai">Explainable AI</span></a>
+        <a href="policy.html" class="nav-link"><i class="fas fa-gavel"></i> <span data-i18n="adaptive_policy">Adaptive Policy</span></a>
+      </nav>
+      <div class="status">
+        <p><i class="fas fa-sync-alt"></i> <span data-i18n="last_update">Last update:</span> <span id="updateTime">Aug 15, 2025</span></p>
+        <p><span class="sensor-dot"></span> <span data-i18n="system_online">System Online</span></p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section id="forecast" class="section">
+        <div class="card">
+          <h2 class="card-title" data-i18n="forecast_title">Multi-Horizon Drought Forecast (Test App)</h2>
+          <p class="subtitle" data-i18n="forecast_subtitle">Select region and environmental conditions for AI-fused prediction across 5 time scales.</p>
+
+          <form id="forecastForm" class="form-grid">
+            <div class="form-group">
+              <label class="form-label" data-i18n="region_label">Region</label>
+              <select id="region" class="form-input">
+                <option value="Afar" data-i18n="region_afar">Afar</option>
+                <option value="Somali" data-i18n="region_somali">Somali</option>
+                <option value="Mekele" data-i18n="region_mekele">Mekele</option>
+                <option value="Borena" data-i18n="region_borena">Borena</option>
+                <option value="Gambela" data-i18n="region_gambela">Gambela</option>
+                <option value="Gonder" data-i18n="region_gonder">Gonder</option>
+                <option value="Wag-Himra" data-i18n="region_waghimra">Wag-Himra</option>
+                <option value="Yabello" data-i18n="region_yabello">Yabello</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" data-i18n="assessment_date">Assessment Date</label>
+              <input type="date" id="assessmentDate" class="form-input" required />
+            </div>
+
+          </form>
+
+          <button id="runBtn" class="btn btn-primary" onclick="runForecast()">
+            <i class="fas fa-robot"></i> <span data-i18n="run_ensemble">Run Multi-Model Ensemble</span>
+          </button>
+
+          <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p data-i18n="loading_text">Random Forest, XGBoost, LSTM, and Climate Models...</p>
+          </div>
+
+          <div id="results" class="results">
+            <h3 class="card-title" data-i18n="results_title">Forecast Results</h3>
+            <div id="resultRows" class="result-container"></div>
+            <div class="chart-container">
+              <canvas id="trendChart" width="100%" height="100%"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer">© 2025 Admas AI | Drought Intelligence Platform for Climate Resilience in Africa</p>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <script src="js/ai-engine.js"></script>
+  <script src="js/platform-config.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>

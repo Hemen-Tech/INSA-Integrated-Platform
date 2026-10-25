@@ -1,0 +1,56 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.local.example
+!.env.development.example
+!.env.production.example
+!.env.test.example
+!.env.staging.example
+!.env.testing.example
+!.env.ci.example
+!.env.docker.example
+!.env.example.local
+!.env.example.development
+!.env.example.production
+!.env.example.test
+!.env.example.staging
+!.env.example.testing
+!.env.example.ci
+!.env.example.docker
+Novarion/.git/
+PNIS/.git/

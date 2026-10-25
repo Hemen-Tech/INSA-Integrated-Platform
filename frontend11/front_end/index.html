@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admas AI - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <style>
+    /* Chart styles */
+    .card canvas {
+        max-height: 150px;
+        width: 100%;
+    }
+  </style>
+</head>
+<body data-page="index">
+    <header class="header">
+      <div class="logo">
+        <i class="fas fa-network-wired"></i>
+        <span>Admas AI</span>
+      </div>
+      <div class="menu-lang" style="display: flex; align-items: center; gap: 15px;">
+        <a href="http://localhost:3000/" class="platform-return" data-probe-home data-i18n="back_to_probe">Back to PROBE</a>
+        <!-- Language Switcher -->
+        <select id="languageSwitcher" style="">
+          <option value="en">English</option>
+          <option value="am">አማርኛ</option>
+          <option value="om">Oromiffa</option>
+        </select>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav">
+        <a href="index.html" class="nav-link active"><i class="fas fa-th"></i> <span data-i18n="dashboard">Dashboard</span></a>
+        <a href="forecast.html" class="nav-link"><i class="fas fa-forward"></i> <span data-i18n="forecast">Multi-Horizon Forecast</span></a>
+        <a href="xai.html" class="nav-link"><i class="fas fa-magnifying-glass-chart"></i> <span data-i18n="xai">Explainable AI</span></a>
+        <a href="policy.html" class="nav-link"><i class="fas fa-gavel"></i> <span data-i18n="adaptive_policy">Adaptive Policy</span></a>
+      </nav>
+      <div class="status">
+        <p><i class="fas fa-sync-alt"></i> <span data-i18n="last_update">Last update:</span> <span id="updateTime">08-26-2025</span></p>
+        <p><span class="sensor-dot"></span> <span data-i18n="system_online">System Online</span></p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="hero">
+        <div class="hero-overlay"></div>
+        <h2 class="hero-title" data-i18n="hero_title">Test App</h2>
+        <p class="hero-text" data-i18n="hero_text">
+          Fusing satellite data, AI models, and ground sensors for 0–18 year drought forecasting.
+        </p>
+        <a href="forecast.html" class="btn btn-primary btn-lg" data-i18n="run_forecast">
+          <i class="fas fa-forward"></i> Run Forecast
+        </a>
+      </div>
+
+      <div class="stats-grid">
+        <div class="card stat-card">
+          <p class="stat-value stat-blue" id="modelAccuracy">--</p>
+          <p class="stat-label" data-i18n="ensemble_accuracy">Ensemble Model Accuracy</p>
+        </div>
+        <div class="card stat-card">
+          <p class="stat-value stat-orange" id="dataPoints">--</p>
+          <p class="stat-label" data-i18n="data_points">Data Points Processed</p>
+        </div>
+        <div class="card stat-card">
+          <p class="stat-value" id="nationalRisk">--</p>
+          <p class="stat-label" data-i18n="national_risk">Current National Risk</p>
+        </div>
+        <div class="card stat-card">
+          <p class="stat-value stat-red" id="highRiskRegions">--</p>
+          <p class="stat-label" data-i18n="high_risk_regions">High-Risk Regions</p>
+        </div>
+      </div>
+
+      <div class="charts-grid">
+        <div class="card">
+            <h3 class="card-title" data-i18n="ndvi_trend">National NDVI Trend</h3>
+            <p class="chart-subtitle" data-i18n="ndvi_subtitle">Vegetation Health Index (0-1 scale)</p>
+            <canvas id="miniNdvi" height="128"></canvas>
+        </div>
+        <div class="card">
+            <h3 class="card-title" data-i18n="rainfall">National Rainfall</h3>
+            <p class="chart-subtitle" data-i18n="rainfall_subtitle">Precipitation (mm)</p>
+            <canvas id="miniRain" height="128"></canvas>
+        </div>
+        <div class="card">
+            <h3 class="card-title" data-i18n="soil_moisture">National Soil Moisture</h3>
+            <p class="chart-subtitle" data-i18n="soil_subtitle">Volumetric Water Content</p>
+            <canvas id="miniSoil" height="128"></canvas>
+        </div>
+      </div>
+
+      <!-- Message elements -->
+      <div id="errorMessage" style="display: none;"></div>
+      <div id="warningMessage" style="display: none;"></div>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer">© 2025 Admas AI | Drought Intelligence Platform for Climate Resilience in Africa</p>
+    </footer>
+
+  <!-- Include your main JS -->
+  <script src="js/main.js"></script>
+  <!-- Include multilingual JS -->
+  <script src="js/platform-config.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>
